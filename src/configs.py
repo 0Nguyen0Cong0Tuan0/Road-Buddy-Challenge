@@ -3,6 +3,11 @@ from typing import List, Optional
 from hydra.core.config_store import ConfigStore
 from omegaconf import MISSING
 
+import sys
+from pathlib import Path
+parent_dir = Path().resolve().parent
+sys.path.insert(0, str(parent_dir))
+
 @dataclass
 class QdrantConfig:
     """Configuration for the Qdrant Vector Database."""
@@ -18,7 +23,7 @@ class QdrantConfig:
 @dataclass
 class YOLOConfig:
     """Configuration for YOLO11 Perception Engine."""
-    model_path: str = "yolov11n.pt"
+    model_path: str = rf"{parent_dir}\models\perception\yolov11n.pt"
     task: str = "detect"
     confidence: float = 0.25
     iou_threshold: float = 0.45
