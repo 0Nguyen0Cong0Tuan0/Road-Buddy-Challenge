@@ -1,0 +1,1491 @@
+﻿id,question,category
+train_0001,Nếu xe ô tô đang chạy ở làn ngoài cùng bên phải trong video này thì xe đó chỉ được phép rẽ phải?,"biển báo, làn đường"
+train_0002,Phần đường trong video cho phép các phương tiện đi theo hướng nào khi đến nút giao?,"biển báo, làn đường"
+train_0003,"Biển chỉ dẫn 3 hướng di chuyển chính tiếp theo, đúng hay sai?",biển báo
+train_0004,"Theo biển báo trong video, muốn đi đến đường Lương Đình Của thì phải đi hướng nào?","biển báo, làn đường"
+train_0005,Làn đường di chuyển hiện tại có được rẽ phải không?,"biển báo, làn đường"
+train_0006,Làn đường xe đang chạy có được phép rẽ trái hay không?,"biển báo, làn đường"
+train_0007,"Trong video muốn đi Cầu Rạch Chiếc thì cần rẽ phải, đúng hay sai?",biển báo
+train_0008,"Trong video, nếu xe oto đang ở làn bên phải trong cùng thì được đi hướng nào?","biển báo, làn đường"
+train_0009,"Trong video, hướng đi Cầu Rạch Chiếc là hướng nào?",biển báo
+train_0010,Nếu sẽ ô tô ở làn ngoài cùng bên trái thì có được phép đi thẳng không?,"biển báo, làn đường"
+train_0011,Xe đang đi ở làn đường nào?,làn đường
+train_0012,"Trong video, tốc độ tối thiểu cho phép phương tiện lưu thông trên cao tốc Long Thành Dầu Giây là 50 km/h, phải không?",biển báo
+train_0013,Biển chỉ dẫn trên đường cao tốc Long Thành - Dầu Giây có những thông tin gì?,"biển báo, làn đường"
+train_0014,Tốc độ tối thiểu cho phép phương tiện lưu thông trên cao tốc Long Thành Dầu Giây là bao nhiêu?,biển báo
+train_0015,Trong video có xuất hiện biển báo nguy hiểm không?,biển báo
+train_0016,Hướng ra khỏi cao tốc là hướng nào?,biển báo
+train_0017,"Trong video, biển báo giới hạn tốc độ áp dụng cho làn đường xe đang chạy đúng không?","biển báo, làn đường"
+train_0018,Tốc độ tối đa trên làn đường đang chạy là bao nhiêu?,"biển báo, làn đường"
+train_0019,Biển giới hạn tốc độ áp dụng cho loại phương tiện nào?,biển báo
+train_0020,"Trong video, làn xe đang chạy có được chạy 120 km/h không?",làn đường
+train_0021,Biển báo xuất hiện ở làn đường đang chạy là biển báo gì?,"biển báo, làn đường"
+train_0022,Khi di chuyển trên cao tố,biển báo
+train_0023,Trong video có biển báo nguy hiểm không?,biển báo
+train_0024,"Trong video, biển báo chỉ hướng đi hiện tại đang chỉ hướng nào?",biển báo
+train_0025,Video có đèn đỏ không?,đèn giao thông
+train_0026,Trên làn đường ô tô đang đi thì ô tô sẽ được đi theo hướng nào khi đến nút giao?,"biển báo, làn đường"
+train_0027,"Ô tô đang đi trên làn đường này sẽ chỉ được phép rẽ trái và rẽ phải khi đến nút giao, đúng hay sai?","biển báo, làn đường"
+train_0028,Trên làn đường ô tô đang đi thì ô tô sẽ được đi theo hướng nào khi đến nút giao?,"biển báo, làn đường"
+train_0029,Video có đèn đỏ không?,đèn giao thông
+train_0030,"Trong video, có những loại biển báo nào",biển báo
+train_0031,Có bao nhiêu hướng đi chính được chỉ dẫn trong video?,biển báo
+train_0032,Trong video có xuất hiện biển cấm không?,biển báo
+train_0033,Có mấy loại vạch kẻ đường?,làn đường
+train_0034,Trong video này có xuất hiện đèn đỏ không?,đèn giao thông
+train_0035,Trong video có biển chỉ dẫn rẽ trái không?,biển báo
+train_0036,làn ngoài cùng bên phải xe mô tô có được phép đi không?,"biển báo, làn đường"
+train_0037,"Trong video, làn ngoài cùng bên phải là dành cho loại phương tiện nào?",làn đường
+train_0038,Trong video biển báo tốc độ tối đa cho phép là bao nhiêu?,biển báo
+train_0039,Làn xe đang đi có đèn đỏ không?,"làn đường, đèn giao thông"
+train_0040,Xe mô tô có được phép đi ở làn này không?,"biển báo, làn đường"
+train_0041,Làn mà xe đang đi dành cho loại phương tiện nào?,làn đường
+train_0042,Trong video xuất hiện những biển báo cấm nào?,biển báo
+train_0043,Trong video có xuất hiện biển cảnh báo không?,biển báo
+train_0044,Trong video xuất hiện biển báo nguy hiểm nào?,biển báo
+train_0045,"Trong video, biển cấm nào xuất hiện đầu tiên?",biển báo
+train_0046,"Trong video, biển cấm đi ngược chiều xuất hiện đầu tiên, đúng hay sai?",biển báo
+train_0047,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0048,Loại biển báo nào sau đây xuất hiện trong video?,biển báo
+train_0049,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_0050,Có những biển chỉ dẫn nào trong video?,biển báo
+train_0051,Xe đang đi trên làn hiện tại có được quay đầu không?,làn đường
+train_0052,"Dựa vào video, xe ở làn nào (tính từ trái sang phải) được phép đi thẳng thẳng?","biển báo, làn đường"
+train_0053,Trong video có biển chỉ dẫn trạm xăng không?,biển báo
+train_0054,Xe ở làn đường hiện tại được đi những hướng nào?,"biển báo, làn đường"
+train_0055,Tốc độ tối đa xe ô tô được phép chạy trên làn đường này là bao nhiêu?,"biển báo, làn đường"
+train_0056,"Tốc độ tối đa xe ô tô được phép chạy trên làn đường này là 80 km/h, đúng hay sai?","biển báo, làn đường"
+train_0057,Trong video xuất hiện những loại biển báo nào? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0058,"Trong video, cụm vạch kẻ nằm ngang trên làn đường đang chạy có ý nghĩa gì?",làn đường
+train_0059,"Trong video, các phương tiện có thể đi theo các hướng nào?",biển báo
+train_0060,"Biển báo trong video hướng dẫn các phương tiện có thể quay đầu, đúng hay sai?",biển báo
+train_0061,"Theo biển chỉ dẫn, các phương tiện giao thông trên làn đường ngoài cùng bên phải được phép đi theo hướng nào khi đến nút giao?","biển báo, làn đường"
+train_0062,Nếu xe ô tô đang chạy ở làn ngoài cùng bên trái thì khi đến nút giao được phép đi thẳng hoặc quay đầu xe đúng hay sai?,"biển báo, làn đường"
+train_0063,Biển cảnh báo nguy hiểm trên làn đường đang chạy có ý nghĩa gì?,"biển báo, làn đường"
+train_0064,Trong video có xuất hiện đèn đỏ không?,đèn giao thông
+train_0065,"Trong video, đèn xanh áp dụng cho loại phương tiện nào?",đèn giao thông
+train_0066,Phương tiện trong video vừa đi ngang qua địa điểm nào?,biển báo
+train_0067,Trong video có xuất hiện biển báo cấm không?,biển báo
+train_0068,"Trong video này, các phương tiện dưới 2,2m có được phép đi qua làn đường này không?","biển báo, làn đường"
+train_0069,"Trong video này, chiều cao giới hạn của phương tiện khi đi qua làn đường này là bao nhiêu?","biển báo, làn đường"
+train_0070,Phương tiện trong video vừa đi ngang qua địa điểm nào?,biển báo
+train_0071,"Phương tiện trong video đang di chuyển trong hầm chui, đúng hay sai?",biển báo
+train_0072,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0073,2 biển báo đầu làn đường là gì?,"biển báo, làn đường"
+train_0074,Phương tiện phía trước được phép đi các hướng nào trong trường hợp trên?,biển báo
+train_0075,Video có xuất hiện đèn giao thông không?,đèn giao thông
+train_0076,Kể tên một số loại biển báo xuất hiện trong video?,biển báo
+train_0077,Những loại biển báo nào sau đây xuất hiện trong video? (Chọn câu trả lời đẩy đủ nhất),biển báo
+train_0078,Làn đường của xe máy có những biển báo nào?,"biển báo, làn đường"
+train_0079,"Video tại khu vực giao thông đường nội khu, đúng hay sai?",làn đường
+train_0080,Xe ô tô trong video có được quẹo trái tại nút giao không?,biển báo
+train_0081,Làn xe đang đi dành cho phương tiện nào?,làn đường
+train_0082,Trên làn đường đang chạy xuất hiện những biển báo cấm nào?,"biển báo, làn đường"
+train_0083,Hướng đi cao tốc là hướng nào?,biển báo
+train_0084,Biển cấm rẽ phải trong video áp dụng cho mọi loại phương tiện đúng hay sai?,biển báo
+train_0085,Hướng vào đường cao tốc là hướng đi thẳng đúng hay sai?,"biển báo, làn đường"
+train_0086,Biển hiệu lệnh rẽ phải áp dụng cho loại phương tiện nào?,biển báo
+train_0087,Biển báo cấm trên làn đường ngoài cùng bên phải là gì?,"biển báo, làn đường"
+train_0088,Biển báo trong video là loại biển báo gì?,biển báo
+train_0089,Biển báo đầu tiên xuất hiện trong video là loại biển báo gì?,biển báo
+train_0090,Trong video phương tiện cơ giới có được vượt nhau sau khi đi qua biển báo đầu tiên không?,biển báo
+train_0091,Biển báo đầu tiên trong video là loại biển báo gì?,biển báo
+train_0092,Trong video có những biển báo gì?,biển báo
+train_0093,"Trong video xuất hiện biển báo nguy hiểm, đúng hay sai?",biển báo
+train_0094,Trong video có những biển báo gì?,biển báo
+train_0095,"Trong video có biển chỉ dẫn trạm cấp cứu và phân chia làn đường xe, đúng hay sai?","biển báo, làn đường"
+train_0096,Xe hiện tại có được phép chuyển làn hay không?,"biển báo, làn đường"
+train_0097,Nếu bạn đang di chuyển trên đường chính và có xe máy từ trong ngõ đi r,"biển báo, làn đường"
+train_0098,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0099,Có mấy loại biển báo xuất hiện trong video?,biển báo
+train_0100,"Trong video, loại xe nào không quy định trong biển phân làn?","biển báo, làn đường"
+train_0101,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0102,Xe đang đi đúng làn đường không?,làn đường
+train_0103,Trong video xuất hiện biển báo nào?,biển báo
+train_0104,Biển báo xuất hiện đầu tiên trong video có ý nghĩa gì?,biển báo
+train_0105,Biển báo hiện tại có ý nghĩa gì?,biển báo
+train_0106,Đoạn đường trong video này có biển báo cấm không?,"biển báo, làn đường"
+train_0107,Biển tam giác viền đỏ trong video có ý nghĩa gì?,biển báo
+train_0108,"Trong video, sau khi đi qua khỏi biển báo thì phương tiện có được di chuyển với tốc độ 70 km/h không?",biển báo
+train_0109,Biển báo trong video là loại biển nào?,biển báo
+train_0110,Biển báo xuất hiện thứ 2 trong video này có ý nghĩa gì?,biển báo
+train_0111,"Trong video này, làn đường đang chạy có phải đường cao tốc không?",làn đường
+train_0112,"Trong video này, biển báo tốc độ nằm bên phải đường yêu cầu phương tiện phải tuân thủ điều gì?","biển báo, làn đường"
+train_0113,"Biển báo tốc độ nằm bên phải đường yêu cầu phương tiện phải tuân thủ giới hạn tốc độ tối đa là 120 km/h, đúng hay sai?","biển báo, làn đường"
+train_0114,Những biển báo nào xuất hiện trong video? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0115,Biển báo màu xanh lá cây trong video này có ý nghĩa gì?,biển báo
+train_0116,"Trong video này, xe đang chạy còn cách cầu vượt đường sắt 200m đúng hay sai?",làn đường
+train_0117,Đoạn đường trong video này có nút giao có đèn tín hiệu không?,"làn đường, đèn giao thông"
+train_0118,Biển tam giác vàng viền đỏ cảnh báo điều gì?,biển báo
+train_0119,Những biển báo nào xuất hiện trong video? Chọn đáp án đúng và đầy đủ nhất,biển báo
+train_0120,"Trong video, biển báo đầu tiên nằm bên phải đoạn đường yêu cầu các phương tiện phải giữ điều kiện gì?","biển báo, làn đường"
+train_0121,"Trong video, biển báo đầu tiên nằm bên phải đoạn đường yêu cầu các phương tiện phải giữ giới hạn tốc độ tối đa 90 km/h, phải không?","biển báo, làn đường"
+train_0122,Biển báo 80 trong video là biển báo trọng lượng tối đúng hay sai?,biển báo
+train_0123,"Trong video, biển báo tốc độ xuất hiện bên phải đường yêu cầu phương tiện phải tuân thủ điều kiện gì?","biển báo, làn đường"
+train_0124,"Theo các biển chỉ dẫn xuất hiện trong video, người lái xe được cung cấp những thông tin nào dưới đây?",biển báo
+train_0125,"Trong video, theo biển báo chỉ dẫn hướng đi thẳng có phải là về TP HCM không?",biển báo
+train_0126,Biển chỉ dẫn trạm thu phí yêu cầu người lái xe phải làm gì?,biển báo
+train_0127,Biển báo tốc độ xuất hiện trong video yêu cầu phương tiện phải tuân thủ điều kiện nào?,biển báo
+train_0128,"Trong video, biển báo tốc độ yêu cầu phương tiện phải tuân thủ giới hạn tốc độ tối đa 80 km/h, phải không?",biển báo
+train_0129,"Khi gặp biển báo bên tay phải, tài xế cần điểu khiển xe:",biển báo
+train_0130,"Trong video này, có biển báo nguy hiểm không?",biển báo
+train_0131,Khoảng cách cần giữ đối với xe trước là bao nhiêu?,biển báo
+train_0132,Xe có đi trên làn thu phí ETC không?,làn đường
+train_0133,Làn xe thứ hai tính từ phải qua dành cho phương tiện nào?,làn đường
+train_0134,Có các loại biển báo nào xuất hiện trong video?,biển báo
+train_0135,Xe chạy với tốc độ 90km/h trên đoạn đường này có vi phạm luật giao thông không?,"biển báo, làn đường"
+train_0136,Có tổng cộng bao nhiêu biển báo?,biển báo
+train_0137,Biển báo xuất hiện đầu tiên trong video thuộc loại biển báo nào?,biển báo
+train_0138,Xe sắp đi đến đoạn đường ngoặt trái đúng không?,làn đường
+train_0139,"Trong video biển báo đầu tiên bên phải là biển báo cấm đỗ xe, đúng hay sai?",biển báo
+train_0140,Trong video có tổng bao nhiêu biển báo?,biển báo
+train_0141,Trong video có bao nhiêu loại biển báo?,biển báo
+train_0142,Đường có 3 làn phải không?,làn đường
+train_0143,"Trong video này, xe được đi với tốc độ bao nhiêu?",biển báo
+train_0144,Trong video có bao nhiêu loại biển báo?,biển báo
+train_0145,"Trong video này, Vũng Tàu còn cách 54km so với vị trí xe đang chạy đúng hay sai?",biển báo
+train_0146,Biển chỉ dẫn trên đường cao tốc xuất hiện trong video đúng hay sai?,"biển báo, làn đường"
+train_0147,Trong video xuất hiện bao nhiêu biển báo nguy hiểm?,biển báo
+train_0148,Ý nghĩa của biển cảnh báo là gì?,biển báo
+train_0149,Trong video cần rẽ trái để đi đến H.Xuân Lộc?,biển báo
+train_0150,"Trong video, biển báo đầu tiên bên phải là loại biển báo gì?",biển báo
+train_0151,Các biển báo trong video thuộc loại nào,biển báo
+train_0152,Đi theo bảng chỉ dẫn sẽ dẫn tới huyện nào?,biển báo
+train_0153,Đi theo bảng chỉ dẫn sẽ dẫn tới huyện Cẩm Mỹ và huyện Xuân Lộc,biển báo
+train_0154,Các biển báo trong video thuộc loại biển báo gì?,biển báo
+train_0155,Các biển màu xanh lá trong video dùng để làm mốc căn khoảng cách với các xe phía trước đúng hay sai?,biển báo
+train_0156,Đi Phan Thiết - Dầu Giây thì rẽ phải đúng hay sai?,biển báo
+train_0157,"Trong video, đi theo lối ra thì tốc độ tối đa được phép là bao nhiêu?",biển báo
+train_0158,Các loại biển báo trong video là những loại nào?,biển báo
+train_0159,Biển báo tốc độ tối đa cho phép trong video là bao nhiêu?,biển báo
+train_0160,"Trong video đi theo lối ra tốc độ tối đa cho phép các phương tiện lưu thông trên đoạn đường này là 120km/h, đúng hay sai?","biển báo, làn đường"
+train_0161,"Biển báo trong video, còn mấy km nữa sẽ đến trạm dịch vụ?",biển báo
+train_0162,"Trong video, biển báo nguy hiểm ""Hạn chế chiều cao"" bao nhiêu mét?",biển báo
+train_0163,"Theo biển báo các phương tiện không được phép di chuyển với tốc độ dưới 80 km/h, đúng hay sai?",biển báo
+train_0164,"Trong video, hướng di chuyển sang cao tốc Phan Thiết Dầu Dây thì đi hướng nào?",biển báo
+train_0165,"Trong video, nếu oto rẽ phải thì tốc độ tối đa cho phép là bao nhiêu",biển báo
+train_0166,Nội dung của 2 biển báo nguy hiểm xuất hiện trong video là gì?,biển báo
+train_0167,Trong video không xuất hiện loại biển báo nào sau đây?,biển báo
+train_0168,"Trong video, có xuất hiện biển báo hiệu lệnh không?",biển báo
+train_0169,Biển báo trên cầu xuất hiện trong video thuộc loại biển bảo nào và có ý nghĩa gì?,biển báo
+train_0170,Biển báo nào sau đây đã xuất hiện trong video?,biển báo
+train_0171,Có những biển báo nào xuất hiện trong video?,biển báo
+train_0172,Nội dung của biển báo cấm và biển báo nguy hiểm trong video lần lượt là gì?,biển báo
+train_0173,Có mấy loại biển báo xuất hiện trong video?,biển báo
+train_0174,"Trong video, có xuất hiện biển báo cấm rẽ trái đúng không?",biển báo
+train_0175,"Trong video, tốc độ tối thiểu trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_0176,"Trong video, tốc độ tối đa của làn trong cung bên phải là 60 km/h đúng không?","biển báo, làn đường"
+train_0177,Tốc độ tối đa mà xe được lưu thông là bao nhiêu?,biển báo
+train_0178,Tốc độ tối thiểu được cho phép lưu thông trên cao tốc như trong video là bao nhiêu?,biển báo
+train_0179,Hướng đi Vũng Tàu là đi thẳng đúng hay sai?,biển báo
+train_0180,Xe đi trên làn đường hiện tại có được đi 60km/h không?,làn đường
+train_0181,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_0182,Có những biển báo nào xuất hiện trong video,biển báo
+train_0183,"Trong video này, biển báo cấm đầu tiên bên tay phải mang ý nghĩa gì?",biển báo
+train_0184,"Theo biển báo như trong video, phương tiện được phép lưu thông trên tuyến đường này phải tuân thủ quy định nào về tốc độ?","biển báo, làn đường"
+train_0185,"Theo biển báo như trong video, phương tiện được phép lưu thông trên tuyến đường này phải tuân thủ quy định không được chạy quá 120 km/h và không được dưới 60 km/h. Đúng hay sai?","biển báo, làn đường"
+train_0186,Biển báo lớn màu xanh lá cho biết những thông tin gì?,biển báo
+train_0187,Khoảng cách giữa cách biển báo xanh lá từ biển đầu tiên tới biển thứ 3 là bao nhiêu m?,biển báo
+train_0188,Phía trước có biển báo chỗ ngoặt nguy hiểm vòng bên phải đúng không?,biển báo
+train_0189,Biển báo nguy hiểm xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0190,Biển báo nguy hiểm xuất hiện trong video cảnh báo người lái phía trước có chỗ ngoặt nguy hiểm vòng ở bên trái.,biển báo
+train_0191,"Trong trường hợp không xảy ra tai nạn, sự cố khẩn cấp thì mình có được điện thoại vào số điện thoại khẩn cấp trên biển báo hay không?",biển báo
+train_0192,Biển báo xuất hiện đầu tiên trong video dùng để làm gì?,biển báo
+train_0193,Các biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0194,Trong video có xuất hiện biển báo cấm hay không?,biển báo
+train_0195,Trong video xuất hiện biển báo nào?,biển báo
+train_0196,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0197,Trong video có biển báo nào?,biển báo
+train_0198,"Trong video có biển báo cấm, đúng hay sai?",biển báo
+train_0199,"Trong video, có phải xuất hiện biển chỉ dẫn giữ khoảng cách lái xe an toàn và biển căn khoảng cách giữa các xe trên cao tốc không?",biển báo
+train_0200,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_0201,"Trong video, biển cảnh báo nào xuất hiện đầu tiên?",biển báo
+train_0202,"Trong video, biển cảnh báo xuất hiện đầu tiên là biển báo giảm tốc độ, đúng hay sai?",biển báo
+train_0203,"Trong video, biển báo xuất hiện ở làn đường bên phải thuộc loại biển báo gì?","biển báo, làn đường"
+train_0204,"Trong video, biển báo xuất hiện ở làn đường bên phải có phải thuộc loại biển hiểu lệnh không?","biển báo, làn đường"
+train_0205,Nội dung biển báo treo trên cầu vượt trong video là gì?,biển báo
+train_0206,"Theo nội dung biển báo cấm trong video, xe tải có chiều cao 4m không thể đi qua bên dưới cầu vượt đúng không ?",biển báo
+train_0207,Biển báo xuất hiện đầu tiên trong video có phải là biển chỉ dẫn số điện thoại khẩn cấp không?,biển báo
+train_0208,Biển báo xuất hiện đầu tiền trong video là biển báo gì?,biển báo
+train_0209,Hai biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0210,"Biển báo trong video là biển báo cấm đi ngược chiều, đúng hay sai?",biển báo
+train_0211,"Trong video, biển báo nào xuất hiện đầu tiên?",biển báo
+train_0212,"Trong video, biển báo giới hạn tốc độ tối đa xuất hiện đầu tiên, đúng hay sai?",biển báo
+train_0213,Các biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0214,"Biển báo trong video là biển báo cấm, đúng hay sai?",biển báo
+train_0215,Biển báo trong video là biển báo gì?,biển báo
+train_0216,Nội dung biển báo là gì?,biển báo
+train_0217,Xe có đang chuyển làn không?,làn đường
+train_0218,Ý nghĩa biển báo là gì?,biển báo
+train_0219,"Trong video, các phương tiện có thể chuyển sang làn trái ở đoạn đường đang chạy không?","biển báo, làn đường"
+train_0220,"Khi xảy ra sự cố, lái xe phải liên hệ với số điện thoại trên biển báo đúng hay sai?",biển báo
+train_0221,Nội dung biển báo là gì?,biển báo
+train_0222,"Khi thấy biển báo chỉ dẫn kèm thông tin khoảng cách 750m, người lái xe cần hiểu như thế nào?",biển báo
+train_0223,Biển báo trong video này là biển báo trên đường cao tốc đúng không?,"biển báo, làn đường"
+train_0224,Xe đang chạy đúng làn đường không?,làn đường
+train_0225,"Nếu rẽ phải theo biển chỉ dẫn trong video, người lái xe sẽ gặp gì?",biển báo
+train_0226,Đoạn đường trong video này có xuất hiện nút giao không?,làn đường
+train_0227,Biển báo trong video báo hiệu điều gì?,biển báo
+train_0228,Biển tốc độ tối đa cho phép chỉ áp dụng cho xe tải đúng hay sai?,biển báo
+train_0229,Đoạn đường trong video có tốc độ tối đa cho phép là bao nhiêu?,"biển báo, làn đường"
+train_0230,"Trong video này, đoạn đường phía trước có công trường thi công đúng hay sai?",làn đường
+train_0231,Biển chữ nhật màu xanh lá cây ở cuối video báo hiệu điều gì?,biển báo
+train_0232,Biển báo đường thu hẹp trong video cảnh báo điều gì?,"biển báo, làn đường"
+train_0233,Biển báo tốc độ tối đa cho phép trong video là 50 đúng hay sai?,biển báo
+train_0234,Biển báo tam giác trong video có ý nghĩa gì?,biển báo
+train_0235,"Trong video, biển báo hình tam giác có ý nghĩa là có công trình đang thi công phía trướ",biển báo
+train_0236,Biển báo trong video cho biết nút giao Long Thành cách bạn bao nhiêu mét?,biển báo
+train_0237,"Trong video không xuất hiện loại biển báo nào, đúng hay sai?",biển báo
+train_0238,Có bao nhiêu nhóm biển báo khác nhau trong video?,biển báo
+train_0239,"Trong video, tốc độ tối đa ở lối ra là 100 km/h đúng hay sai?",biển báo
+train_0240,Biển báo đầu tiên xuất hiện là biển báo gì?,biển báo
+train_0241,"Biển báo đầu tiên xuất hiện là biển báo hạn chế trọng lượng, đúng hay sai?",biển báo
+train_0242,"Ở cuối video, biển báo hình chữ nhật đứng là biển báo gì?",biển báo
+train_0243,"Số điện thoại khẩn cấp trong biển báo quy định chỉ dành cho xe có trọng lượng trên 2,5 tấn, đúng hay sai?",biển báo
+train_0244,Biển báo ở cuối video là biển báo gì?,biển báo
+train_0245,Biển báo ở cuối video là biển báo căn khoảng cách trên cao tốc phải không?,biển báo
+train_0246,Biển báo tròn trên cầu trong video là biển báo gì?,biển báo
+train_0247,"Trong video, biển báo cấm trên cầu là biển báo hạn chế chiều cao 4 m, phải không?",biển báo
+train_0248,"Trong video, 250m nữa từ biển bão sẽ đến đoạn đường cho xe nhập làn vào cao tốc đúng không?","biển báo, làn đường"
+train_0249,Biển báo xanh lá trong video là biển báo gì?,biển báo
+train_0250,"Trong video, biển báo cấm xe tải xuất hiện đầu tiên, đúng hay sai?",biển báo
+train_0251,"Trong video, biển báo nào sau đây xuất hiện?",biển báo
+train_0252,"Trong video, biển báo đầu tiên thuộc loại biển trên đường cao tố","biển báo, làn đường"
+train_0253,Trong video biển báo đầu tiên bao gồm những biển báo gì?,biển báo
+train_0254,"Trong video, biển báo đầu tiên xuất hiện là biển chỉ dẫn số điện thoại khẩn cấp. Đúng hay sai?",biển báo
+train_0255,"Trong video, biển báo đầu tiên xuất hiện là biển báo gì?",biển báo
+train_0256,Biển báo xuất hiện trong video là loại biển báo cấm. Đúng hay sai?,biển báo
+train_0257,Biển báo xuất hiện trong video là loại biển báo gì?,biển báo
+train_0258,Những biển báo nào xuất hiện trong video? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0259,Biển báo trong video có ý nghĩa gì?,biển báo
+train_0260,Biển báo trong video có ý nghĩa là biển chỉ dẫn vị trí dừng khẩn cấp trên đường cao tố,"biển báo, làn đường"
+train_0261,Biển báo màu xanh lá trên đường cao tốc xuất hiện trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0262,Biển báo màu xanh lá trên đường cao tốc xuất hiện trong video có ý nghĩa là biển chỉ dẫn vị trí các điểm dừng khẩn cấp trên tuyến cao tố,"biển báo, làn đường"
+train_0263,Ý nghĩa các biển báo là gì?,biển báo
+train_0264,"Trong video, tại thời điểm xe đang ở vị trí biển 0m cách xe container phía trước 50m đúng không?",biển báo
+train_0265,Ý nghĩa biển báo thứ hai là gì?,biển báo
+train_0266,Ý nghĩa của các biển báo là gì?,biển báo
+train_0267,"Trong video, tại thời điểm xe đang ở vị trí biển 0m cách xe container phía trước 50m đúng không?",biển báo
+train_0268,Ý nghĩa của các biển báo trên là gì?,biển báo
+train_0269,"Trong video, tại thời điểm xe đang ở vị trí biển 0m cách xe container phía trước 50m đúng không?",biển báo
+train_0270,"Biển báo chiều cao tĩnh không thực tế trong video quy định cho phương tiện xe 2 bánh, đúng hay sai?",biển báo
+train_0271,Tên gọi chính xác của biển báo trong video là gì?,biển báo
+train_0272,Có bao nhiêu biển báo giao thông xuất hiện trong video?,biển báo
+train_0273,Có 2 biển báo giao thông xuất hiện trong video. Đúng hay sai?,biển báo
+train_0274,Những biển báo nào xuất hiện trong video? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0275,"Trên đoạn đường này, hai biển báo tốc độ tối đa cho phép lần lượt là bao nhiêu?","biển báo, làn đường"
+train_0276,"Trên đoạn đường này, hai biển báo tốc độ tối đa cho phép lần lượt là bao nhiêu?","biển báo, làn đường"
+train_0277,"Trên đoạn đường này, hai biển báo tốc độ tối đa cho phép lần lượt là 70 km/h và 90 km/h. Đúng hay sai?","biển báo, làn đường"
+train_0278,Loại biển báo xuất hiện nhiều nhất trong video là loại biển báo nào?,biển báo
+train_0279,Hai biển báo cấm loại phương tiện nào?,biển báo
+train_0280,Loại biển báo xuất hiện nhiều nhất trong video là biển báo phụ. Đúng hay sai?,biển báo
+train_0281,ó 3 loại biển báo trong video. Đúng hay sai?,biển báo
+train_0282,Có bao nhiêu loại biển báo trong video?,biển báo
+train_0283,Các biển báo cấm nào xuất hiện trong video? Lựa chọn đáp án đầy đủ và chính xác nhất.,biển báo
+train_0284,Loại phương tiện nào được quay đầu xe trên đoạn đường trong video?,làn đường
+train_0285,Xe đang chạy có đúng làn đường không?,làn đường
+train_0286,Biển báo xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0287,Biển báo xuất hiện trong video báo hiệu khu vực có trạm thu phí đường cao tố,"biển báo, làn đường"
+train_0288,Có 3 biển báo giao thông trong video. Đúng hay sai?,biển báo
+train_0289,Những biển báo nào xuất hiện trong video? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0290,Có bao nhiêu biển báo giao thông trong video?,biển báo
+train_0291,Chọn đáp án đầy đủ và chính xác nhất về các biển báo xuất hiện trong video?,biển báo
+train_0292,Có bao nhiêu biển báo trong video?,biển báo
+train_0293,Có 4 biển báo trong video. Đúng hay sai?,biển báo
+train_0294,"Trong video, lối ra tiếp theo cách 1km nữa đúng không?",biển báo
+train_0295,Ý nghĩa biển báo đầu tiên là gì?,biển báo
+train_0296,Biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0297,Biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0298,Lối ra tiếp theo cách 500m đúng hay sai?,biển báo
+train_0299,Các biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0300,"Trong video, muốn ra khỏi cao tốc thì rẽ phải đúng không?",biển báo
+train_0301,Ý nghĩa của các biển báo là gì?,biển báo
+train_0302,Biển báo đầu tiên trong video thuộc nhóm biển báo nào?,biển báo
+train_0303,Có bao nhiêu nhóm biển báo trong video?,biển báo
+train_0304,Ý nghĩa của hai biển báo nguy hiểm và biển báo phụ là gì?,biển báo
+train_0305,"Trong video, tốc độ tối đa trên làn đường lối ra là bao nhiêu?","biển báo, làn đường"
+train_0306,Có những nhóm biển nào trong video?,biển báo
+train_0307,Xe đi với vận tốc 55km/h trên làn đường hiện tại được không?,làn đường
+train_0308,Tốc độ tối đa cho làn đang chạy là bao nhiêu?,"biển báo, làn đường"
+train_0309,Biển báo nguy hiểm này có ý nghĩa như thế nào ?,biển báo
+train_0310,Có những nhóm biển nào trong video?,biển báo
+train_0311,Biển báo hình tròn trong video là biển báo gì?,biển báo
+train_0312,Xe đến khu công nghiệp Cát Lái đi hướng nào?,biển báo
+train_0313,"Trong video ,hướng di chuyển đến cầu Phú Mỹ đi hướng nào?",biển báo
+train_0314,Xe muốn đi đến đâu thì phải quay đầu lại?,Khác
+train_0315,Trong video có xuất hiện biển cảnh báo không?,biển báo
+train_0316,Biển báo bên tay trái chỉ dẫn xe làm gì?,biển báo
+train_0317,"Trong video, xe con có thể vượt xe màu xanh bên phải và chuyển sang làn bên phải không?","biển báo, làn đường"
+train_0318,Các biển báo tại trạm thu phí trong video có ý nghĩa gì?,biển báo
+train_0319,"Theo như các biển báo trong video thì xe được phép dừng từ 10 phút trở lên, đúng hay sai?",biển báo
+train_0320,"Biển báo cấm bên phải làn xe đang chạy trong video có ý nghĩa cấm xe 2 bánh và 3 bánh lưu thông trên đoạn đường này, đúng hay sai?","biển báo, làn đường"
+train_0321,Biển báo cấm bên phải làn xe đang chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0322,Biển báo hướng dẫn bên trái trong video có ý nghĩa chỉ dẫn nơi được phép quay đầu xe.,biển báo
+train_0323,Biển báo hướng dẫn bên trái trong video có ý nghĩa gì?,biển báo
+train_0324,Biển báo cấm áp dụng cho phương tiện nào trên làn đường xe đang chạy?,"biển báo, làn đường"
+train_0325,Xe ô tô có được phép di chuyển trong làn đường bên phải hay không?,"biển báo, làn đường"
+train_0326,"Biển báo cấm trong video có ý nghĩa giới hạn tốc độ tối đa cho xe tải và xe sơ mi rơ-moóc là 40 km/h, đúng hay sai?",biển báo
+train_0327,Biển báo cấm trong video có ý nghĩa gì?,biển báo
+train_0328,Biển báo đầu tiên bên phải trong video cảnh báo điều gì?,biển báo
+train_0329,Xe ô tô có được phép rẽ trái không?,biển báo
+train_0330,Biển báo cấm nào xuất hiện trong video?,biển báo
+train_0331,Trong video có biển hiệu lệnh hướng phải đi vòng sang phải không?,biển báo
+train_0332,"Trong video, có bao nhiêu loại biển báo xuất hiện trên dải phân cách?","biển báo, làn đường"
+train_0333,"Trong video, có xuất biển báo cấm ngược chiều không?",biển báo
+train_0334,Trong video này có xuất bao nhiêu loại biển báo?,biển báo
+train_0335,"Trong video, có xuất 2 loại biển báo, đúng hay sai?",biển báo
+train_0336,"Trong video này, các phương tiện có được phép dừng và đỗ không?",biển báo
+train_0337,Biển báo cấm trong video này có ý nghĩa gì?,biển báo
+train_0338,Nếu muốn đi về cầu Tân Thuận 2 thì cần đi hướng nào?,biển báo
+train_0339,Xe đang chạy có được rẽ trái không?,biển báo
+train_0340,Trong video có xuất hiện đèn đỏ không?,đèn giao thông
+train_0341,Biển báo cấm bên trái làn xe chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0342,"Biển báo cấm bên trái làn xe chạy trong video có ý nghĩa cấm dừng và đỗ xe, đúng hay sai?","biển báo, làn đường"
+train_0343,Ô tô đang chạy trên làn đường được cho phép với tốc độ bao nhiêu km/h?,"biển báo, làn đường"
+train_0344,Làn đường xe đang chạy có dành cho xe máy không?,làn đường
+train_0345,Đường Nguyễn Thị Thập đi theo hướng nào?,"biển báo, làn đường"
+train_0346,"Trong video, đường Nguyễn Thị Thập đi theo hướng đi thẳng, phải không?","biển báo, làn đường"
+train_0347,Đường Trần Xuân Soạn đi theo hướng nào?,"biển báo, làn đường"
+train_0348,Theo biển chỉ dẫn trên làn đường xe chạy phương tiện được phép di chuyển theo hướng nào?,"biển báo, làn đường"
+train_0349,Video có xuất hiện đèn đỏ không?,đèn giao thông
+train_0350,Biển báo cấm xuất hiện đầu tiên phía tay phải trong video mang ý nghĩa gì?,biển báo
+train_0351,Tại làn xe đang chạy có thể rẽ trái tại nút giao tiếp theo đúng không?,"biển báo, làn đường"
+train_0352,Những loại biển nào xuất hiện trong video (Chọn đáp án đúng và đầy đủ nhất)?,biển báo
+train_0353,Biển báo cấm xuất hiện trong video mang ý nghĩa gì?,biển báo
+train_0354,"Trên làn đường xe đang chạy, phương tiện có được phép rẽ không?","biển báo, làn đường"
+train_0355,Biển báo hình chữ nhật nền xanh trên làn đường đang chạy có ý nghĩa gì?,"biển báo, làn đường"
+train_0356,Trong video có xuất hiện đèn giao thông không?,đèn giao thông
+train_0357,"Biển báo cấm xuất hiện đầu tiên phía tay trái trong video mang ý nghĩa cấm dừng và đỗ xe, đúng hay sai?",biển báo
+train_0358,Biển báo cấm xuất hiện đầu tiên phía tay trái trong video mang ý nghĩa gì?,biển báo
+train_0359,Trong video xuất hiện những loại biển báo nào? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0360,Có biển báo nguy hiểm trong video không?,biển báo
+train_0361,Biển báo cấm trong video bên phải có ý nghĩa gì?,biển báo
+train_0362,Biển báo cấm xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0363,"Biển báo cấm xuất hiện trong video có ý nghĩa cấm quay đầu xe, đúng hay sai?",biển báo
+train_0364,"Trong video này, theo biển chỉ dẫn thì hướng đi đường Lê Khả Phiêu là đi theo hướng nào?","biển báo, làn đường"
+train_0365,"Trong video này, phương tiện cần rẽ trái để đến đường Huỳnh Tấn Phát là đúng hay sai?","biển báo, làn đường"
+train_0366,Phương tiện nào trong video được phép rẽ phải?,biển báo
+train_0367,Trong video này có biển báo nguy hiểm Đường giao nhau không?,"biển báo, làn đường"
+train_0368,"Trong video, biển giới hạn tốc độ tối đa 80 km/h áp dụng cho xe con và xe khách, phải không?",biển báo
+train_0369,Biển cấm dừng và đỗ xe có hiệu lực như thế nào?,biển báo
+train_0370,Biển giới hạn tốc độ tối đa 80km/h áp dụng cho những phương tiện nào?,biển báo
+train_0371,Phương tiện nào bị cấm di chuyển trên làn xe đang chạy?,"biển báo, làn đường"
+train_0372,"Trên làn đường hiện tại, xe ô tô có được chạy với tốc độ 60km/h không?","biển báo, làn đường"
+train_0373,"Biển báo cấm trong video bên phải làn xe chạy có ý nghĩa cấm đi ngược chiều, đúng hay sai?","biển báo, làn đường"
+train_0374,Biển báo cấm trong video bên phải làn xe chạy có ý nghĩa gì?,"biển báo, làn đường"
+train_0375,Biển giới hạn tốc độ áp dụng cho xe con và xe khách là bao nhiêu?,biển báo
+train_0376,"Trong video, biển giới hạn tốc độ áp dụng cho xe o tô con là bao nhiêu",biển báo
+train_0377,Hướng di chuyển trong video xuất hiện những loại biển báo nào? Chọn đáp án đúng và đầy đủ nhất.,biển báo
+train_0378,Xe mô tô được phép đi hướng nào kể cả khi đèn đỏ trong video?,"biển báo, đèn giao thông"
+train_0379,"Trong video, biển báo cấm nào xuất hiện",biển báo
+train_0380,Các phương tiện có được phép trái khi đèn xanh không?,"biển báo, đèn giao thông"
+train_0381,Biển báo cấm bên trái làn xe chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0382,"Trong video nếu rẽ phải, tốc độ tối đa cho phép của xe ô tô con là bao nhiêu?",biển báo
+train_0383,Tải trọng tối đa khi di chuyển trên đoạn đường trong video là bao nhiêu?,"biển báo, làn đường"
+train_0384,Biển báo cấm xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0385,Trong video có biển báo cấm không?,biển báo
+train_0386,Xe máy có được phép lưu thông trên làn đường ô tô đang chạy trong video không?,"biển báo, làn đường"
+train_0387,"Khi thấy cụm biển báo này, xe ô tô con được phép chạy tối đa bao nhiêu km/h?",biển báo
+train_0388,Trong video xe tải được đi với tốc độ tối đa là bao nhiêu?,biển báo
+train_0389,"Theo biển chỉ dẫn, các phương tiện được phép đi những hướng nào?",biển báo
+train_0390,Biển xuất hiện đầu tiên là loại biển báo gì?,biển báo
+train_0391,Muốn đi đến bệnh viện Tâm Anh thì rẽ phải đúng không?,biển báo
+train_0392,"Trong video, thời gian cấm xe sơ mi rơ móc là từ mấy giờ?",biển báo
+train_0393,Biển báo giới hạn tốc độ nào xuất hiện trong video?,biển báo
+train_0394,Biển báo giới hạn tốc độ nào xuất hiện trong video?,biển báo
+train_0395,Nêu ý nghĩa của biển báo cấm tải trọng trong video?,biển báo
+train_0396,"Trong video, có bao nhiêu biển giới hạn tốc độ?",biển báo
+train_0397,Trong video này đoạn đường xe đang lưu thông hạn chế các phương tiện trọng lượng 10 tấn. đúng hay sai?,làn đường
+train_0398,Thời gian cấm xe ô tô giường nằm trong video là mấy giờ?,biển báo
+train_0399,Biển báo màu vàng trong video có ý nghĩa gì?,biển báo
+train_0400,Biển báo cấm xuất hiện trong video là biển báo gì?,biển báo
+train_0401,"Nếu xe của bạn cao 2,6m, bạn có được đi qua đoạn đường có biển báo trong video này không?","biển báo, làn đường"
+train_0402,Biển cảnh báo “Nhiều chỗ ngoặt nguy hiểm” xuất hiện trong video. Đúng hay sai?,biển báo
+train_0403,Biển cảnh báo nào xuất hiện trong video?,biển báo
+train_0404,Biển báo chỉ dẫn bên phải làn xe chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0405,Mấy trăm mét nữa sẽ đến trạm xăng?,biển báo
+train_0406,"Trong video này, phương tiện được phép rẽ trái đúng không?",biển báo
+train_0407,"Khi gặp biển báo này, người lái xe phải làm gì?",biển báo
+train_0408,Biển báo nguy hiểm bên phải làn xe chạy trong video báo hiệu đường giao nhau cùng cấp phía bên trái.,"biển báo, làn đường"
+train_0409,Biển báo nguy hiểm bên phải làn xe chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0410,"Biển báo cấm trong video có ý nghĩa cấm dừng xe và đỗ xe, đúng hay sai?",biển báo
+train_0411,Biển báo cấm video có ý nghĩa gì?,biển báo
+train_0412,Có bao nhiêu biển báo nguy hiểm xuất hiện trong video?,biển báo
+train_0413,Có 1 biển báo nguy hiểm xuất hiện trong video. Đúng hay sai?,biển báo
+train_0414,Biển cảnh báo được đặt phía trên trong video báo hiệu phía trước có ngã ba đúng hay sai?,biển báo
+train_0415,Biển cảnh được đặt phía trên trong video có ý nghĩa gì?,biển báo
+train_0416,"Biển báo cấm bên phải trong video có ý nghĩa cấm dừng và đỗ xe, đúng hay sai?",biển báo
+train_0417,Biển báo cấm xuất hiện đầu tiên trong video là biển nào?,biển báo
+train_0418,Có bao nhiêu loại biển báo cấm xuất hiện trong video?,biển báo
+train_0419,Phương tiện có được đỗ trên làn đường hiện tại không?,làn đường
+train_0420,Biển báo nguy hiểm bên phải làn xe chạy trong video báo hiệu đoạn đường thường có trẻ em đi qua,"biển báo, làn đường"
+train_0421,Biển báo nguy hiểm bên phải làn xe chạy trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_0422,Biển hiệu lệnh trên làn đường đang chạy áp dụng cho phương tiện nào?,"biển báo, làn đường"
+train_0423,Hướng đi theo biển hiệu lệnh trên làn đường đang chạy là hướng nào?,"biển báo, làn đường"
+train_0424,"Trong video này, xe ô tô trên làn đường đang chạy có được phép rẽ trái khi đến nút giao không?","biển báo, làn đường"
+train_0425,Nút giao trong video có đèn tín hiệu không?,đèn giao thông
+train_0426,"Theo biển hiệu lệnh, phương tiện phải đi theo hướng nào?",biển báo
+train_0427,Biển báo cấm xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0428,Biển báo cấm phía bên phải làn đường đang chạy có ý nghĩa gì?,"biển báo, làn đường"
+train_0429,"Biển báo phía bên phải làn đường đang chạy thuộc loại biển báo chỉ dẫn, đúng hay sai?","biển báo, làn đường"
+train_0430,Biển báo cấm trên làn đường đang chạy áp dụng cho loại phương tiện nào?,"biển báo, làn đường"
+train_0431,"Trong video này, biển báo cấm áp dụng cho loại phương tiện nào?",biển báo
+train_0432,Trong video có biển hiệu lệnh không?,biển báo
+train_0433,Biển cảnh báo nguy hiểm trên làn đường đang chạy là gì?,"biển báo, làn đường"
+train_0434,"Trong video này, các phương tiện trên làn đường đang chạy khi đến nút giao có được phép rẽ trái không?","biển báo, làn đường"
+train_0435,Biển báo cấm trên làn đường đang chạy có ý nghĩa gì?,"biển báo, làn đường"
+train_0436,"Trong video, trước nút giao thông có 2 biển báo thuộc 2 nhóm biển báo khác nhau đúng không?",biển báo
+train_0437,Biển báo cấm trên làn đường đang chạy áp dụng cho loại phương tiện nào?,"biển báo, làn đường"
+train_0438,Có 4 loại biển báo cấm xuất hiện trong video. Đúng hay sai?,biển báo
+train_0439,Có bao nhiêu loại biển báo cấm xuất hiện trong video?,biển báo
+train_0440,"Biển báo cấm đầu tiên trong video để cấm xe sơ mi rơ-moóc lưu thông trong khung giờ nhất định, đúng hay sai?",biển báo
+train_0441,Biển báo cấm đầu tiên trong video để cấm phương tiện nào lưu thông trong khung giờ nhất định?,biển báo
+train_0442,Hướng cầu Tân Thuận là hướng nào?,biển báo
+train_0443,Hướng cầu Tân Thuận là hướng đi thẳng. Đúng hay sai?,biển báo
+train_0444,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0445,Trong video có bao nhiêu biển báo?,biển báo
+train_0446,"Biển báo cấm, biển báo phụ và biển chỉ dẫn, đúng hay sai?",biển báo
+train_0447,Tốc độ tối đa được phép đề cập trong video là bao nhiêu?,biển báo
+train_0448,Những biển báo nào xuất hiện trong video?,biển báo
+train_0449,Phương tiện trong video có tuân thủ đúng tốc độ tối đa được phép không?,biển báo
+train_0450,"Trong video này, có 2 biển báo xuất hiện, đúng hay sai?",biển báo
+train_0451,"Trong video này, có những loại biển báo nào?",biển báo
+train_0452,Trong video có cấm người đi bộ đi thẳng không?,biển báo
+train_0453,"Trong video này, nếu phương tiện tiếp tục di chuyển sẽ phải như thế nào?",biển báo
+train_0454,Trong video có xuất hiện biển báo nguy hiểm đúng không?,biển báo
+train_0455,"Trong video, có phải xuất hiện biển báo nguy hiểm không?",biển báo
+train_0456,"Trong video này, mục đích chính của hệ thống biển báo tại vị trí này là nhằm cảnh báo người lái xe về điều gì?",biển báo
+train_0457,"Phương tiện ô tô cấm quay xe 24/24, đúng hay sai?",biển báo
+train_0458,Biển báo cấm quay xe cho đối tượng nào?,biển báo
+train_0459,Có loại phương tiện nào không cần thực hiện các lệnh cấm trong khung giờ?,biển báo
+train_0460,"Trong video, làn đường trong cùng bên phải dành cho xe mô tô, đúng hay sai?",làn đường
+train_0461,"Trong video này, tốc độ tối đa cho phép hiện tại đối với xe ô tô con (dưới 9 chỗ) đang đi ở làn bên phải là bao nhiêu?","biển báo, làn đường"
+train_0462,Trong video quy các loại xe nào đi theo làn giữa?,làn đường
+train_0463,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0464,"Trong video này, tài xế có được phép điều khiển phương tiện của mình tạt vào phía bên phải vạch kẻ đường ngoài cùng để dừng hoặc đỗ xe hay không?","biển báo, làn đường"
+train_0465,"Trong video này, vạch kẻ đường nào đang được sử dụng để phân chia giữa làn xe đang di chuyển và làn bên phải của nó?","biển báo, làn đường"
+train_0466,"Trong video này, người lái xe có được phép tăng tốc độ để vượt qua chiếc xe màu trắng đang đi phía trước hay không?",biển báo
+train_0467,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0468,"Trong video, có phải xuất hiện biển báo nguy hiểm không?",biển báo
+train_0469,"Trong video này, người lái xe khi vào vòng xuyến (vòng xoay) sẽ đi theo hướng nào?",biển báo
+train_0470,"Trong video, xuất hiện 1 loại biển báo đúng không?",biển báo
+train_0471,"Trong video, xuất hiện những loại biển báo nào sau đây?",biển báo
+train_0472,"Trong video này, người lái xe có được phép tăng tốc để vượt qua chiếc xe ô tô trắng đang đi phía trước ngay tại vị trí vạch người đi bộ qua đường này không?","biển báo, làn đường"
+train_0473,"Trong video này, biển báo bên phải đường là biển báo cấm đỗ xe, đúng hay sai?","biển báo, làn đường"
+train_0474,"Trong video này, người lái xe phải giảm tốc độ và nhường đường cho loại phương tiện nào trước khi đi qua khu vực vạch kẻ đường phía trước?","biển báo, làn đường"
+train_0475,"Trong video này biển báo bên phải đường là biển báo cấm quay đầu, đúng hay sai?","biển báo, làn đường"
+train_0476,"Trong video này, tài xế có thể thực hiện hành động vượt chiếc xe ô tô trắng đang đi phía trước bằng cách chuyển làn không?","biển báo, làn đường"
+train_0477,"Trong video này, người lái xe có thể nhận thấy biển báo cảnh báo công trường đang thi công được đặt ở lề đường bên phải, đúng không?","biển báo, làn đường"
+train_0478,"Trong video này, người lái xe có thể nhận thấy biển báo cảnh báo nào được đặt ở lề đường bên phải?","biển báo, làn đường"
+train_0479,"Trong video này, những biển báo cảnh báo nào xuất hiện? (Chọn đáp án đúng và đầy đủ nhất)",biển báo
+train_0480,"Trong video này, biển báo tam giác viền đỏ đặt ở phía trên có ý nghĩa gì?",biển báo
+train_0481,"Khi gặp 2 biển cảnh báo như trong video, người điều khiển phương tiện cần phải dừng hẳn xe lại để quan sát rồi mới đi tiếp. Đúng hay Sai?",biển báo
+train_0482,"Trong video này, biển tròn đỏ báo hiệu điều gì?",biển báo
+train_0483,"Biển báo cấm ở bên trái hướng phương tiện di chuyển trong video có ý nghĩa là cấm đi ngược chiều trên đoạn đường này, đúng không?","biển báo, làn đường"
+train_0484,"Trong video này, những biển báo nào xuất hiện? (Chọn đáp án đúng và đầy đủ nhất)",biển báo
+train_0485,Biển báo nào xuất hiện đầu tiên trong video?,biển báo
+train_0486,"Trong video, xe con có thể chuyển làn vào làn bên phải không?","biển báo, làn đường"
+train_0487,"Biển cấm được đặt ở phía trên trong video là biển cấm rẽ trái, đúng hay sai?",biển báo
+train_0488,"Trong video, những biển báo nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0489,Biển cấm được đặt ở phía trên trong video là biển gì?,biển báo
+train_0490,Biển cấm được đặt phía dưới trong video là biển gì?,biển báo
+train_0491,"Biển cấm được đặt phía dưới trong video là biển cấm xe tải, đúng hay sai?",biển báo
+train_0492,"Trong video, xe ô tô chỉ có thể đi thẳng từ 6h đến 22h đúng không?",biển báo
+train_0493,"Trong video, nếu xe di chuyển ở làn trong cùng bên phải thì có được rẽ trái ở nút giao tiếp thao không?","biển báo, làn đường"
+train_0494,"Trong video, ý nghĩa của các biển báo hình tròn là gì?",biển báo
+train_0495,"Trong video, theo bảng chỉ dẫn, xe sẽ đi thẳng tới đường nào?","biển báo, làn đường"
+train_0496,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0497,Ý nghĩa của toàn bộ cột biển báo ở bên phải xe con là gì?,biển báo
+train_0498,Trong video có bao nhiêu nhóm biển báo?,biển báo
+train_0499,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0500,"Trong video, các biển báo có thể nhận diện thuộc mấy nhóm biển báo?",biển báo
+train_0501,"Hai biển báo bên trái đường trong video cùng thuộc biển báo cấm, đúng hay sai?","biển báo, làn đường"
+train_0502,"Theo nội dung biển chỉ dẫn trong video, nếu xe con muỗn rẽ trái ở nút giao tiếp theo thì xe phải chuyển sang làn bên trái đúng không?","biển báo, làn đường"
+train_0503,Nội dung của nhóm biển cấm và biển báo phụ trong video là gì?,biển báo
+train_0504,Trong video có xuất hiện biển cảnh báo đường hẹp bên phải không?,"biển báo, làn đường"
+train_0505,Ý nghĩa của biển cảnh báo nguy hiểm trong video là gì?,biển báo
+train_0506,"Trong video, khi xe con đang ở giữa giao lộ thì xuất hiện bao nhiêu nhóm biển báo trong khung hình?",biển báo
+train_0507,"Trong video, loại phương tiện nào được phép lưu thông ở làn đường trong cùng sát vỉa hè?","biển báo, làn đường"
+train_0508,"Trong video, phương tiện có được rẽ phải khi đèn đỏ không?","biển báo, đèn giao thông"
+train_0509,"Trong video, có bao nhiêu làn mà xe con có thể rẽ phải tại giao lộ tiếp theo?","biển báo, làn đường"
+train_0510,"Trong video, các phương tiện được dừng xe vào lúc 12h không?",biển báo
+train_0511,"Trong video này, tín hiệu đèn giao thông đang bật có ý nghĩa gì đối với người lái xe đang ở trong làn đường này?","làn đường, đèn giao thông"
+train_0512,"Trong video này, phương tiện có được phép rẽ trái khi đến nút giao không?",biển báo
+train_0513,"Trong video này, theo cụm biển báo bên phải, hành vi nào bị cấm trên tuyến đường này trong các khung giờ được quy định?","biển báo, làn đường"
+train_0514,"Trong video này, ô tô có được di chuyển vào làn đường trong cùng bên phải không?","biển báo, làn đường"
+train_0515,"Trong video này, vạch kẻ đường bên phải cho phép tài xế thực hiện hành vi nào sau đây khi đảm bảo đủ điều kiện an toàn?",làn đường
+train_0516,"Trong video này, để bắt đầu quy trình chuyển sang làn bên phải một cách hợp lệ, thao tác nào sau đây phải là bước thực hiện đầu tiên?",làn đường
+train_0517,"Trong video này, vạch kẻ đường nét đứt màu trắng giữa làn xe của tài xế và làn xe máy có phải dùng để phân chia hai chiều xe chạy không?",làn đường
+train_0518,"Trong video này, để thực hiện việc chuyển sang làn bên phải, quy trình nào sau đây là đúng luật và đảm bảo an toàn nhất?",làn đường
+train_0519,"Trong video này, người lái xe có được phép điều khiển phương tiện đi vào làn đường có cắm biển báo hình tròn màu đỏ phía trước không?","biển báo, làn đường"
+train_0520,"Trong video này, khi tiến đến gần vạch kẻ đường dành cho người đi bộ, người lái xe phải thực hiện hành động ưu tiên nào sau đây?",làn đường
+train_0521,"Trong video này, có xuất hiện 2 loại biển báo đúng hay sai?",biển báo
+train_0522,"Trong video này, khi tiến vào đoạn đường có cụm biển báo nguy hiểm xuất hiện thứ 2 bên phải, quy trình xử lý nào của tài xế là đúng và an toàn nhất?","biển báo, làn đường"
+train_0523,"Trong video, những loại biển báo nào sau đây xuất hiện trên dải phân cách?","biển báo, làn đường"
+train_0524,"Trong video này biển báo cấm bên tay phải là biển báo cấm rẽ phải, đúng hay sai?",biển báo
+train_0525,"Trong video này, để rẽ phải đi theo hướng đường Công Quỳnh, người lái xe cần thực hiện quy trình thao tác nào là hợp lệ?","biển báo, làn đường"
+train_0526,"Trong video này, các biển báo ở phía bên phải cho biết quy định về việc đỗ xe tại khu vực này là gì?",biển báo
+train_0527,"Trong video, hành vi các xe ô tô đang đậu ở hướng bên phải có đúng hay không?",biển báo
+train_0528,"Trong video, tại nút giao tiếp theo, xe hơi chỉ được đi thẳng hoặc rẽ trái đúng không?",biển báo
+train_0529,"Trong video, biển báo nào sau đây đã xuất hiện?",biển báo
+train_0530,"Trong video, xe buýt có được rẽ trái trong khoảng thời gian bị cấm không?",biển báo
+train_0531,"Trong video, biển cấm xe khách rẽ trái và quay đầu xe áp dụng trong khung giờ nào?",biển báo
+train_0532,"Trong video, biển cấm nào xuất hiện đầu tiên trên tuyến đường xe đang chạy?","biển báo, làn đường"
+train_0533,"Tren tuyến đường xe đang chạy trong video, có tất cả 2 nhóm biển báo khác nhau đúng không?","biển báo, làn đường"
+train_0534,"Trong video, những biển báo nào sau đây đã xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0535,"Trong video, biển cấm nào xuất hiện đầu tiên bên tay phải?",biển báo
+train_0536,"Trong video, các phương tiện có thể đỗ xe vào lúc 23h không?",biển báo
+train_0537,"Trong video, các phương tiện có thể dừng xe không?",biển báo
+train_0538,"Trong video, những biển báo cấm nào sau đây đã xuất hiện?",biển báo
+train_0539,"Trong video, phương tiện nào bị cấm theo biển báo?",biển báo
+train_0540,"Trong video, cấm đỗ xe trong thời gian nào?",biển báo
+train_0541,"Trong video, xe con có thể đỗ xe vào lúc 2h không?",biển báo
+train_0542,"Trong video, nội dung các biển báo cấm là gì?",biển báo
+train_0543,Biển thứ 2 xuất hiện trong video là gì?,biển báo
+train_0544,Biển thứ 2 xuất hiện trong video là biển cấm rẽ trái. Đúng hay sai?,biển báo
+train_0545,"Trong video, những biển báo nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0546,"Trong video, biển báo tròn bên phải có ý nghĩa gì?",biển báo
+train_0547,"Trong video, có biển chỉ dẫn đi theo 2 hướng, đúng hay sai?",biển báo
+train_0548,"Trong video, biển tròn viền đỏ có ý nghĩa gì?",biển báo
+train_0549,"Trong video, phương tiện nào bị cấm lưu thông theo khung giờ và trọng lượng quy định?",biển báo
+train_0550,"Trong video, phương tiện có thể đỗ xe trong thời gian quy định vào khung giờ nào?",biển báo
+train_0551,"Trong video, có biển báo hiệu lệnh rẽ phải phía trướ",biển báo
+train_0552,"Trong video, phương tiện có thể đỗ xe trong thời gian quy định vào khung giờ nào?",biển báo
+train_0553,"Trong video, biển tròn viền đỏ có ý nghĩa gì?",biển báo
+train_0554,"Trong video, có biển báo hiệu lệnh rẽ phải phía trước đúng hay sai?",biển báo
+train_0555,"Trong video, biển cấm đỗ xe áp dụng trong khoảng thời gian nào?",biển báo
+train_0556,"Trong video, nếu xe di chuyển ở làn trong cùng bên phải thì có được rẽ trái tại nút giao tiếp theo không?","biển báo, làn đường"
+train_0557,"Trong video, những biển báo cấm nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0558,"Trong video, có bao nhiêu nhóm biển báo khác nhau biển báo nào xuất hiện?",biển báo
+train_0559,"Trong video, xe khách màu xanh dương có thể dừng đỗ ở khu vực biển báo hình chứ nhật không?",biển báo
+train_0560,"Trong video, tại nút giao, phương tiện được phép rẽ trái vào lúc 7 giờ sáng, đúng không?",biển báo
+train_0561,"Trong video, những loại biển báo nào sau đây xuất hiện trước nút giao?",biển báo
+train_0562,"Trong video, tại nút giao phương tiện sẽ được rẽ trái vào khoảng thời gian nào?",biển báo
+train_0563,"Trong video này, biển báo cấm ở phía bên phải đường cho biết người lái xe không được di chuyển theo hướng nào?","biển báo, làn đường"
+train_0564,"Biển báo cấm ở phía bên phải đường trong video cho biết người lái xe không được rẽ trái, đúng không?","biển báo, làn đường"
+train_0565,"Trong video, có xuất hiện các biển báo cấm nào sau đây?",biển báo
+train_0566,"Trong video, có xuất hiện 4 biển báo cấm khác nhau, đúng hay sai?",biển báo
+train_0567,Biển báo xuất hiện đầu tiên trong video thuộc loại biển báo gì?,biển báo
+train_0568,"Trong video này, vạch kẻ đường màu vàng ở giữa tim đường có cho phép người lái xe được lấn sang làn ngược chiều không?",làn đường
+train_0569,"Trong video này, biển báo giao thông phía sau trạm xe buýt quy định người điều khiển phương tiện phải tuân thủ điều gì?",biển báo
+train_0570,"Trong video này, để di chuyển an toàn trong điều kiện giao thông đông đú",biển báo
+train_0571,"Trong video, phương tiện được đi những hướng chính nào sau nút giao?",biển báo
+train_0572,"Trong video này, theo các biển báo ở bên phải, việc dừng xe trên đoạn đường này vào lúc 8 giờ sáng có được phép không?","biển báo, làn đường"
+train_0573,"Trong video này, người lái xe có được phép thực hiện thao tác rẽ phải tại giao lộ phía trước theo chỉ dẫn của biển báo không?",biển báo
+train_0574,"Trong video, biển báo nào sau đây xuất hiện trước nút giao?",biển báo
+train_0575,"Trong video, những loại biển báo nào sau đây xuất hiện trước nút giao?",biển báo
+train_0576,"Trong video này, khi thấy người đi bộ đứng chờ ở vỉa hè gần vạch kẻ đường, người lái xe nên có phương án xử lý nào?",làn đường
+train_0577,"Trong video này, để chuẩn bị vượt xe tải màu xanh phía trướ",Khác
+train_0578,"Ở cuối video, tuyến đường mà ô tô di chuyển có 1 làn dành cho xe 2 bánh, đúng hay sai?","biển báo, làn đường"
+train_0579,Biển báo xuất hiện đầu tiên trong video thuộc loại biển báo gì?,biển báo
+train_0580,"Trong video này, giả sử muốn dừng xe ở lề đường bên phải, quy trình thao tác nào là đúng và an toàn nhất?",làn đường
+train_0581,"Trong video này, vạch kẻ đường phân chia hai chiều xe chạy có cho phép người lái xe được đè lên để vượt xe khác không?",làn đường
+train_0582,Có mấy nhóm biển báo trong video?,biển báo
+train_0583,"Trong video, trên làn đường phương tiện di chuyển có thể rẽ trái khi đến nút giao không?","biển báo, làn đường"
+train_0584,Hai biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0585,"Trong video, tại khu vực ngã ba có bao nhiêu nhóm biển báo?",biển báo
+train_0586,"Trong video, các phương tiện có được rẽ trái khi đang di chuyển ở làn ngoài cùng bên trái không?","biển báo, làn đường"
+train_0587,Nếu xe con trong video muốn rẽ phải ở giao lộ tiếp theo thì có cần chuyển sang làn bên phải không?,"biển báo, làn đường"
+train_0588,"Trong video, làn nào cho phép xe con rẽ phải ở làn tiếp theo?","biển báo, làn đường"
+train_0589,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0590,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0591,Nội dung của biển báo cấm bên phải đường trong video là gì?,"biển báo, làn đường"
+train_0592,"Biển báo bên phải đường trong video là biển cấm dừng và đỗ xe, đúng hay sai?","biển báo, làn đường"
+train_0593,Trong video có xuất hiện biển cấm không?,biển báo
+train_0594,Những biển báo cấm nào xuất hiện trong video?,biển báo
+train_0595,"Trong video, làn xe con đang chạy có thể rẽ trái tại giao lộ tiếp theo đúng không?","biển báo, làn đường"
+train_0596,Trong video có mấy nhóm biển báo?,biển báo
+train_0597,"Theo biển cấm đầu tiên trong video, xe con có được rẽ phải ở giao lộ tiếp theo không?",biển báo
+train_0598,"Theo nội dung biển chỉ dẫn trong video, nếu xe con di chuyển ở làn giữa thì tại giao lộ tiếp theo xe con có thể di chuyển theo hướng nào?","biển báo, làn đường"
+train_0599,"Trong video, xe sơ mi rơ-moóc có thể lưu thông trên tuyến đường này không?","biển báo, làn đường"
+train_0600,Có tất cả bao nhiêu biển cấm khác nhau xuất hiện trong video?,biển báo
+train_0601,"Trong video, biển tròn bên phải là gì?",biển báo
+train_0602,"Trong video, có biển báo phụ không?",biển báo
+train_0603,"Trong video, biển tròn bên phải có ý nghĩa gì?",biển báo
+train_0604,"Trong video, có các loại biển báo cấm nào?",biển báo
+train_0605,"Trong video, bảng chỉ dẫn 3 hướng giao thông chính, đúng hay sai?",biển báo
+train_0606,"Trong video, phương tiện nào bị cấm lưu thông?",biển báo
+train_0607,"Trong video, bảng led chỉ dẫn 5 địa điểm đến và 1 đường cấm đi ngược chiều, đúng hay sai?","biển báo, làn đường"
+train_0608,"Trong video, hướng đi Công trường Mê Linh là hướng nào?",biển báo
+train_0609,"Trong video, có những địa điểm nào được hiển thị trên bảng LED chỉ dẫn?",biển báo
+train_0610,Trong video có bao nhiêu biển báo cấm khác nhau?,biển báo
+train_0611,"Trong video, 3 biển báo được treo trên cùng 1 cột thuộc các nhóm biển báo nào?",biển báo
+train_0612,"Trong video, xe container không được chạy vào tuyến đường này đúng không?",làn đường
+train_0613,"Trong video, làn đường xe đang chạy có thể rẽ trái không?","biển báo, làn đường"
+train_0614,"Trong video, tại ngã ba có bao nhiêu nhóm biển báo?",biển báo
+train_0615,Nội dung của 2 biển báo cấm và nguy hiểm trong video là gì?,biển báo
+train_0616,Xe con có được rẽ vào đường Đinh Tiên Hoàng không?,"biển báo, làn đường"
+train_0617,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0618,Trong video có bao nhiêu nhóm biển báo?,biển báo
+train_0619,Ý nghĩa của biển chỉ dẫn thứ ba và vạch gãy khúc màu vàng là gì?,"biển báo, làn đường"
+train_0620,Các phương tiện trong video có được rẽ trái không?,biển báo
+train_0621,Nội dung các biển báo cấm trong video là gì?,biển báo
+train_0622,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0623,Trong video có bao nhiêu nhóm biển báo khác nhau?,biển báo
+train_0624,Trong video có xuất hiện biển cấm dừng đỗ xe không?,biển báo
+train_0625,"Trong video, biển báo dành cho đoạn đường xe đang chạy đúng không?","biển báo, làn đường"
+train_0626,Biển báo xuất hiện trong video thuộc nhóm biển báo gì?,biển báo
+train_0627,Có bao nhiêu nhóm biển báo khác nhau trong video?,biển báo
+train_0628,Nội dung biển báo cấm và biển phụ xuất hiện ở đầu video là gì?,biển báo
+train_0629,"Có xuất hiện 1 loại biển báo trong video, đúng hay sai?",biển báo
+train_0630,Trong video có xuất hiện biển chỉ dẫn bến xe buýt không?,biển báo
+train_0631,Trong video có bao nhiêu biển báo thuộc nhóm biển báo chỉ dẫn?,biển báo
+train_0632,Các nhóm biển báo xuất hiện trong video là gì?,biển báo
+train_0633,"Trong video, bảng chỉ dẫn các hướng chính nào?",biển báo
+train_0634,"Trong video, có biển báo hiệu lệnh không?",biển báo
+train_0635,"Trong video, phương tiện nào quy định cấm rẽ phải?",biển báo
+train_0636,"Trong video, biển cấm rẽ phải áp dụng cho mọi loại phương tiện đúng không?",biển báo
+train_0637,"Trong video, biển báo tròn bên phải có ý nghĩa gì?",biển báo
+train_0638,"Trong video, có chỉ dẫn 1 hướng cấm đi ngược chiều là hướng nào?",biển báo
+train_0639,"Trong video, có các loại biển báo nào?",biển báo
+train_0640,"Trong video, có biển cấm dừng đỗ xe không?",biển báo
+train_0641,"Trong video, có các loại biển báo nào?",biển báo
+train_0642,"Trong video, phương tiện nào bị cấm lưu thông?",biển báo
+train_0643,"Trong video, cấm ô tô rẽ trái trong 160m tiếp theo tính từ nơi cắm biển báo, đúng hay sai?",biển báo
+train_0644,"Trong video, 2 biển báo trên dài phân cách có ý nghĩa gì?",biển báo
+train_0645,"Trong video, loại biển báo nào không xuất hiện?",biển báo
+train_0646,"Trong video, biển hiệu lệnh cho riêng phương tiện ô tô theo hướng phải đi vòng sang phải, đúng hay sai?",biển báo
+train_0647,"Trong video, những biển báo cấm nào sau đây xuất hiện trong video?",biển báo
+train_0648,"Trong video, biển báo nào sau đây không xuất hiện?",biển báo
+train_0649,"Trong video, trên tuyến đường phương tiện đang di chuyển có thiết bị camera giám sát giao thông hay không?","biển báo, làn đường"
+train_0650,"Trong video, xe con có được rẽ trái không?",biển báo
+train_0651,"Trong video, biển chỉ dẫn đang hướng người lái đi đâu?",biển báo
+train_0652,"Trong video, những biển báo nào sau đây xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0653,"Trong video, tại đoạn ngã tư có 2 nhóm biển báo khác nhau đúng không?",biển báo
+train_0654,"Trong video, những biển báo nào sau đây xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0655,"Trong video, biển cấm đầu tiên xuất hiện bên tay phải màn hình là gì?",biển báo
+train_0656,Ý nghĩa các biển báo trong video là gì?,biển báo
+train_0657,"Trong video, biển tam giác xuất hiện đang cảnh báo điều gì?",biển báo
+train_0658,"Trong video, xe con có được dừng tại khu vực có vạch vàng gấp khúc không?",làn đường
+train_0659,"Trong video, xe máy được di chuyển ra làn ngoài cùng để vượt xe con đang nhập làn đúng không?","biển báo, làn đường"
+train_0660,"Trong video, cây cầu xuất hiện có tên là gì?",biển báo
+train_0661,"Trong video, xe ô tô chỉ có thể đi thẳng từ 6h đến 22h đúng không?",biển báo
+train_0662,"Trong video, những biển báo cấm nào sau đây đã xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0663,"Trong video, biển cấm ô tô rẽ trái và rẽ phải có hiệu lực trong khung giờ nào?",biển báo
+train_0664,"Trong video, những biển báo nào xuất hiện? Chọn đáp án đúng nhất.",biển báo
+train_0665,"Trong video, xe con có thể rẽ trái không?",biển báo
+train_0666,"Trong video, biển báo nào xuất hiện bên phải màn hình?",biển báo
+train_0667,"Trong video, biển báo nào xuất hiện đầu tiên bên tay phải?",biển báo
+train_0668,"Trong video, xe con có được đỗ xe tại đoạn đường này không?",làn đường
+train_0669,Biển báo tam giác trong video có ý nghĩa gì?,biển báo
+train_0670,"Trong video, xe con có được dừng xe tại khu vực vạch kẻ vàng gấp khúc không?",làn đường
+train_0671,"Trong video, những biển báo nào xuất hiện? Chọn đáp án đúng nhất.",biển báo
+train_0672,Trong video có xuất hiện đèn xanh không?,đèn giao thông
+train_0673,Hai biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_0674,"Biển báo bên phải đường trong video là biển báo cấm người đi bộ, đúng hay sai?","biển báo, làn đường"
+train_0675,Trong video biển báo bên phải đường là cấm loại phương tiện nào?,"biển báo, làn đường"
+train_0676,"biển báo bên phải đường trong video là biển báo cấm đỗ xe ngày lẻ, đúng hay sai?","biển báo, làn đường"
+train_0677,Biển báo bên phải đường trong video là biển báo gì?,"biển báo, làn đường"
+train_0678,"Biển báo bên phải đường trong video là biển báo cấm xe tải, đúng hay sai?","biển báo, làn đường"
+train_0679,Biển báo bên phải đường trong video là biển báo gì?,"biển báo, làn đường"
+train_0680,Trong video có bao nhiêu nhóm biển báo khác nhau?,biển báo
+train_0681,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0682,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0683,Biển báo bên phải đường trong video là biển báo gì?,"biển báo, làn đường"
+train_0684,"Biển báo bên phải đường trong video là biển cảnh báo đường phía trước có trẻ em qua lại, đúng hay sai?","biển báo, làn đường"
+train_0685,Biển báo nền xanh trong video thuộc nhóm biển báo nào?,biển báo
+train_0686,"Trong video, sau khi vượt qua xe tải, xe đang chạy có thể chuyển làn sang bên phải không?","biển báo, làn đường"
+train_0687,"Trong video, loại biển báo nào không xuất hiện?",biển báo
+train_0688,"Trong video, biển báo cấm loại phương tiện lưu thông trong khung giờ quy định, đúng hay sai?",biển báo
+train_0689,"Trong video, có các loại biển báo nào? (chọn đáp án đầy đủ nhất)",biển báo
+train_0690,"Trong video, có các loại biển báo nào?",biển báo
+train_0691,"Trong video, biển báo màu xanh bên phải có ý nghĩa gì?",biển báo
+train_0692,"Trong video, có thiết bị camera giám sát giao thông không?",Khác
+train_0693,"Trong video, hai biển báo bên phải là gì?",biển báo
+train_0694,"Trong video, biển tam giác bên phải là gì?",biển báo
+train_0695,"Trong video, có biển báo phụ không?",biển báo
+train_0696,"Trong video, loại phương tiện quy định cấm rẽ trái?",biển báo
+train_0697,"Trong video, tuyến đường có quy định loại phương tiện cấm rẽ trái trong khung giờ quy định, đúng hay sai?","biển báo, làn đường"
+train_0698,"Trong video, có các loại biển báo nào?",biển báo
+train_0699,"Trong video, 2 biên báo tròn và 1 biển báo quy định phương tiện có ý nghĩa gì?",biển báo
+train_0700,"Trong video, điểm đến ga Tân Cảng còn cách điểm chỉ dẫn 1,6km, đúng hay sai?",biển báo
+train_0701,"Ở cuối video, biển chỉ dẫn các hướng đi chính nào?",biển báo
+train_0702,"Trong video, biển báo tròn bên trái là gì?",biển báo
+train_0703,"Trong video, biển báo bên trái quy định hết hạn chế tốc độ tối đa là 60km/h, đúng hay sai?",biển báo
+train_0704,"Trong video, 2 biên báo tròn và 1 biển báo chữ nhật bên phải có ý nghĩa gì?",biển báo
+train_0705,"Trong video, loại phương tiện nào quy định cấm dừng đỗ ở làn bên phải?","biển báo, làn đường"
+train_0706,"Trong video, 2 biển báo tròn và 1 biển báo phụ ở làn bên phải xuất hiện ở đầu video có ý nghĩa gì?","biển báo, làn đường"
+train_0707,"Trong video, có biển báo tuyến đường có giám sát, xử phạt bằng camera không?","biển báo, làn đường"
+train_0708,"Trong video, bảng chỉ dẫn bên trái quy định tốc độ ô tô khác với tốc độ xe mô tô, đúng hay sai?",biển báo
+train_0709,"Trong video, bảng chỉ dẫn bên trái phân chia làn đường cho các loại phương tiện nào?","biển báo, làn đường"
+train_0710,"Trong video, có biển báo tuyến đường có giám sát, xử phạt bằng camera không?","biển báo, làn đường"
+train_0711,"Trong video, 2 biển báo tròn và 1 biển báo phụ có ý nghĩa gì?",biển báo
+train_0712,"Trong video, loại phương tiện nào quy định cấm dừng đỗ?",biển báo
+train_0713,"Trong video, biển báo tam giác bên phải là biển cảnh báo đường hẹp. Đúng hay sai?","biển báo, làn đường"
+train_0714,"Trong video, biển báo tam giác bên phải là gì?",biển báo
+train_0715,"Trong video, khung thời gian xe 2 và 3 bánh có thể lưu thông?",biển báo
+train_0716,"Trong video, có xuất hiện biển báo phụ không?",biển báo
+train_0717,"Trong video, phương tiện nào không quy định trong bảng phân làn?","biển báo, làn đường"
+train_0718,"Trong video, những biển báo nền đỏ thuộc nhóm biển báo nào?",biển báo
+train_0719,Xe hơi có thể chạy được tối đa 5 làn trên đoạn đường thẳng đúng không?,"biển báo, làn đường"
+train_0720,Biển báo cấm nào xuất hiện trong video?,biển báo
+train_0721,Trong video có những báo có thể nhận diện thuôccj các nhóm biển báo nào?,biển báo
+train_0722,"Trong video, làn đường ngoài cùng bên trái cho phép phương tiện nào?",làn đường
+train_0723,"Trong video, sau khi đi qua biển phân làn, phương tiện có thể rẽ phải không?","biển báo, làn đường"
+train_0724,"Trong video, tài xế xe tải có thực hiện đúng quy trình chuyển làn không ?",làn đường
+train_0725,"Trong video, biển báo nào sau đây đã xuất hiện?",biển báo
+train_0726,"Trong video, nội dung các biển báo cấm là gì?",biển báo
+train_0727,"Trong video, đoạn đường đang cấm loại phương tiện nào?","biển báo, làn đường"
+train_0728,Trong video có 3 nhóm biển báo khác nhau đúng không?,biển báo
+train_0729,"Trong video, xe con có được dừng trong khu vực có vạch kẻ ngang màu vàng không?",làn đường
+train_0730,"Trong video, nội dung biển báo nguy hiểm xuất hiện đầu tiên bên tay phải màn hình là gì?",biển báo
+train_0731,"Trong video, xe con có thể di chuyển ở tất cả làn đường đúng không?","biển báo, làn đường"
+train_0732,"Trong video, những biển báo cấm và nguy hiểm nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0733,"Trong video, biển cảnh báo giới hạn chiều cao báo hiệu mức giới hạn bao nhiêu mét?",biển báo
+train_0734,"Trong video, những biển báo nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_0735,"Trong video, xe khách có giới hạn tốc độ tối đa là bao nhiêu km/h?",biển báo
+train_0736,"Trong video, nếu xe con chuyển sang các làn bên trái thì tốc độ tối đa me xe được chạy là 80 km/h đúng không?","biển báo, làn đường"
+train_0737,"Trong video này, làn đường sát lề bên phải quy định cho đối tượng nào được di chuyển?","biển báo, làn đường"
+train_0738,"Trong video này, việc lái xe ô tô đi vào làn đường sát lề bên phải có được phép hay không theo quy định của biển báo?","biển báo, làn đường"
+train_0739,"Trong video này, theo biển báo chỉ dẫn treo trên cao, các phương tiện trong làn đường hiện tại phải tuân thủ hướng đi nào?","biển báo, làn đường"
+train_0740,"Trong video, phương tiện được đi những hướng chính nào sau nút giao?",biển báo
+train_0741,"Trong video, phương tiện có được rẽ phải tại nút giao không?",biển báo
+train_0742,"Trong video này, người lái xe có được phép thực hiện thao tác rẽ trái dựa trên tín hiệu đèn không?","biển báo, đèn giao thông"
+train_0743,Trong video có xuất hiện biển cấm không?,biển báo
+train_0744,"Trong video, xe container có thể chạy được tối đa bao nhiêu làn?","biển báo, làn đường"
+train_0745,Tốc độ tối đa của xe con và xe tải là bao nhiêu?,biển báo
+train_0746,"Trong video, muốn đi đến ngã tư Thủ Đức thì đi thẳng đúng không?",Khác
+train_0747,"Trong video, xe con có thể di chuyển vào làn xe tải đang chạy không?","biển báo, làn đường"
+train_0748,"Trong video, các biển báo nền xanh thuộc nhóm biển báo nào?",biển báo
+train_0749,"Trong video, có bao nhiêu biển báo cấm có công dụng khác nhau khác nhau?",biển báo
+train_0750,Nội dung 2 biển báo cấm trên tuyến đường xe đang chạy trong video là gì?,"biển báo, làn đường"
+train_0751,"Trong video, các phương tiện đi qua trạm thu phí Xa lộ Hà Nội trước khi đến bến xe Miền Đông mới đúng không?",Khác
+train_0752,"Trong video, có bao nhiêu phương tiện phải di chuyển với tốc độ tối đa 60 km/h?",biển báo
+train_0753,"Trong video, xe con có thể chuyển làn vào làn trong cùng bên phải nếu làn đang chạy bị tắc nghẽn không?","biển báo, làn đường"
+train_0754,Nội dung của biển báo nguy hiểm bên phải đường trong video là gì?,"biển báo, làn đường"
+train_0755,"Biển báo bên phải đường trong video là biển cảnh báo đường giao nhau với đường ưu tiên, đúng hay sai?","biển báo, làn đường"
+train_0756,Các biển báo trong video thuộc các nhóm biển báo nào? (chọn đáp án đúng và đầy đủ nhất),biển báo
+train_0757,Nếu xe ô tô con đi ở làn trong cùng bên trái thì tốc độ tối đa là bao nhiêu,"biển báo, làn đường"
+train_0758,"Trong video, xe máy có thể chạy chung làn với xe ô tô trắng không?","biển báo, làn đường"
+train_0759,Nội dung biển báo nguy hiểm trong video là gì?,biển báo
+train_0760,"Biển báo bên phải đường là biển cảnh báo có đường người đi bộ cắt ngang, đúng hay sai?","biển báo, làn đường"
+train_0761,Trong video có xuất hiện biển báo hiệu lệnh không?,biển báo
+train_0762,Ý nghĩa của vạch vàng kẻ ngang trong video là gì?,làn đường
+train_0763,Trong video có xuất hiện biển báo cấm không?,biển báo
+train_0764,Ý nghĩa của biển báo cấm trong video là g?,biển báo
+train_0765,Có xuất hiện biển báo cấm trong video không?,biển báo
+train_0766,Các biển báo trong video thuộc các nhóm biển báo nào?,biển báo
+train_0767,Xe ô tô con trong video có được di chuyển ở làn trong cùng bên phải không?,"biển báo, làn đường"
+train_0768,"Trong video làn đường bên phải cấm xe ô tô nói chung di chuyển vào, đúng hay sai?","biển báo, làn đường"
+train_0769,Nội dung các biển báo cấm trong video là gì?,biển báo
+train_0770,"Trong video này, theo biển báo phân làn hướng phương tiện đang di chuyển, làn đường ngoài cùng bên phải được sử dụng cho những loại phương tiện nào?","biển báo, làn đường"
+train_0771,"Dựa vào biển báo trong video này, xe ô tô tải dưới 3.5T được phép di chuyển bao nhiêu làn?","biển báo, làn đường"
+train_0772,"Dựa vào biển báo trong video này, xe ô tô con được phép di chuyển bao nhiêu làn?","biển báo, làn đường"
+train_0773,"Trong video này, tốc độ tối đa cho phép đối với xe mô tô và xe gắn máy khi di chuyển ở làn đường ngoài cùng bên phải là bao nhiêu?","biển báo, làn đường"
+train_0774,"Dựa vào biển báo trong video này, xe ô tô con được phép di chuyển bao nhiêu làn?","biển báo, làn đường"
+train_0775,"Trong video này, biển báo ở phía bên phải cho biết quy định nào áp dụng cho xe khách trên đoạn đường này?","biển báo, làn đường"
+train_0776,"Trong video, tuyến đường xe khách đang chạy có quy định cấm dừng đỗ trong khoảng thời gian từ 6 giờ sáng đến 10 giờ tối, đúng không?","biển báo, làn đường"
+train_0777,Tốc độ tối đa trên đoạn đường trong video là bao nhiêu?,"biển báo, làn đường"
+train_0778,"Trong video này, các biển báo nguy hiểm ở phía bên phải cảnh báo người lái xe về điều gì sắp xảy ra trên đường?","biển báo, làn đường"
+train_0779,"Trong video này dựa theo biển báo bên phải đường thì các phương tiện được phép chạy tối đa 80km/h, đúng hay sai?","biển báo, làn đường"
+train_0780,"Trong video này, dựa vào các chỉ dẫn giao thông bên đường, người lái xe cần đảm bảo tốc độ di chuyển không vượt quá giới hạn nào?","biển báo, làn đường"
+train_0781,"Trong video này, dựa vào biển báo có bao nhiêu làn xe được phép rẽ trái?","biển báo, làn đường"
+train_0782,"Trong video này, dựa vào biển báo có bao nhiêu làn xe được phép đi thẳng?","biển báo, làn đường"
+train_0783,"Trong video, cấm xe ô tô tải <=2.5t trong những khung giờ nào?",biển báo
+train_0784,"Trong video này, biển báo cấm xe tải 2.5T trong khung thời gian nào?",biển báo
+train_0785,"Cách để đi đến Quỹ Tín dụng Nhân dân Đông Sài Gòn theo biển chỉ dẫn là rẽ phải 2.5 km, đúng hay sai?",biển báo
+train_0786,Cách để đi đến Qũy Tín dụng Nhân dân Đông Sài Gòn theo biển chỉ dẫn là gì?,biển báo
+train_0787,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0788,"Trong video, tốc độ tối đa cho phép là bao nhiêu?",biển báo
+train_0789,"Trong video, xe con có được dừng xe ở đoạn đường đang đi không?",làn đường
+train_0790,"Trong video, tốc độ tối đa được phép quy định là bao nhiêu?",biển báo
+train_0791,Những loại xe nào được quy định phân làn trên chỉ dẫn xuất hiện trong video?,"biển báo, làn đường"
+train_0792,Xe ô tô con đường phép di chuyển bao nhiêu làn?,"biển báo, làn đường"
+train_0793,"Theo biển chỉ dẫn ở đèn giao thông, phương tiện được hướng dẫn đi theo hướng nào?","biển báo, đèn giao thông"
+train_0794,"trong video, tại làn đường hiện tại xe máy có được phép đi thẳng khi đèn đỏ không?","biển báo, làn đường, đèn giao thông"
+train_0795,"Biển giới hạn tốc độ được đề cập trong video là 40 km/h, đúng hay sai?",biển báo
+train_0796,Biển giới hạn tốc độ đươc xuất hiện trong video là bao nhiêu?,biển báo
+train_0797,"Trên làn đường xe đang chạy, xe ô tô khách giường nằm bị cấm trong khung giờ nào?","biển báo, làn đường"
+train_0798,"Biển chỉ dẫn trong video hướng dẫn phương tiện về trạm xăng cách 450m, đúng hay sai?",biển báo
+train_0799,Biển chỉ dẫn trong video hướng dẫn phương tiện điều gì?,biển báo
+train_0800,"Theo biển chỉ dẫn, hướng đi đến cửa hàng cung cấp xăng dầu như thế nào?",biển báo
+train_0801,"Theo biển chỉ dẫn trong video, nếu xe ở làn trong cùng bên phải thì được phép đi theo hướng nào?","biển báo, làn đường"
+train_0802,"Trong video, làn xe ô tô đang di chuyển được phép đi theo hướng nào?","biển báo, làn đường"
+train_0803,"Trong video, nếu đi thẳng theo làn đường hiện tại thì xe sẽ đến đường Nguyễn Cơ Thạch, phải không?",làn đường
+train_0804,Hướng đi khu dân cư Văn Minh như thế nào?,biển báo
+train_0805,Nếu đi thẳng theo làn đường hiện tại thì xe sẽ đến những địa điểm nào?,"biển báo, làn đường"
+train_0806,"Trong video, có biển báo tốc độ tối đa cho phép 60km/h, đúng hay sai?",biển báo
+train_0807,Trong video có những biển báo cấm nào?,biển báo
+train_0808,"Trong video, có biển cảnh bảo nguy hiểm không?",biển báo
+train_0809,"Trong video, bảng chỉ dẫn các hướng đi chính nào cho đoạn đường xe đang di chuyển?","biển báo, làn đường"
+train_0810,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0811,Biển chỉ dẫn bao nhiêu hướng đi chính trong video?,biển báo
+train_0812,"Trong video, biển cấm rẽ trái cho phương tiện xe mô tô, đúng hay sai?",biển báo
+train_0813,"Trong video, có các biển tốc độ tối đa bao nhiêu?",biển báo
+train_0814,"Trong video, đường Trần Não còn cách điểm chỉ dẫn 1,6km, đúng hay sai?","biển báo, làn đường"
+train_0815,"Trong video, đường Võ Nguyên Giáp chỉ dẫn đi theo hướng nào?","biển báo, làn đường"
+train_0816,Những biển báo nào xuất hiện trong video?,biển báo
+train_0817,"Trong video, có bao nhiêu loại biển báo?",biển báo
+train_0818,"Trong video, có biển báo cấm đỗ không?",biển báo
+train_0819,"Trong video, bảng chỉ dẫn hướng đi thẳng cho điểm đến Quỹ tín dụng nhân dân Đông Sài Gòn, đúng hay sai?",biển báo
+train_0820,"Trong video, có bao nhiêu loại biển báo?",biển báo
+train_0821,Những biển báo nào xuất hiện trong video?,biển báo
+train_0822,"Trong video, 2 cột biển báo bên phải là gì?",biển báo
+train_0823,"Trong video, có biển cấm quay xe không?",biển báo
+train_0824,"Trong video, biển báo phụ quy định loại phương tiện nào không được dừng đỗ trong khung giờ quy định?",biển báo
+train_0825,"Trong video, có bao nhiêu loại biển báo?",biển báo
+train_0826,"Trong video, có biển báo hiệu lệnh không?",biển báo
+train_0827,Những biển báo nào xuất hiện trong video?,biển báo
+train_0828,"Trong video, có biển báo hiệu lệnh không?",biển báo
+train_0829,"Trong video, có bao nhiêu loại biển báo?",biển báo
+train_0830,Những biển báo nào xuất hiện trong video?,biển báo
+train_0831,"Trong video, có biển báo phụ không?",biển báo
+train_0832,"Trong video, biển tam giác bên trái là gì?",biển báo
+train_0833,"Trong video, quy định phương tiện nào cấm dừng đỗ trong thời gian từ 6:00 - 22:00?",biển báo
+train_0834,"Trong video, 3 biển báo xuất hiện bên phải có ý nghĩa gì?",biển báo
+train_0835,"Trong video, có biển hiệu lệnh không?",biển báo
+train_0836,"Trong video, có biển hiệu lệnh không?",biển báo
+train_0837,Những biển báo nào xuất hiện trong video?,biển báo
+train_0838,"Trong video, biển báo tam giác phía trên là gì?",biển báo
+train_0839,"Trong video, có những loại biển chỉ dẫn nào?",biển báo
+train_0840,"Trong video, có biển cấm dừng đỗ không?",biển báo
+train_0841,"Trong video, biển hiệu lệnh có bao nhiêu hướng đi chính?",biển báo
+train_0842,"Trong video, bảng chỉ dẫn về đường hầm sông Sài Gòn đi theo hướng nào?","biển báo, làn đường"
+train_0843,"Trong video, có thiết bị camera giám sát giao thông không?",Khác
+train_0844,Trong video có xuất hiện biển cấm không?,biển báo
+train_0845,Trên làn đường hiện tại xe có thể đi được những hướng nào khi đến nút giao?,"biển báo, làn đường"
+train_0846,Đường hầm sông sài gòn đi theo hướng nào?,"biển báo, làn đường"
+train_0847,"Trong video, bênh viện bệnh nhiệt đới đi theo hướng đi thẳng, phải không?",biển báo
+train_0848,Biển báo nào sau đây không xuất hiện trong video?,biển báo
+train_0849,Nếu khi đến nút giao ban đầu ô tô có thể đi thẳng vào làn đường đối diện được không?,"biển báo, làn đường"
+train_0850,Tại nút giao xe có thể di chuyển theo các hướng nào?,biển báo
+train_0851,Trong video có xuất hiện biển báo phụ không?,biển báo
+train_0852,Xe ô tô có thể quay đầu trong khung giờ nào?,biển báo
+train_0853,Biển báo bên phải có ý nghĩa gì?,biển báo
+train_0854,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0855,Biển cấm rẽ phải trong video quy định cho đối tượng nào?,biển báo
+train_0856,Những biển báo nào xuất hiện trong video?,biển báo
+train_0857,Biển báo bên phải là gì?,biển báo
+train_0858,"Trong video, biển báo tam giác là gì?",biển báo
+train_0859,2 biển báo xuất hiện đầu tiên trong video có ý nghĩa gì?,biển báo
+train_0860,Biển báo cấm xuất hiện trong video là biển báo gì?,biển báo
+train_0861,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0862,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0863,Biển báo xanh hình người trắng và biển báo phụ bên dưới có ý nghĩa gì?,biển báo
+train_0864,Biển báo đầu tiên bên phải là gì?,biển báo
+train_0865,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0866,Biển báo cấm bên phải trong video có ý nghĩa gì?,biển báo
+train_0867,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0868,Bảng hiệu lệnh có bao nhiêu làn đường được phép rẽ trái?,"biển báo, làn đường"
+train_0869,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0870,"Trong video, bảng chỉ dẫn bao nhiêu hướng chính?",biển báo
+train_0871,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0872,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0873,Đi về cầu Him Lam theo hướng nào và còn cách bao xa so với biển báo?,biển báo
+train_0874,Có những biển cấm nào xuất hiện trong video?,biển báo
+train_0875,Khung giờ nào các phương tiện có thể dừng đỗ xe?,biển báo
+train_0876,Loại biển cấm nào xuất hiện trong video?,biển báo
+train_0877,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0878,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0879,Biển tam giác trên cùng là gì?,biển báo
+train_0880,Loại xe nào có quy định trong bảng chỉ dẫn?,biển báo
+train_0881,Biển báo cấm và biển báo phụ bên phải là gì?,biển báo
+train_0882,Biển cấm ô tô rẽ trái trong video áp dụng trong khung giờ nào sau đây?,biển báo
+train_0883,Biển báo cấm nào xuất hiện đầu tiên trong video?,biển báo
+train_0884,Những biển báo nào xuất hiện trong video?,biển báo
+train_0885,"Trong video, biển báo cấm đầu tiên ở làn đường phương tiện đang nhập vào?","biển báo, làn đường"
+train_0886,"Câu hỏi thêm: Trong video, có bao nhiêu biển báo cấm xuất hiện?",biển báo
+train_0887,"Biển báo nào xuất hiện đầu tiên, ở phía trên trong video?",biển báo
+train_0888,"Câu hỏi thêm: Trong video, có bao nhiêu biển báo cấm xuất hiện?",biển báo
+train_0889,Biển báo nào xuất hiện phía trên trong video?,biển báo
+train_0890,Biển báo nào xuất hiện đầu tiên trong video?,biển báo
+train_0891,Biển báo nào xuất hiện thứ hai trong video?,biển báo
+train_0892,Có bao nhiêu biển báo nguy hiểm xuất hiện trong video?,biển báo
+train_0893,Biển báo nào xuất hiện đầu tiên trong video?,biển báo
+train_0894,Biển báo nào xuất hiện phía dưới trong video?,biển báo
+train_0895,Biển cấm các loại xe 3 bánh và xe thô sơ 4 bánh trong video áp dụng trong khung giờ nào?,biển báo
+train_0896,"Trong video, có bao nhiêu biển báo ở làn đường phương tiện đang di chuyển?","biển báo, làn đường"
+train_0897,Biển báo cấm nào xuất hiện đầu tiên trong video?,biển báo
+train_0898,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_0899,Biển báo nào xuất hiện trong video?,biển báo
+train_0900,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_0901,Biển báo nào xuất hiện trong video?,biển báo
+train_0902,"Trong video, biển báo nào dưới đây xuất hiện trên đường?","biển báo, làn đường"
+train_0903,"Trong video, biển chỉ dẫn xuất hiện trên đường giúp người lái xe thực hiện những điều nào sau đây?","biển báo, làn đường"
+train_0904,"Trong video, biển báo nào dưới đây xuất hiện trên đường?","biển báo, làn đường"
+train_0905,"Trong video, biển báo cấm xuất hiện có ý nghĩa gì đối với người lái xe?",biển báo
+train_0906,Cụm biển báo ban đầu xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0907,"Trong video, loại biển báo xuất hiện ở làn đường bên phải bao gồm những loại nào sau đây?","biển báo, làn đường"
+train_0908,"Trong video, loại biển báo xuất hiện ở làn đường bên phải bao gồm những loại nào sau đây?","biển báo, làn đường"
+train_0909,Cụm biển báo cấm trong video thể hiện nội dung nào sau đây?,biển báo
+train_0910,Cụm biển báo cấm xuất hiện ở đầu video thể hiện điều gì đối với người lái xe?,biển báo
+train_0911,"Tại nút giao trong video, biển báo cấm quay đầu có hiệu lực trong khung giờ nào?",biển báo
+train_0912,"Trên làn đường mà các phương tiện đang di chuyển trong video, xuất hiện những loại biển báo nào?","biển báo, làn đường"
+train_0913,"Ở làn đường ô tô đang di chuyển trong video, có những biển báo nào xuất hiện?","biển báo, làn đường"
+train_0914,"Trong video, các loại biển báo xuất hiện gồm những loại nào?",biển báo
+train_0915,Cụm biển báo nguy hiểm trong video yêu cầu phương tiện thực hiện điều gì?,biển báo
+train_0916,Cụm biển báo cấm xuất hiện trong video yêu cầu phương tiện tuân thủ những hướng nào?,biển báo
+train_0917,Cụm biển báo cấm trong video thể hiện điều gì?,biển báo
+train_0918,Cụm biển báo cấm xuất hiện trong video yêu cầu phương tiện thực hiện những gì?,biển báo
+train_0919,Loại biển báo nào xuất hiện trong video?,biển báo
+train_0920,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_0921,"Trong video, loại biển báo xuất hiện gồm những loại nào?",biển báo
+train_0922,Có bao nhiêu loại biển báo xuất hiện trong video?,biển báo
+train_0923,Biển báo nào xuất hiện cuối cùng trong video?,biển báo
+train_0924,Có bao nhiêu loại biển báo xuất hiện trong video?,biển báo
+train_0925,Biển báo cấm xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0926,Biển báo cấm nào xuất hiện trong video?,biển báo
+train_0927,Hướng đi nào được chỉ dẫn trong video?,biển báo
+train_0928,Có bao nhiêu biển cấm xuất hiện trong video?,biển báo
+train_0929,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0930,Phương tiện nào bị cấm theo biển báo cấm trong video?,biển báo
+train_0931,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0932,Chiều cao an toàn để các phương tiện lưu thông trên đoạn đường này là bao nhiêu?,làn đường
+train_0933,"Trong video, có bao nhiêu biển báo cấm đi ngược chiều xuất hiện?",biển báo
+train_0934,Biển hiệu lệnh ở cuối video yêu cầu phương tiện đi về phía nào?,biển báo
+train_0935,Biển chỉ dẫn trong video cho phép phương tiện lưu thông bên nào?,biển báo
+train_0936,Xe khách bị cấm lưu thông trong khung giờ nào theo biển báo trong video?,biển báo
+train_0937,Biển báo nào xuất hiện trong video?,biển báo
+train_0938,Biển cấm nào xuất hiện trong video?,biển báo
+train_0939,"Câu hỏi thêm: Trên dải phân cách trong video, có bao nhiêu loại biển báo xuất hiện?","biển báo, làn đường"
+train_0940,Biển cấm nào xuất hiện đầu tiên bên tay phải trong video?,biển báo
+train_0941,"Ngoài biển cấm đi ngược chiều, biển cấm nào sau đây cũng xuất hiện trong video?",biển báo
+train_0942,Có bao nhiêu biển cấm xuất hiện trong video?,biển báo
+train_0943,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0944,Những biển báo nào xuất hiện trong video?,biển báo
+train_0945,"Trong video, biển báo nào xuất hiện nhiều lần nhất?",biển báo
+train_0946,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0947,Những biển báo nào xuất hiện trong video?,biển báo
+train_0948,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_0949,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_0950,Biển cấm nào xuất hiện trong video?,biển báo
+train_0951,Biển chỉ dẫn trong video cho phép phương tiện đi theo hướng nào?,biển báo
+train_0952,Biển cấm nào xuất hiện trong video?,biển báo
+train_0953,"Theo biển chỉ dẫn trong video, người điều khiển phương tiện dưới cầu được phép đi theo hướng nào?",biển báo
+train_0954,Biển báo nào xuất hiện đầu tiên trên cầu trong video?,biển báo
+train_0955,Biển cảnh báo trong video yêu cầu chú ý điều gì phía trước?,biển báo
+train_0956,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_0957,"Theo biển chỉ dẫn trong video, xe khách được phép di chuyển ở làn đường nào?","biển báo, làn đường"
+train_0958,Biển báo tam giác đầu tiên trong video thể hiện điều gì?,biển báo
+train_0959,Loại phương tiện nào không quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0960,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0961,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0962,Làn trong cùng bên phải cấm loại phương tiện nào lưu thông?,"biển báo, làn đường"
+train_0963,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0964,Làn trong cùng bên phải cấm loại phương tiện nào lưu thông?,"biển báo, làn đường"
+train_0965,2 biển báo trong video là gì?,biển báo
+train_0966,2 biển báo trong video thuộc nhóm biển báo gì?,biển báo
+train_0967,2 biển báo xuất hiện đầu tiên trong video thuộc nhóm biển báo gì?,biển báo
+train_0968,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0969,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0970,Loại phương tiện nào quy định tốc độ tối đa 40 km/h?,biển báo
+train_0971,Biển báo xuất hiện đầu tiên trong video là gì?,biển báo
+train_0972,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0973,Biển tam giác bên phải là gì?,biển báo
+train_0974,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0975,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0976,Biển báo tam giác bên phải là gì?,biển báo
+train_0977,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_0978,Loại biển báo nào không xuất hiện trong video?,biển báo
+train_0979,Biển báo tam giác bên phải là gì?,biển báo
+train_0980,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0981,Loại biển báo nào không xuất hiện trong video?,biển báo
+train_0982,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0983,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0984,Loại phương tiện nào quy định cấm lưu thông ở 2 làn bên trái?,"biển báo, làn đường"
+train_0985,Biển tam giác bên phải là gì?,biển báo
+train_0986,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0987,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0988,Biển cấm đầu tiên bên trái cho làn bên phải là gì?,"biển báo, làn đường"
+train_0989,Biển tam giác là gì?,biển báo
+train_0990,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0991,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0992,Loại biển báo nào không xuất hiện trong video?,biển báo
+train_0993,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0994,Biển báo tam giác bên phải là gì?,biển báo
+train_0995,Biển tam giác là gì?,biển báo
+train_0996,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0997,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_0998,Biển tròn trong video là gì?,biển báo
+train_0999,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1000,Quy định khoảng cách an toàn giữa 2 xe là bao nhiêu?,biển báo
+train_1001,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1002,Quy định thời gian dừng xe khi vào trạm thu phí?,biển báo
+train_1003,Biển cấm trong video cấm điều gì?,biển báo
+train_1004,Có bao nhiêu biển cảnh báo xuất hiện trong video?,biển báo
+train_1005,Biển báo tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_1006,Khoảng cách tối thiểu giữa hai phương tiện ở làn bên trái video là bao nhiêu?,"biển báo, làn đường"
+train_1007,Chiều cao tối đa cho phép theo biển báo trong video là bao nhiêu?,biển báo
+train_1008,Có bao nhiêu loại phương tiện bị cấm theo biển báo trong video?,biển báo
+train_1009,Những biển cấm nào xuất hiện trong video?,biển báo
+train_1010,"Theo biển chỉ dẫn trong video, rẽ phải sẽ dẫn đến đâu?",biển báo
+train_1011,Biển cấm nào xuất hiện thứ hai trong video?,biển báo
+train_1012,Biển cấm nào xuất hiện đầu tiên trong video?,biển báo
+train_1013,Biển cấm nào xuất hiện đầu tiên bên tay trái trong video?,biển báo
+train_1014,Những biển cấm nào xuất hiện trong video?,biển báo
+train_1015,Biển cấm nào xuất hiện bên phải trong video?,biển báo
+train_1016,Biển cấm nào xuất hiện bên trái trong video?,biển báo
+train_1017,Tốc độ tối đa cho phép theo biển báo trong video là bao nhiêu?,biển báo
+train_1018,Những biển cấm nào xuất hiện trong video?,biển báo
+train_1019,Những biển báo nào xuất hiện trong video?,biển báo
+train_1020,"Biển báo nào xuất hiện đầu tiên bên phải, ở phía dưới trong video?",biển báo
+train_1021,Có bao nhiêu biển báo cấm xuất hiện trong video?,biển báo
+train_1022,Tốc độ giới hạn tối đa được phép trong video là bao nhiêu?,biển báo
+train_1023,Những biển cấm nào xuất hiện trong video?,biển báo
+train_1024,Biển báo nào xuất hiện cuối cùng trong video?,biển báo
+train_1025,Các biển báo trong video thuộc các nhóm biển báo nào?,biển báo
+train_1026,Trong video có bao nhiêu nhóm biển báo khác nhau?,biển báo
+train_1027,Trong video có bao nhiêu nhóm biển báo khác nhau?,biển báo
+train_1028,"Trong video, nếu xe tiếp tục đi theo làn đang chạy thì sẽ đến những điểm nào?",làn đường
+train_1029,Nội dung 2 biển cấm trong video là gì?,biển báo
+train_1030,Có những nhóm biển báo nào xuất hiện trong video?,biển báo
+train_1031,Giới hạn tốc độ cho xe khách và xe con trên tuyến đường trong video là bao nhiêu?,"biển báo, làn đường"
+train_1032,Những biển báo cấm xuất hiện trong video gồm những biển báo nào?,biển báo
+train_1033,Giới hạn tốc độ cho xe tải và xe sơ-mi rơ-mooc trên tuyến đường trong video là bao nhiêu?,"biển báo, làn đường"
+train_1034,"Tại làn đường ngoài cùng bên phải trong video, không cho phép những phương tiện nào di chuyển?","biển báo, làn đường"
+train_1035,Biển báo xuất hiện trong video có ý nghĩa gì?,biển báo
+train_1036,Biển cảnh báo trong video cảnh báo cho người tham gia giao thông điều gì?,biển báo
+train_1037,Các loại biển báo xuất hiện trong video gồm những loại nào?,biển báo
+train_1038,Làn đường phương tiện đang di chuyển trong video có giới hạn tốc độ là bao nhiêu?,"biển báo, làn đường"
+train_1039,Trên làn đường phương tiện đang di chuyển trong video có những quy định nào?,"biển báo, làn đường"
+train_1040,"Theo thông tin giao thông trên làn đường phương tiện đang di chuyển trong video, tại nút giao phương tiện có thể di chuyển các hướng nào? (Chọn đáp án đầy đủ nhất)","biển báo, làn đường"
+train_1041,"Tại nút giao trong video, nếu muốn đi đến khu hành chính Thành phố Thủ Đức thì đi hướng nào?",biển báo
+train_1042,"Trong video, các nhóm biển báo nào xuất hiện ở dải phân cách cứng bên trái màn hình?","biển báo, làn đường"
+train_1043,"Trong video, khi đèn xanh, phương tiên không được di chuyển theo hướng nào?","biển báo, đèn giao thông"
+train_1044,Các vạch kẻ đường trên tuyến đường phương tiện đang di chuyển trong video có ý nghĩa gì?,"biển báo, làn đường"
+train_1045,"Ở làn xe máy đang chạy trong video, cấm những phương tiện nào lưu thông?","biển báo, làn đường"
+train_1046,"Trong video, những biển báo nào xuất hiện?",biển báo
+train_1047,Biển báo xuất hiện đầu tiên trong video có ý nghĩa gì?,biển báo
+train_1048,"Trong video, làn đường bên phải dải phân cách giới hạn tốc độ cho loại xe nào?","biển báo, làn đường"
+train_1049,Giới hạn tốc độ tại làn đường hiện tại phương tiện đang di chuyển trong video là bao nhiêu?,"biển báo, làn đường"
+train_1050,"Trong video, những biển báo nào sâu đây đã xuất hiện?",biển báo
+train_1051,Biển cảnh báo xuất hiện trong video cảnh báo người tham gia giao thông điều gì?,biển báo
+train_1052,"Trong video, khi đi thẳng, phương tiện sẽ đi vào đường nào sau đây?",làn đường
+train_1053,"Tại ngã tư trong video, phương tiện có thể di chuyển theo những hướng nào?",biển báo
+train_1054,Phương tiện nào không được lưu thông ở làn bên trái dải phân cách trong video?,làn đường
+train_1055,"Tại ngã tư trong video, phương tiện có thể di chuyển theo những hướng nào?",biển báo
+train_1056,"Tại làn bên trái dải phân cách, phương tiện nào bị giới hạn tốc độ tối đa là 60 km/h?","biển báo, làn đường"
+train_1057,"Trên tuyến đường đang di chuyển trong video, các biển báo cấm xuất hiện gồm những loại nào?","biển báo, làn đường"
+train_1058,Biển báo nào xuất hiện trong video?,biển báo
+train_1059,"Trong video, làn đường bên trái dải phân cách giới hạn tốc độ cho loại xe nào?","biển báo, làn đường"
+train_1060,"Trong video, làn đường bên trái dài phân cách cấm loại xe nào lưu thông?","biển báo, làn đường"
+train_1061,"Trên tuyến đường đang chạy, có những cảnh báo nguy hiểm nào cho người phương tiện đang lưu thông?",làn đường
+train_1062,"Ở làn đường bên phải dải phân cách, biển báo cấm trong video giới hạn chiều cao các phương tiện lưu thông bao nhiêu?","biển báo, làn đường"
+train_1063,Những biển báo cấm xuất hiện trong video gồm những loại nào?,biển báo
+train_1064,"Ở cuối video, phương tiện có được chuyển làn không?",làn đường
+train_1065,Ý nghĩa của các loại vạch kẻ trong video là gì?,làn đường
+train_1066,Loại biển báo nào sau đây không xuất hiện trong video?,biển báo
+train_1067,Biển chỉ dẫn trong video chỉ dẫn điều gì?,biển báo
+train_1068,Các biển báo nguy hiểm xuất hiện trong video cảnh báo người tham gia giao thông điều gì?,biển báo
+train_1069,"Theo thông tin các biển báo giao thông trong video, người tham gia giao thông nên lưu ý những gì?",biển báo
+train_1070,Xuất hiện biển báo nào sau đây trong video?,biển báo
+train_1071,Giới hạn tốc độ trên đoạn đường trong video là bao nhiêu?,"biển báo, làn đường"
+train_1072,Biển báo trong video thuộc nhóm biển báo nào?,biển báo
+train_1073,Nội dung của hai biển báo trong video là gì?,biển báo
+train_1074,Biển báo cấm trong video áp dụng cho loại phương tiện nào?,biển báo
+train_1075,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_1076,Biển cấm nào xuất hiện trong video?,biển báo
+train_1077,Biển báo nào xuất hiện nhiều nhất trong video?,biển báo
+train_1078,Biển báo nào xuất hiện nhiều nhất trong video?,biển báo
+train_1079,Biển báo tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_1080,Phương tiện nào bị cấm theo biển báo trong video?,biển báo
+train_1081,Biển cấm đỗ xuất hiện bao nhiêu lần trong video?,biển báo
+train_1082,Đi thẳng theo biển chỉ dẫn sẽ đến đâu?,biển báo
+train_1083,Phương tiện được phép đi theo hướng nào trong video?,biển báo
+train_1084,"Trong video, có bao nhiêu hướng đi được chỉ dẫn trên biển?",biển báo
+train_1085,"Trong video, cầu Sài Gòn đi theo hướng nào?",biển báo
+train_1086,Biển cấm nào xuất hiện đầu tiên trong video?,biển báo
+train_1087,Cầu Sài Gòn đi theo hướng nào trong video?,biển báo
+train_1088,"Trong video, làn đường xe đang chạy cấm bao nhiêu loại phương tiện?","biển báo, làn đường"
+train_1089,Liệt kê các loại phương tiện bị cấm di chuyển ở làn đường xe đang chạy trong video?,"biển báo, làn đường"
+train_1090,Nội dung của 2 biển báo áp dụng cho làn đường xe đang chạy trong video là gì?,"biển báo, làn đường"
+train_1091,Có tất cả mấy nhóm biển báo khác nhau trong video?,biển báo
+train_1092,Giới hạn chiều cao trong video là bao nhiêu?,biển báo
+train_1093,Giới hạn tốc độ của xe khách theo biển báo trong video là bao nhiêu?,biển báo
+train_1094,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1095,Đoạn đường trong video quy định chiều ngang xe không được vượt quá bao nhiêu?,"biển báo, làn đường"
+train_1096,"Trong video, loại biển báo nào không xuất hiện?",biển báo
+train_1097,"Trong video, 2 biển báo xuất hiện đầu tiên bên phải có ý nghĩa gì?",biển báo
+train_1098,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1099,Phương tiện nào không có quy định trong bảng phân làn trong video?,"biển báo, làn đường"
+train_1100,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1101,Biển tam giác bên phải là gì?,biển báo
+train_1102,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1103,Trong video biển báo cấm quy định chiều ngang xe không được vượt quá bao nhiêu?,biển báo
+train_1104,Những phương tiện nào quy định trong bảng chỉ dẫn?,biển báo
+train_1105,Ngã tư Hàng Xanh còn cách khoảng cách bao nhiêu?,biển báo
+train_1106,Biển tam giác xuất hiện trong video có ý nghĩa gì?,biển báo
+train_1107,Có bao nhiêu biển báo cấm xuất hiện trong video?,biển báo
+train_1108,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1109,Biển báo bên trái là gì?,biển báo
+train_1110,Phương tiện nào không có quy định trong bảng phân làn trong video?,"biển báo, làn đường"
+train_1111,Loại xe nào có quy định trong bảng phân chia làn?,"biển báo, làn đường"
+train_1112,Hai biển báo bên phải là gì?,biển báo
+train_1113,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1114,Biển tam giác bên phải là gì?,biển báo
+train_1115,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1116,Những loại biển báo nào xuất hiện trong video?,biển báo
+train_1117,Vạch gấp khúc vàng trong video có ý nghĩa gì?,làn đường
+train_1118,Những biển báo nào xuất hiện trong video?,biển báo
+train_1119,Hướng nào đi về cầu vượt Nguyễn Hữu Cảnh?,biển báo
+train_1120,Giới hạn chiều cao tối đa theo biển báo trong video là bao nhiêu?,biển báo
+train_1121,Xe hơi bị cấm làm gì theo biển báo trong video?,biển báo
+train_1122,Đi thẳng sẽ đến đâu theo biển chỉ dẫn trong video?,biển báo
+train_1123,Có bao nhiêu loại phương tiện xuất hiện trên biển báo trong video?,biển báo
+train_1124,Biển báo nào xuất hiện cuối cùng trong video?,biển báo
+train_1125,Có bao nhiêu biển báo xuất hiện trong video?,biển báo
+train_1126,Biển tam giác bên phải là gì?,biển báo
+train_1127,Có bao nhiêu phương tiện được hiển thị trên biển báo trong video?,biển báo
+train_1128,Hướng ra đường Điện Biên Phủ trong video là đi theo hướng nào?,"biển báo, làn đường"
+train_1129,Những loại biển báo cấm nào xuất hiện trong video?,biển báo
+train_1130,Phương tiện nào không có quy định trong bảng phân làn trong video?,"biển báo, làn đường"
+train_1131,Những biển giới hạn tốc độ nào xuất hiện trong video?,biển báo
+train_1132,Có bao nhiêu biển báo cấm xuất hiện trong video?,biển báo
+train_1133,Giới hạn chiều cao tối đa được phép theo biển báo trong video là bao nhiêu?,biển báo
+train_1134,Đối tượng nào bị cấm theo biển báo trong video?,biển báo
+train_1135,Phương tiện nào không có quy định trong bảng phân làn trong video?,"biển báo, làn đường"
+train_1136,Những loại biển báo cấm nào xuất hiện trong video?,biển báo
+train_1137,Có bao nhiêu biển hiệu lệnh xuất hiện trong video?,biển báo
+train_1138,Biển báo hiệu lệnh nào xuất hiện trong video?,biển báo
+train_1139,Có tất cả mấy nhóm biển báo khác nhau trong video?,biển báo
+train_1140,Nội dung của 2 biển báo cấm đầu tiên là gì?,biển báo
+train_1141,Có bao nhiêu loại vạch kẻ có chức năng phân làn?,làn đường
+train_1142,Nội dung biển báo nguy hiểm trong video là gì?,biển báo
+train_1143,Nội dung biển báo nguy hiểm và biển báo cấm là gì?,biển báo
+train_1144,Có tất cả mấy nhóm biển báo khác nhau trong video?,biển báo
+train_1145,Thời gian cấm xe hơi quay đầu trên đoạn đường trong video là mấy giờ?,"biển báo, làn đường"
+train_1146,Nội dung 2 biển báo nguy hiểm là gì?,biển báo
+train_1147,Có bao nhiêu nhóm biển báo khác nhau trong video?,biển báo
+train_1148,Nội dung biển báo nguy hiểm và biển chỉ dẫn là gì?,biển báo
+train_1149,Có bao nhiêu nhóm biển báo khác nhau có thể nhận diện trong video?,biển báo
+train_1150,Nội dung 4 biển báo nguy hiểm là gì?,biển báo
+train_1151,Nội dung hai biển báo nguy hiểm đầu tiên là gì?,biển báo
+train_1152,Ý nghĩa biển báo cấm đầu tiên là gì?,biển báo
+train_1153,Biển cấm đỗ trong khoảng thời gian nào trong video?,biển báo
+train_1154,Biển tam giác vàng cảnh báo sẽ đến đường không bằng phẳng trong bao nhiêu mét trong video?,"biển báo, làn đường"
+train_1155,Có bao nhiêu biển báo cấm xuất hiện trong video?,biển báo
+train_1156,Biển báo xuất hiện đầu tiên trong video là gì?,biển báo
+train_1157,Những biển cấm nào xuất hiện trong video?,biển báo
+train_1158,2. Biển cấm dừng đỗ áp dụng trong khung giờ nào trong video?,biển báo
+train_1159,Biển báo nào xuất hiện đầu tiên trong video?,biển báo
+train_1160,Biển báo nào xuất hiện cuối cùng trong video?,biển báo
+train_1161,Cụm biển báo cấm trong video có ý nghĩa gì?,biển báo
+train_1162,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_1163,Biển báo cấm nào xuất hiện trong video?,biển báo
+train_1164,"Trong video, biển cấm dừng đỗ có hiệu lực trong khung giờ nào?",biển báo
+train_1165,Có bao nhiêu biển báo nguy hiểm xuất hiện trong video?,biển báo
+train_1166,Biển biển báo nguy hiểm xuất hiện cuối cùng trong video có ý nghĩa gì?,biển báo
+train_1167,Nội dung 2 biển báo nguy hiểm trong video là gì?,biển báo
+train_1168,"Trong video, biển báo nào sau đây xuất hiện trên dải phân cách?","biển báo, làn đường"
+train_1169,"Trên tuyến đường phương tiện đang di chuyển trong video, cảnh báo người tham gia giao thông điều gì?","biển báo, làn đường"
+train_1170,Biển báo nào sau đây xuất hiện trong video?,biển báo
+train_1171,Thông tin đúng về đoạn đường mà phương tiện đang di chuyển vào?,"biển báo, làn đường"
+train_1172,"Trong video, xe muốn đi đường Nguyễn Văn Linh thì sẽ đi hướng nào?","biển báo, làn đường"
+train_1173,Nội dung biển báo trong video là gì?,biển báo
+train_1174,Nội dung biển báo cấm bên trái màn hình là gì?,biển báo
+train_1175,"Trong video, tốc độ tối đa xe con có thể chạy là bao nhiêu?",biển báo
+train_1176,Nội dung hai biển báo cấm treo cùng nhau trong video là gì?,biển báo
+train_1177,"Trong video này, biển báo ở phía bên phải có ý nghĩa gì?",biển báo
+train_1178,"Trong video này, tốc độ tối thiểu và tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1179,"Trong video này, người lái xe (xe có camera hành trình) được phép di chuyển theo những hướng nào khi đèn tín hiệu chuyển sang màu xanh?","biển báo, đèn giao thông"
+train_1180,"Trong video này, để đi đến đường cao tốc TP.HCM - Long Thành - Dầu Giây, người lái xe cần đi theo hướng nào?","biển báo, làn đường"
+train_1181,"Trong video này, cụm biển báo bên phải đường có ý nghĩa gì?","biển báo, làn đường"
+train_1182,"Trong video này, theo biển báo trên giá long môn, làn đường của xe có gắn camera hành trình được phép đi theo hướng nào?","biển báo, làn đường"
+train_1183,"Trong video này, biển báo tốc độ tối đa cho phép là bao nhiêu?",biển báo
+train_1184,"Trong video này, xe đang di chuyển dưới công trình giao thông nào?",biển báo
+train_1185,"Trong video, biển chỉ dẫn màu xanh cho biết hướng đi đến địa điểm nào?",biển báo
+train_1186,"Trong video này, tại thời điểm này, xe có camera hành trình được phép di chuyển theo hướng nào?",biển báo
+train_1187,"Trong video này, vạch kẻ đường ở làn xe của tài xế cho phép di chuyển theo những hướng nào?","biển báo, làn đường"
+train_1188,"Trong video này, theo vạch kẻ đường, làn đường mà xe đang di chuyển cho phép các phương tiện đi theo những hướng nào?","biển báo, làn đường"
+train_1189,"Trong video, biển báo màu vàng có nội dung chính là gì?",biển báo
+train_1190,"Trong video này, biển báo cho biết tốc độ giới hạn trên cao tốc này là bao nhiêu?",biển báo
+train_1191,"Trong video, biển báo nguy hiểm cảnh báo người lái xe về điều gì sắp xảy ra phía trước?",biển báo
+train_1192,"Trong video này, biển báo trên đường cao tốc quy định tốc độ như thế nào?","biển báo, làn đường"
+train_1193,"Trong video này, chiều cao tối đa cho phép của phương tiện để đi qua gầm cầu là bao nhiêu?",Khác
+train_1194,"Trong video này, để đi đến Phan Thiết, người lái xe cần đi theo hướng nào tại nút giao phía trước?",biển báo
+train_1195,"Trong video này, các biển báo nào đã xuất hiện ở phía bên trái theo hướng di chuyển của xe?",biển báo
+train_1196,"Trong video này, biển báo nguy hiểm cảnh báo điều gì sắp xảy ra?",biển báo
+train_1197,"Trong video này, khi gặp đèn tín hiệu màu vàng nhấp nháy, người lái xe nên xử lý như thế nào?",đèn giao thông
+train_1198,"Trong video này, người lái xe đã thấy những biển báo nào sau đây?",biển báo
+train_1199,"Trong video này, tốc độ tối đa cho phép trên đoạn đường sắp tới là bao nhiêu?","biển báo, làn đường"
+train_1200,"Trong video này, vạch kẻ đường dạng chữ viết trên mặt đường có ý nghĩa gì?",làn đường
+train_1201,"Trong video này, biển báo chính màu vàng có nội dung gì?",biển báo
+train_1202,"Trong video này, tốc độ tối đa và tối thiểu cho phép trên đoạn đường cao tốc là bao nhiêu?","biển báo, làn đường"
+train_1203,"Trong video này, biển báo lớn màu vàng đầu tiên có nội dung cảnh báo về điều gì?",biển báo
+train_1204,"Trong video này, biển báo chỉ dẫn cho biết sắp đến nút giao nào?",biển báo
+train_1205,"Trong video, theo biển chỉ dẫn, để đi đến TT. Nhơn Trạch, người lái xe cần phải làm gì?",biển báo
+train_1206,"Trong video, biển báo giao thông chính cảnh báo người lái xe về điều gì sắp xảy ra?",biển báo
+train_1207,"Trong video này, lối ra sắp tới sẽ dẫn đến địa điểm nào?",biển báo
+train_1208,"Trong video này, tốc độ tối đa cho phép trên đoạn đường là bao nhiêu?","biển báo, làn đường"
+train_1209,"Trong video này, tốc độ tối đa cho phép mà biển báo quy định là bao nhiêu?",biển báo
+train_1210,"Trong video này, biển báo nguy hiểm xuất hiện có ý nghĩa gì?",biển báo
+train_1211,"Trong video này, các phương tiện tham gia giao thông trên đoạn đường này phải tuân thủ quy định tốc độ nào?","biển báo, làn đường"
+train_1212,"Trong video này, tốc độ tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1213,"Trong video, biển báo có biểu tượng điện thoại dùng để làm gì?",biển báo
+train_1214,"Trong video này, biển báo chỉ dẫn cho biết còn bao xa nữa thì đến lối ra Nút giao Vành đai 2?",biển báo
+train_1215,"Trong video này, biển báo màu xanh ở phía bên trái đường có ý nghĩa gì?","biển báo, làn đường"
+train_1216,"Trong video này, tín hiệu đèn giao thông cho hướng di chuyển của xe có camera đang là gì?","biển báo, đèn giao thông"
+train_1217,"Trong video này, biển báo cấm nào xuất hiện ở phía bên trái đường?","biển báo, làn đường"
+train_1218,"Trong video này, các biển báo ở phía bên trái cho biết thông tin gì về tốc độ trên tuyến đường chính?","biển báo, làn đường"
+train_1219,"Trong video này, biển báo chỉ dẫn màu xanh có hình chữ P và mũi tên cong có ý nghĩa gì?",biển báo
+train_1220,"Trong video này, các loại biển báo cấm nào đã xuất hiện?",biển báo
+train_1221,"Trong video này, người lái xe có thể quan sát thấy cụm biển báo nào ở phía bên phải đường?","biển báo, làn đường"
+train_1222,"Trong video này, theo biển báo hiệu lệnh trên giá long môn, các phương tiện được phép di chuyển theo những hướng nào?",biển báo
+train_1223,"Trong video này, tốc độ tối đa cho phép trên làn đường ô tô đang di chuyển là bao nhiêu?","biển báo, làn đường"
+train_1224,"Trong video này, các biển báo chỉ dẫn trên cao cho biết đi thẳng sẽ đến những địa điểm nào?",biển báo
+train_1225,"Trong video này, đèn tín hiệu giao thông dành cho hướng di chuyển của xe có đặc điểm gì?","biển báo, đèn giao thông"
+train_1226,"Trong video này, có biển báo giao thông nào đáng chú ý?",biển báo
+train_1227,"Trong video này, người lái xe gặp biển báo nguy hiểm nào?",biển báo
+train_1228,"Trong video này, biển báo giao thông nào đã xuất hiện?",biển báo
+train_1229,"Trong video này, khi đến đoạn đường có dải phân cách, người lái xe phải tuân thủ quy tắc nào theo các biển báo?","biển báo, làn đường"
+train_1230,"Trong video này, có biển báo nào liên quan đến việc đỗ xe ở bên lề đường phía tay phải không?","biển báo, làn đường"
+train_1231,"Trong video này, vạch kẻ đường màu vàng nét liền ở giữa đường có ý nghĩa gì?",làn đường
+train_1232,"Trong video này, những biển báo chính nào xuất hiện trên cùng một cột? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_1233,"Trong video này, những biển báo nào sau đây đã xuất hiện?",biển báo
+train_1234,"Trong video này, tài xế xe có camera hành trình có được phép vượt xe phía trước không?",biển báo
+train_1235,"Trong video này, người lái xe có thể quan sát thấy biển báo nào ở phía bên phải?",biển báo
+train_1236,"Trong video này, biển báo giao thông nào xuất hiện ở phía bên phải đường?","biển báo, làn đường"
+train_1237,"Trong video này, có biển báo cấm nào sau đây?",biển báo
+train_1238,"Trong video này, phương tiện ô tô được phép thực hiện hành vi nào trên đoạn đường đang di chuyển?","biển báo, làn đường"
+train_1239,"Trong video này, theo biển báo, làn đường bên phải làn xe đang chạy dành cho những loại phương tiện nào?","biển báo, làn đường"
+train_1240,"Trong video này, tốc độ tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1241,"Trong video này, biển báo màu xanh có các mũi tên (biển báo Hướng đi trên mỗi làn đường theo vạch kẻ đường) có ý nghĩa gì?","biển báo, làn đường"
+train_1242,"Trong video này, biển báo cấm xuất hiện bên phải đường có ý nghĩa gì?","biển báo, làn đường"
+train_1243,"Trong video này, tốc độ tối đa cho phép được thể hiện trên mặt đường là bao nhiêu?","biển báo, làn đường"
+train_1244,"Trong video, biển báo giao thông xuất hiện bên phải đường có ý nghĩa gì?","biển báo, làn đường"
+train_1245,"Trong video, biển báo nguy hiểm đầu tiên xuất hiện bên phải đường cảnh báo điều gì?","biển báo, làn đường"
+train_1246,"Trong video này, biển báo màu xanh hình chữ nhật có mũi tên cong vòng lại có ý nghĩa gì?",biển báo
+train_1247,"Trong video, biển báo cấm nào xuất hiện ở lề đường bên phải?","biển báo, làn đường"
+train_1248,"Trong video này, tốc độ tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1249,"Trong video này, đặc điểm của con đường mà phương tiện đang di chuyển là gì?","biển báo, làn đường"
+train_1250,"Trong video này, theo vạch kẻ đường, làn đường xe đang di chuyển được phép đi theo hướng nào?","biển báo, làn đường"
+train_1251,"Trong video này, theo biển báo phân làn, xe máy được phép di chuyển ở làn nào?","biển báo, làn đường"
+train_1252,"Trong video này, dựa vào vạch kẻ trên mặt đường, tốc độ tối đa cho phép là bao nhiêu?","biển báo, làn đường"
+train_1253,"Trong video này, tốc độ tối đa cho phép trong khu vực mà phương tiện đang di chuyển là bao nhiêu?",biển báo
+train_1254,"Trong video này, biển báo 'CHÚ Ý NHẬP LÀN' có ý nghĩa gì?","biển báo, làn đường"
+train_1255,"Trong video, tốc độ tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1256,"Trong video này, khi đến gần dải phân cách có biển báo, người lái xe ô tô được phép đi theo những hướng nào?","biển báo, làn đường"
+train_1257,"Trong video này, tình trạng giao thông trên cầu/đường trên cao được mô tả như thế nào?",làn đường
+train_1258,"Trong video này, loại dải phân cách nào được sử dụng để chia hai chiều đường?",làn đường
+train_1259,"Trong video này, người lái xe đã gặp những loại biển báo nào?",biển báo
+train_1260,"Trong video này, xe đang di chuyển trên làn đường được phép đi theo hướng nào theo chỉ dẫn của biển báo?","biển báo, làn đường"
+train_1261,"Trong video này, biển báo giao thông hình tròn, viền đỏ, nền trắng có ý nghĩa gì?",biển báo
+train_1262,"Trong video này, chiều cao tối đa cho phép của phương tiện để đi qua đoạn đường là bao nhiêu?",làn đường
+train_1263,"Trong video này, tốc độ tối đa cho phép trên đoạn đường là bao nhiêu?","biển báo, làn đường"
+train_1264,"Trong video này, tốc độ tối đa cho phép trên làn đường xe đang di chuyển là bao nhiêu?","biển báo, làn đường"
+train_1265,"Trong video này, có những biển báo nào đã xuất hiện?",biển báo
+train_1266,"Trong video này, tốc độ tối đa cho phép trên làn đường xe có camera hành trình đang di chuyển là bao nhiêu?","biển báo, làn đường"
+train_1267,"Trong video này, theo hệ thống biển báo trên giá long môn, người lái xe ô tô có được phép thực hiện hành vi nào sau đây?",biển báo
+train_1268,"Trong video này, dựa vào vạch kẻ đường, người lái xe đang ở làn đường cho phép di chuyển theo những hướng nào tại giao lộ phía trước?","biển báo, làn đường"
+train_1269,"Trong video này, tốc độ tối đa cho phép trên đoạn đường là bao nhiêu?","biển báo, làn đường"
+train_1270,"Trong video này, loại biển báo nào xuất hiện để cảnh báo người lái xe về giao cắt sắp tới?",biển báo
+train_1271,"Trong video này, các biển báo cấm nào đã xuất hiện?",biển báo
+train_1272,"Trong video này, người lái xe cần tuân thủ những biển báo cấm nào?",biển báo
+train_1273,"Trong video, biển báo trên giá long môn cho biết làn đường xe có camera đang đi dành cho các phương tiện di chuyển theo hướng nào?","biển báo, làn đường"
+train_1274,"Trong video này, tại vị trí có biển báo phân làn, xe ô tô (xe có camera hành trình) được phép đi theo những hướng nào?","biển báo, làn đường"
+train_1275,"Trong video này, nếu người lái xe muốn đi đến đường Trần Não, họ nên di chuyển vào làn đường nào?","biển báo, làn đường"
+train_1276,"Trong video, biển báo cảnh báo nguy hiểm có ý nghĩa gì?",biển báo
+train_1277,"Trong video này, vạch kẻ đường màu vàng nét liền ở giữa đường có ý nghĩa gì?",làn đường
+train_1278,"Trong video này, vạch kẻ đường màu vàng nét đứt ở giữa đường có ý nghĩa gì?",làn đường
+train_1279,"Trong video này, người lái xe đã gặp những loại biển báo nào?",biển báo
+train_1280,"Trong video này, người lái xe đã thấy những loại biển báo nào sau đây?",biển báo
+train_1281,"Trong video này, người lái xe đã thấy những loại biển báo nào?",biển báo
+train_1282,"Trong video này, biển báo tốc độ xuất hiện ở phía bên phải có ý nghĩa gì?",biển báo
+train_1283,"Trong video này, biển báo màu vàng có nội dung chính là gì?",biển báo
+train_1284,"Trong video, biển báo ""Nhập làn 250m"" có ý nghĩa gì?","biển báo, làn đường"
+train_1285,"Trong video này, dựa vào cụm biển báo cuối video, người lái xe cần tuân thủ điều gì?",biển báo
+train_1286,"Trong video, các biển báo màu xanh lá cây bên đường lần lượt hiển thị các giá trị khoảng cách nào?","biển báo, làn đường"
+train_1287,"Trong video này, khi thấy các vạch kẻ ngang, đứt nét màu trắng trên mặt đường (vạch giảm tốc), người lái xe nên làm gì?",làn đường
+train_1288,"Theo biển báo trong video, sau bao lâu nữa thì người lái xe sẽ đến đoạn đường có công trường?","biển báo, làn đường"
+train_1289,"Trong video, vạch kẻ đường ở giữa dùng để phân chia các làn xe cùng chiều có ý nghĩa gì?",làn đường
+train_1290,"Trong video này, biển báo chỉ dẫn màu xanh lá cây cung cấp thông tin gì?",biển báo
+train_1291,"Trong video này, biển báo giới hạn tốc độ tối đa 80 km/h áp dụng cho khu vực nào?",biển báo
+train_1292,"Trong video, biển báo cho biết còn bao xa nữa thì đến lối ra đi Long Thành, Phan Thiết và Dầu Giây?",biển báo
+train_1293,"Trong video, biển chỉ dẫn cung cấp thông tin về những tuyến đường nào?","biển báo, làn đường"
+train_1294,"Trong video này, dựa vào tốc độ hiển thị trên camera hành trình và biển báo, xe có camera hành trình đang di chuyển như thế nào?",biển báo
+train_1295,"Trong video này, theo biển báo, còn bao xa nữa thì đến lối ra khỏi đường đang đi?","biển báo, làn đường"
+train_1296,"Trong video này, khi gặp biển báo xuất hiện bên đường, người lái xe nên làm gì để đảm bảo an toàn?","biển báo, làn đường"
+train_1297,"Trong video này, biển báo hình tròn viền đỏ, nền xanh với hai vạch chéo màu đỏ có ý nghĩa gì?","biển báo, làn đường"
+train_1298,"Trong video này, biển báo chỉ dẫn lối ra Nút giao Vành đai 2 hướng đến những địa điểm nào?",biển báo
+train_1299,"Trong video, người lái xe đã thấy những biển báo nào sau đây?",biển báo
+train_1300,"Trong video này, những loại biển báo nào đã xuất hiện? Chọn đáp án đầy đủ nhất.",biển báo
+train_1301,"Theo biển báo trong video, sau bao xa nữa thì các phương tiện sẽ nhập vào làn đường chính?","biển báo, làn đường"
+train_1302,"Trong video này, ý nghĩa của biển báo giao thông xuất hiện là gì?",biển báo
+train_1303,"Trong video này, biển báo màu vàng có nội dung nhắc nhở người lái xe điều gì?",biển báo
+train_1304,"Trong video, biển báo màu xanh lá cây có chữ 'LỐI RA' mang ý nghĩa gì?",biển báo
+train_1305,"Trong video này, các vạch kẻ đường hình mũi tên (chevron) trên mặt đường có tác dụng gì?","biển báo, làn đường"
+train_1306,"Trong video này, các biển báo xuất hiện nhằm mục đích gì?",biển báo
+train_1307,"Trong video này, dựa vào biển báo cấm đi ngược chiều, người lái xe có được phép di chuyển vào làn đường bên trái dải phân cách không?","biển báo, làn đường"
+train_1308,"Trong video này, hành vi của chiếc ô tô màu đen đang đỗ bên lề đường là đúng hay sai theo quy tắc giao thông được báo hiệu?",làn đường
+train_1309,"Trong video này, vạch kẻ đường kiểu ""xương cá"" màu trắng giữa làn đường đang đi và lối ra có ý nghĩa gì?",làn đường
+train_1310,"Trong video này, khi đến gần cột đèn tín hiệu, người lái xe phải tuân thủ điều gì?",đèn giao thông
+train_1311,"Trong video, xe có camera hành trình đang di chuyển trong làn đường cho phép các hướng đi nào?","biển báo, làn đường"
+train_1312,"Trong video này, theo các biển báo và vạch kẻ đường, các phương tiện trong làn xe đang chạy được phép di chuyển theo hướng nào khi đèn tín hiệu chuyển xanh?","biển báo, làn đường, đèn giao thông"
+train_1313,"Trong video này, khi đến ngã ba hoặc ngã tư phía trước, người lái xe không được phép thực hiện hành động nào?",biển báo
+train_1314,"Trong video này, biển báo xuất hiện có ý nghĩa gì?",biển báo
+train_1315,"Trong video này, các nhóm biển báo nào đã xuất hiện? Chọn đáp án đầy đủ nhất.",biển báo
+train_1316,"Trong video này, các biển báo tốc độ tối đa cho phép nào đã được hiển thị?",biển báo
+train_1317,"Trong video này, tại sao các phương tiện trong cùng làn đường với xe có camera lại dừng lại?",làn đường
+train_1318,"Trong video, dựa vào biển báo cảnh báo hình tam giác, xe của bạn đang di chuyển trên loại đường nào?","biển báo, làn đường"
+train_1319,"Dựa vào biển báo phân làn ở phía trước, phương tiện nào không được phép đi vào làn giữa?","biển báo, làn đường"
+train_1320,"Trong video này, người lái xe cần chú ý đến những biển báo và vạch kẻ đường nào?","biển báo, làn đường"
+train_1321,"Trong video này, vạch kẻ đường màu trắng dạng sọc ngựa vằn xuất hiện trên đường có ý nghĩa gì?",làn đường
+train_1322,"Trong video này, dựa vào biển báo ""Cấm đỗ xe"", hành vi nào sau đây bị cấm?",biển báo
+train_1323,"Trong video này, tại sao người lái xe không được phép đi vào lối rẽ bên trái?",biển báo
+train_1324,"Trong video, khi chuẩn bị đi vào vòng xuyến, người điều khiển phương tiện phải xử lý như thế nào cho đúng quy tắc giao thông?",Khác
+train_1325,"Trong video này, tại vị trí có cột biển báo bên phải đường, quy định về việc dừng và đỗ xe là gì?","biển báo, làn đường"
+train_1326,"Trong video này, biển báo chỉ dẫn màu xanh ở bên phải cho biết điều gì về làn đường xe đang di chuyển?","biển báo, làn đường"
+train_1327,"Trong video này, tại vị trí có biển báo cấm bên phải, người lái xe được phép làm gì?",biển báo
+train_1328,"Trong video này, khi đến ngã tư, người lái xe được phép đi theo những hướng nào?",biển báo
+train_1329,"Trong video này, tại vị trí có cột biển báo gồm biển cấm đỗ xe và biển cấm dừng và đỗ xe, người lái xe ô tô có được phép dừng lại để cho hành khách xuống xe không?",biển báo
+train_1330,"Trong video này, tại sao các phương tiện lại được phép di chuyển qua giao lộ?",biển báo
+train_1331,"Trong video này, biển báo giao thông nào đã xuất hiện?",biển báo
+train_1332,"Trong video này, vạch kẻ liền màu vàng bên trái làn đường xe đang chạy có ý nghĩa gì?",làn đường
+train_1333,"Trong video này, vạch kẻ đường nét đứt màu trắng trên mặt đường có ý nghĩa gì?",làn đường
+train_1334,"Trong video này, vạch kẻ đường cho phép người lái xe di chuyển theo những hướng nào tại giao lộ sắp tới?","biển báo, làn đường"
+train_1335,"Trong video, làn đường xe đang di chuyển được phân cách với làn đường bên trái bằng loại dải phân cách nào?","biển báo, làn đường"
+train_1336,"Trong video này, vạch kẻ mắt võng màu vàng ở giữa giao lộ có ý nghĩa gì?",làn đường
+train_1337,"Trong video này, một chiếc xe tải muốn đi đúng luật thì phải di chuyển ở làn đường nào?","biển báo, làn đường"
+train_1338,"Trong video này, loại vạch kẻ đường nào được sử dụng để phân chia các làn xe chạy cùng chiều?",làn đường
+train_1339,"Theo cụm biển báo trong video, xe máy KHÔNG được phép thực hiện hành vi nào sau đây?",biển báo
+train_1340,"Trong video này, vạch kẻ đường đứt nét màu trắng giữa các làn đường có ý nghĩa gì?",làn đường
+train_1341,"Trong video này, theo biển báo chỉ dẫn, tốc độ tối đa cho phép đối với xe ô tô trên làn đường bên trái là bao nhiêu?","biển báo, làn đường"
+train_1342,"Trong video này, những biển báo cấm nào đã xuất hiện? Chọn đáp án đầy đủ nhất.",biển báo
+train_1343,"Trong video này, dựa vào vạch kẻ đường và tín hiệu đèn tại giao lộ phía trước, người lái xe có được phép rẽ trái không?","biển báo, làn đường, đèn giao thông"
+train_1344,"Trong video này, tại đoạn đường có biển báo, người lái xe có được phép dừng lại tạm thời để một người xuống xe không?","biển báo, làn đường"
+train_1345,"Trong video này, dựa vào biển báo và vạch kẻ đường, hành vi nào bị cấm ở bên phải lề đường?","biển báo, làn đường"
+train_1346,"Trong video, theo vạch kẻ đường và dải phân cách, các phương tiện có được phép chuyển từ làn bên trái (phía sau hàng rào) sang làn đường xe đang đi không?","biển báo, làn đường"
+train_1347,"Trong video này, tại đoạn đường có biển báo cấm, người lái xe có được phép dừng xe tạm thời bên lề đường để cho hành khách xuống xe không?","biển báo, làn đường"
+train_1348,"Trên đoạn đường trong video, hành vi nào sau đây bị cấm?","biển báo, làn đường"
+train_1349,"Trong video này, các phương tiện nào được phép đi vào làn đường bên phải làn xe của bạn?","biển báo, làn đường"
+train_1350,"Trong video này, biển báo treo trên giá long môn cho biết thông tin gì về làn đường phía trước?","biển báo, làn đường"
+train_1351,"Trong video này, người lái xe nhận được cảnh báo hoặc chỉ dẫn nào thông qua các vạch kẻ trên đường?","biển báo, làn đường"
+train_1352,"Trong video này, biển báo hình tròn, nền xanh với mũi tên trắng chỉ thẳng lên trên có ý nghĩa gì?",biển báo
+train_1353,"Trong video, tại sao phương tiện không thể quay đầu xe hoặc rẽ trái ngay lập tức?",biển báo
+train_1354,"Theo hệ thống biển báo trong video, người lái xe cần tuân thủ những quy tắc nào khi đi vào đoạn đường này?","biển báo, làn đường"
+train_1355,"Trong video này, loại vạch kẻ đường nào xuất hiện trên mặt đường mà xe đang di chuyển?","biển báo, làn đường"
+train_1356,"Trong video này, dải phân cách cứng ở giữa có tác dụng gì?",làn đường
+train_1357,"Trong video này, khi thấy các biển báo, người lái xe nên làm gì để đảm bảo an toàn?",biển báo
+train_1358,"Trong video này, xe máy có được phép đi vào làn đường mà xe có camera hành trình đang di chuyển không?","biển báo, làn đường"
+train_1359,"Trong video này, các loại phương tiện nào đang cùng tham gia giao thông trên đoạn đường chính?",làn đường
+train_1360,"Trong video này, tại vị trí có cụm biển báo bên phải, người lái xe ô tô có được phép dừng lại để nghe điện thoại không?",biển báo
+train_1361,"Trong video này, biển báo hiệu lệnh màu xanh ở phía bên phải có ý nghĩa gì?",biển báo
+train_1362,"Trong video này, biển báo cấm đỗ xe cho phép người điều khiển phương tiện thực hiện hành vi nào?",biển báo
+train_1363,"Trong video, vạch kẻ đường dạng chữ V (vạch xương cá) ở làn đường bên trái xe có camera hành trình có ý nghĩa gì?",làn đường
+train_1364,"Trong video, dải phân cách cứng ở giữa tim đường có tác dụng chính là gì?",làn đường
+train_1365,"Trong video này, dựa vào biển báo bên đường, người lái xe có được phép dừng xe tạm thời để cho hành khách xuống xe không?","biển báo, làn đường"
+train_1366,"Dựa vào các công trình phía trước, người lái xe cần chuẩn bị cho tình huống nào?",Khác
+train_1367,"Trong video này, người lái xe đã thấy biển báo giao thông nào?",biển báo
+train_1368,"Trong video này, tốc độ tối đa cho phép trên đoạn đường này là bao nhiêu?","biển báo, làn đường"
+train_1369,"Trong video này, tốc độ tối đa cho phép được quy định cho làn đường ô tô (làn xe đang chạy) và làn đường bên phải (ngăn cách bởi dải phân cách cứng) là bao nhiêu?","biển báo, làn đường"
+train_1370,"Trong video này, tốc độ tối đa cho phép trên làn đường xe đang di chuyển là bao nhiêu?","biển báo, làn đường"
+train_1371,"Trong video này, theo biển báo hiệu lệnh, các phương tiện phải di chuyển theo hướng nào?",biển báo
+train_1372,"Trong video này, ngoài giới hạn tốc độ, còn có biển báo hạn chế nào khác?",biển báo
+train_1373,"Trong video này, người đi xe mô tô được phép di chuyển ở làn đường nào?","biển báo, làn đường"
+train_1374,"Trong video, biển báo cấm dừng và đỗ xe có hiệu lực như thế nào trên đoạn đường này?","biển báo, làn đường"
+train_1375,"Trong video này, vạch kẻ đường trong làn xe của tài xế có ý nghĩa gì?",làn đường
+train_1376,"Trong video này, những loại biển báo nào đã xuất hiện? Chọn đáp án đầy đủ nhất.",biển báo
+train_1377,"Trong video này, các biển báo cung cấp thông tin gì là chủ yếu?",biển báo
+train_1378,"Trong video này, dựa vào tín hiệu đèn và vạch kẻ đường, người lái xe được phép làm gì?","biển báo, làn đường, đèn giao thông"
+train_1379,"Trong video này, người lái xe cần tuân thủ những tín hiệu và chỉ dẫn nào để đi qua giao lộ một cách an toàn và đúng luật?",biển báo
+train_1380,"Trong video này, vạch kẻ đường ở làn xe đang di chuyển cho phép người lái xe thực hiện những hướng đi nào tiếp theo?","biển báo, làn đường"
+train_1381,"Trong video này, người lái xe cần xử lý như thế nào khi thấy các biển báo?",biển báo
+train_1382,"Dựa vào các biển báo và tín hiệu trong video, người lái xe được phép thực hiện hành động nào tiếp theo?",biển báo
+train_1383,"Trong video này, vạch kẻ đường trên làn xe đang chạy có ý nghĩa gì?",làn đường
+train_1384,"Trong video này, vạch kẻ đường trong làn xe của tài xế cho phép di chuyển theo hướng nào?","biển báo, làn đường"
+train_1385,"Trong video này, những loại biển báo nào đã xuất hiện?",biển báo
+train_1386,"Trong video này, tại thời điểm các xe đang dừng chờ, phương tiện ở làn ngoài cùng bên phải được phép di chuyển như thế nào?","biển báo, làn đường"
+train_1387,"Trong video này, biển báo treo phía trên cho biết làn đường mà xe đang di chuyển là loại đường gì?","biển báo, làn đường"
+train_1388,"Trong video này, khi thấy biển báo 'Đường người đi bộ sang ngang' trong tình huống giao thông ùn tắc, người lái xe nên xử lý như thế nào là phù hợp nhất?","biển báo, làn đường"
+train_1389,"Trong video này, có những loại biển báo/tín hiệu giao thông nào xuất hiện? Chọn đáp án đúng và đầy đủ nhất.",biển báo
+train_1390,"Trong video này, dựa vào các biển báo, người lái xe cần xử lý như thế nào?",biển báo
+train_1391,"Dựa vào các biển báo trong video, người lái xe có được phép dừng lại ở lề đường bên phải để nghe điện thoại không?","biển báo, làn đường"
+train_1392,"Trong video này, người lái xe đã thấy những loại biển báo nào? Chọn đáp án đầy đủ nhất.",biển báo
+train_1393,"Trong video này, biển báo chữ nhật màu vàng treo phía trên có ý nghĩa gì?",biển báo
+train_1394,"Trong video này, đặc điểm nào sau đây mô tả đúng nhất về đoạn đường xe đang lưu thông?",làn đường
+train_1395,"Trong video này, người lái xe đang di chuyển về đâu?",biển báo
+train_1396,"Trong video này, dựa vào các biển báo, người lái xe cần hiểu rằng đoạn đường phía trước như thế nào?","biển báo, làn đường"
+train_1397,"Trong video này, xe có camera hành trình đang di chuyển với tốc độ khoảng 70 km/h. Khi thấy biển báo phía trước, người lái xe nên làm gì?",biển báo
+train_1398,"Trong video này, loại vạch kẻ đường nào được sử dụng để phân chia các làn xe cùng chiều?",làn đường
+train_1399,"Khi gặp tổ hợp biển báo như trong video, người lái xe nên làm gì để đảm bảo an toàn?",biển báo
+train_1400,"Trong video này, dựa vào thông tin trên biển báo và tốc độ hiển thị trên màn hình, nhận định nào sau đây là đúng về tốc độ của xe?",biển báo
+train_1401,"Trong video, các biển báo đã đề cập đến những tuyến cao tốc nào?",biển báo
+train_1402,"Trong video, theo biển báo chỉ dẫn, trạm dừng nghỉ tiếp theo còn cách bao xa và cung cấp những dịch vụ gì?",biển báo
+train_1403,"Trong video này, nếu phương tiện gặp sự cố khẩn cấp, người lái xe có thể tìm kiếm sự trợ giúp ngay lập tức bằng cách nào theo chỉ dẫn của biển báo?",biển báo
+train_1404,"Trong video này, khi thấy biển báo giới hạn tốc độ, người lái xe nên làm gì để đảm bảo an toàn và tuân thủ luật giao thông?",biển báo
+train_1405,"Trong video này, tại làn đường đang di chuyển, phương tiện được phép đi theo những hướng nào theo vạch kẻ đường?","biển báo, làn đường"
+train_1406,"Trong video này, khi thấy biển báo 'Giữ khoảng cách an toàn', người lái xe nên thực hiện hành động nào sau đây?",biển báo
+train_1407,"Dựa vào các đặc điểm trong video, người lái xe có được phép quay đầu xe hay không?",biển báo
+train_1408,"Khi gặp biển báo như trong video, người lái xe nên có hành động nào sau đây để đảm bảo an toàn?",biển báo
+train_1409,"Trong video, nếu tiếp tục đi thẳng, phương tiện sẽ di chuyển trên tuyến đường nào?","biển báo, làn đường"
+train_1410,"Trong video này, sự kết hợp của biển báo 'GIỮ KHOẢNG CÁCH AN TOÀN', các biển báo cự ly (50m, 100m) và vạch kẻ đường mũi tên nhằm mục đích chính là gì?","biển báo, làn đường"
+train_1411,"Trong video này, nếu tài xế muốn đi đến TT. Nhơn Trạch, họ cần thực hiện thao tác gì tiếp theo?",Khác
+train_1412,"Trong video này, những loại hình báo hiệu đường bộ nào đã xuất hiện để điều khiển giao thông?",làn đường
+train_1413,"Trong video này, dựa vào vạch kẻ đường mũi tên, người lái xe trong làn đường đang di chuyển phải tuân thủ hướng đi nào?","biển báo, làn đường"
+train_1414,"Trong video này, biển báo chỉ dẫn màu xanh lam cung cấp thông tin gì cho người tham gia giao thông?",biển báo
+train_1415,"Trong video này, tín hiệu đèn giao thông cho các làn đường đi thẳng đang hiển thị màu gì?","làn đường, đèn giao thông"
+train_1416,"Trong video này, nếu người lái xe muốn rẽ trái tại giao lộ phía trước, họ có được phép thực hiện không?",biển báo
+train_1417,"Trong video này, có một biển báo cấm đi ngược chiều ở phía bên kia ngã tư. Biển báo này có ý nghĩa gì?",biển báo
+train_1418,"Trong video này, nếu tài xế muốn đi về hướng Đồng Nai thì cần phải làm gì?",biển báo
+train_1419,"Trong video, nếu người lái xe muốn thoát ra khỏi đường trên cao tại lối ra này, họ nên thực hiện thao tác nào sau đây?",làn đường
+train_1420,"Trong video này, dựa vào biển báo, để đi đến Bình Thái, người lái xe cần chuẩn bị làm gì?",biển báo
+train_1421,"Dựa vào các vạch kẻ đường và biển báo trong video, người lái xe nên chuẩn bị cho tình huống nào sắp tới?","biển báo, làn đường"
+train_1422,"Trong video này, nếu tài xế muốn đi về hướng Phú Mỹ, tại nút giao Vành đai 2 họ sẽ phải đi theo hướng nào?",biển báo
+train_1423,"Trong video này, biển báo 'LỐI RA' có ý nghĩa gì?",biển báo
+train_1424,"Trong video này, loại vạch kẻ đường nào phân chia hai làn đường cùng chiều mà xe có camera hành trình đang lưu thông?",làn đường
+train_1425,"Trong video, tài xế đang lưu thông trên đoạn đường có đặc điểm gì theo các biển báo đã thấy?","biển báo, làn đường"
+train_1426,"Trong video này, người tham gia giao thông có được phép dừng xe ở đoạn đường có biển báo cấm hình tròn, nền xanh, viền đỏ, có hai vạch chéo màu đỏ không?","biển báo, làn đường"
+train_1427,"Trong video này, dựa vào thông tin trên camera hành trình và biển báo, nhận định nào sau đây là đúng?",biển báo
+train_1428,"Trong video này, khi thấy biển báo, người lái xe nên xử lý như thế nào để đảm bảo an toàn?",biển báo
+train_1429,"Trong video này, dựa vào biển báo đã thấy, người lái xe cần hiểu đúng điều gì khi đi tiếp?",biển báo
+train_1430,"Trong video này, người lái xe có được phép dừng xe tạm thời bên lề đường để nghe điện thoại không?","biển báo, làn đường"
+train_1431,"Dựa vào các biển báo trong video, người lái xe không được thực hiện hành vi nào tại khu vực này?",biển báo
+train_1432,"Trong video, trên mặt đường có loại vạch kẻ đường nào đáng chú ý?",làn đường
+train_1433,"Trong video này, biển báo hình tròn màu đỏ với gạch ngang màu trắng ở giữa có ý nghĩa gì?",biển báo
+train_1434,"Trong video này, vạch kẻ đường dạng mắt võng màu vàng có ý nghĩa gì?",làn đường
+train_1435,"Trong video này, người lái xe sắp đi qua loại vạch kẻ đường nào?",làn đường
+train_1436,"Trong video, đặc điểm của nút giao phía trước là gì?",Khác
+train_1437,"Trong video này, tại khu vực ngã tư phía trước, có những loại báo hiệu đường bộ nào?",làn đường
+train_1438,"Trong video này, người tham gia giao thông cần phải làm gì khi đến gần vạch kẻ đường dạng vạch ngựa vằn?",làn đường
+train_1439,"Dựa vào cấu trúc của con đường trong video, tại sao người lái xe không thể rẽ trái hoặc quay đầu?","biển báo, làn đường"
+train_1440,"Trong video này, con đường được chia thành hai chiều bởi loại dải phân cách nào?",làn đường
+train_1441,"Trong video này, điều gì ngăn cách làn đường của xe có gắn camera với các phương tiện ở làn bên trái?",làn đường
+train_1442,"Trong video này, sau khi đi qua ngã tư, phương tiện đã đi qua loại vạch kẻ đường nào?",làn đường
+train_1443,"Dựa vào các biển báo và vạch kẻ đường trong video, người lái xe KHÔNG được phép làm gì?","biển báo, làn đường"
+train_1444,"Trong video này, người lái xe ô tô có được phép đỗ xe ở lề đường bên phải không?","biển báo, làn đường"
+train_1445,"Trong video này, khi xe di chuyển đến gần giao lộ phía trước, người lái xe phải tuân thủ điều gì theo biển báo?",biển báo
+train_1446,"Dựa vào biển báo và tình hình giao thông trong video, hành vi nào sau đây bị cấm?",biển báo
+train_1447,"Trong video này, người lái xe ô tô có được phép dừng lại bên lề đường để cho hành khách xuống xe không?","biển báo, làn đường"
+train_1448,"Trong video này, biển báo phân làn đường cho biết điều gì về việc tổ chức giao thông trên tuyến đường chính (bên trái)?","biển báo, làn đường"
+train_1449,"Trong video này, đặc điểm của tuyến đường mà xe đang đi vào là gì?",làn đường
+train_1450,"Dựa vào vạch kẻ đường trong video, người lái xe đang di chuyển trên đoạn đường như thế nào?","biển báo, làn đường"
+train_1451,"Dựa vào bối cảnh trong video, phương tiện đang di chuyển trong khu vực nào?",biển báo
+train_1452,"Trong video này, dựa vào biển báo phân làn, các loại phương tiện nào được phép đi vào làn đường giữa?","biển báo, làn đường"
+train_1453,"Trong video này, đặc điểm của đoạn đường xe đang di chuyển là gì?","biển báo, làn đường"
+train_1454,"Trong video này, người lái xe có được phép rẽ trái ở đoạn đường sắp tới không?","biển báo, làn đường"
+train_1455,"Trong video này, người lái xe ô tô có được phép dừng xe tạm thời bên đường để cho hành khách xuống xe không?","biển báo, làn đường"
+train_1456,"Trong video này, các phương tiện đang di chuyển trên đoạn đường có đặc điểm gì?","biển báo, làn đường"
+train_1457,"Trong video này, vạch kẻ đường phân chia các làn xe chạy cùng chiều có ý nghĩa gì?",làn đường
+train_1458,Loại vạch kẻ đường nào xuất hiện ở đoạn đường xe bắt đầu di chuyển?,"biển báo, làn đường"
+train_1459,"Trong video này, loại phương tiện nào được phép lưu thông trên đoạn đường này theo biển báo chỉ dẫn ở đầu video?","biển báo, làn đường"
+train_1460,"Dựa vào các biển báo trong video, người lái xe KHÔNG được phép làm gì?",biển báo
+train_1461,"Trong video này, đặc điểm của con đường mà phương tiện đang di chuyển là gì?","biển báo, làn đường"
+train_1462,"Trong video này, vạch kẻ đường màu trắng liền nét dọc theo dải phân cách cứng bên trái có ý nghĩa gì?",làn đường
+train_1463,"Trong video này, dựa vào biển báo giao thông, người lái xe ô tô được phép làm gì trên đoạn đường đang di chuyển?","biển báo, làn đường"
+train_1464,"Trong video, làn đường sát lề phải được phân cho loại phương tiện nào?",làn đường
+train_1465,"Trong video này, vạch kẻ đường hình mũi tên (vạch xương cá) ở bên trái làn xe chạy có ý nghĩa gì?","biển báo, làn đường"
+train_1466,"Trong video, việc tổ chức giao thông trên đoạn đường này có đặc điểm gì?",làn đường
+train_1467,"Trong video này, ý nghĩa của biển báo màu xanh mà xe sắp đi qua là gì?",biển báo
+train_1468,Những loại phương tiện nào bị cấm di chuyển vào đoạn đường mà xe có camera hành trình đang đi vào?,"biển báo, làn đường"
+train_1469,"Trong video này, cấu trúc của con đường có đặc điểm gì?",làn đường
+train_1470,"Trong video này, tại sao người lái xe phải lựa chọn giữa đi thẳng hoặc rẽ phải?",biển báo
+train_1471,"Trong video này, ngoài biển báo gộp hướng đi trên mỗi làn đường, còn có biển báo nào khác xuất hiện?","biển báo, làn đường"
+train_1472,"Trong video này, tại vị trí có biển báo hiệu lệnh hình tròn màu xanh, các phương tiện phải di chuyển như thế nào?",biển báo
+train_1473,"Quan sát trong video, những nhóm biển báo nào đã xuất hiện?",biển báo
+train_1474,"Theo biển báo phân làn trong video, người điều khiển xe máy phải di chuyển ở đâu?","biển báo, làn đường"
+train_1475,"Trong video này, dựa vào các biển báo, chiếc xe ô tô điện nhỏ màu xám phía trước có được phép đi vào làn đường này không?","biển báo, làn đường"
+train_1476,"Trong video này, dựa vào tốc độ hiển thị trên camera hành trình và biển báo, xe có camera hành trình đang di chuyển như thế nào so với quy định?",biển báo
+train_1477,"Trong video này, có những loại hình báo hiệu đường bộ nào xuất hiện? Chọn đáp án đầy đủ nhất.",làn đường
+train_1478,"Trong video này, cách tổ chức giao thông trên đoạn đường này được thể hiện như thế nào?",làn đường
+train_1479,"Trong video này, để đi đến Cát Lái, người lái xe phải tuân thủ theo hướng dẫn nào?",biển báo
+train_1480,"Trong video này, khi gặp cụm biển báo trên và có phương tiện từ trong ngõ (hướng có chợ) đi ra, người lái xe nên xử lý như thế nào?",biển báo
+train_1481,"Trong video, việc cắm các biển báo cấm người đi bộ, xe đạp và xe ba bánh cho thấy đặc điểm của đoạn đường phía trước là gì?","biển báo, làn đường"
+train_1482,"Trong video này, nếu tài xế muốn quay đầu xe thì phải làm gì?",Khác
+train_1483,"Trong video này, những loại phương tiện nào bị cấm đi vào làn đường ngoài cùng bên trái?","biển báo, làn đường"
+train_1484,"Trong video này, tại sao xe ô tô không được đi vào làn đường bên phải cùng, nơi có nhiều xe máy đang di chuyển?","biển báo, làn đường"
+train_1485,"Trong video này, tình trạng mặt đường như thế nào?",làn đường
+train_1486,"Trong video này, giả sử tài xế muốn đỗ xe tại vị trí có biển báo vào lúc 10 giờ sáng, hành động đó có được phép không?",biển báo
+train_1487,"Trong video, vạch kẻ đường phân chia các làn xe cùng chiều có đặc điểm gì?",làn đường
+train_1488,"Trong video này, người lái xe ô tô có được phép tấp vào lề đường để trả khách không?","biển báo, làn đường"
+train_1489,"Ngoài biển báo tốc độ, trong video còn xuất hiện biển báo cấm nào?",biển báo
+train_1490,"Trong video này, biển báo nào sau đây KHÔNG xuất hiện?",biển báo

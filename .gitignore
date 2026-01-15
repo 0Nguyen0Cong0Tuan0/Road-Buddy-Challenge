@@ -1,2 +1,62 @@
-/data/raw/public_test/videos
-/data/raw/train/videos
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+/data/raw/
+/data/processed/
+/data/train/videos/
+/data/public_test/videos/
+/data/vector_store/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+/weights/
+
+# Outputs
+/outputs/
+/runs/
+*.log
+
+# Hydra
+/outputs/
+/multirun/
+
+# Docker
+.dockerignore
+
+# System
+.DS_Store
+Thumbs.db
