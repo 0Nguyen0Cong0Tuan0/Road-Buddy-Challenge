@@ -1,26 +1,31 @@
 """
-Perception Module for Object Detection and Tracking.
+Perception Module for Object Detection, Tracking, and Query-Guided Frame Selection.
 
-This module provides YOLO-based object detection and tracking using
-finetuned models for traffic and lane detection tasks.
+This module provides:
+1. YOLO-based object detection and tracking using finetuned models
+2. Query-guided keyframe selection for Video QA tasks
 
 Components:
     - PerceptionEngine: Main detection/tracking interface
     - ModelRegistry: Registry of available finetuned models
     - Detection, FrameDetections: Result dataclasses
     - parse_yolo_results: Result parsing utility
+    
+    Query-Guided Components (NEW):
+    - QueryAnalyzer: Parse questions to extract target objects
+    - FrameScorer: Score frames by relevance using CLIP/YOLO
+    - KeyframeSelector: Select query-aware keyframes
 
 Usage:
-    from src.perception import PerceptionEngine, ModelRegistry, get_model
-    
-    # Using the registry
-    model = get_model("yolo11n_bdd100k")
-    
-    # Using the engine
-    from src.configs import YOLOConfig
-    config = YOLOConfig(model_path="models/finetune/yolo11n_bdd100k/weights/best.pt")
+    # Detection/Tracking
+    from src.perception import PerceptionEngine, get_model
     engine = PerceptionEngine(config)
     detections = engine.detect_and_parse(frames)
+    
+    # Query-Guided Keyframe Selection
+    from src.perception import KeyframeSelector, KeyframeSelectorConfig
+    selector = KeyframeSelector(KeyframeSelectorConfig(num_keyframes=8))
+    result = selector.select("video.mp4", "Biển báo tốc độ là bao nhiêu?")
 """
 
 from .detector import PerceptionEngine
@@ -38,6 +43,24 @@ from .results import (
     detections_to_annotations,
 )
 
+# Query-Guided Perception Components
+from .query_analyzer import (
+    QueryAnalyzer,
+    QueryAnalysisResult,
+    QuestionIntent,
+)
+from .frame_scorer import (
+    FrameScorer,
+    ScoringConfig,
+    FrameScore,
+)
+from .keyframe_selector import (
+    KeyframeSelector,
+    KeyframeSelectorConfig,
+    KeyframeResult,
+    KeyframeSelectionResult,
+)
+
 __all__ = [
     # Main engine
     "PerceptionEngine",
@@ -52,4 +75,15 @@ __all__ = [
     "parse_yolo_results",
     "aggregate_detections",
     "detections_to_annotations",
+    # Query-Guided Perception
+    "QueryAnalyzer",
+    "QueryAnalysisResult",
+    "QuestionIntent",
+    "FrameScorer",
+    "ScoringConfig",
+    "FrameScore",
+    "KeyframeSelector",
+    "KeyframeSelectorConfig",
+    "KeyframeResult",
+    "KeyframeSelectionResult",
 ]

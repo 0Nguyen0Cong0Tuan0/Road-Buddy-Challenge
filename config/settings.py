@@ -195,6 +195,61 @@ class PerceptionConfig:
     tracker_config: str = "botsort.yaml"
 
 
+# ==================== Query-Guided Perception Configuration ====================
+
+@dataclass
+class QueryGuidedConfig:
+    """Configuration for Query-Guided Perception Module.
+    
+    This module enables question-aware keyframe selection using:
+    1. Query analysis to extract target objects from questions
+    2. CLIP-based frame scoring for semantic relevance
+    3. Multi-criteria keyframe selection
+    
+    Strategies are configurable as plugins - all options available,
+    user selects defaults but can switch at runtime.
+    """
+    
+    # === Frame Selection Settings ===
+    num_keyframes: int = 8        # Default per user request
+    sample_fps: float = 2.0       # Frames per second to sample
+    max_frames: int = 64          # Max frames to score
+    
+    # === Strategy Selection (Plugins) ===
+    # Query analysis strategy: "keyword" | "translation" | "semantic"
+    query_strategy: str = "keyword"  # Default: fast keyword-based
+    
+    # Frame scoring strategy: "clip" | "mclip" | "detection" | "combined"
+    scoring_strategy: str = "clip"  # Default: CLIP-based
+    
+    # Frame selection: "top_k" | "diverse_top_k" | "temporal_weighted"
+    selection_strategy: str = "diverse_top_k"  # Select diverse high-scoring frames
+    
+    # === YOLO Settings ===
+    # YOLO detection mode: "all_frames" | "selected_only" | "none"
+    yolo_mode: str = "selected_only"  # Default per user request (faster)
+    yolo_model_name: str = "yolo11n_unified"  # Default fine-tuned model
+    yolo_confidence: float = 0.25
+    
+    # === CLIP Settings ===
+    use_translation: bool = True  # Default per user request: translate Vietnamese→English
+    translator: str = "googletrans"  # "googletrans" | "deep_translator"
+    clip_model: str = "ViT-L/14"  # CLIP model to use
+    
+    # === Scoring Weights ===
+    # Combined score = α * QFS + β * Detection + γ * Distinctiveness
+    alpha: float = 0.5           # Question-Frame Similarity weight
+    beta: float = 0.3            # Detection boost weight
+    gamma: float = 0.2           # Inter-frame distinctiveness weight
+    
+    # === Selection Parameters ===
+    diversity_threshold: float = 0.5  # Min distance between selected frames
+    temporal_decay: float = 0.1       # Decay for temporal weighting
+    
+    # === Semantic Strategy (Optional) ===
+    semantic_model: str = "vinai/phobert-base"  # For semantic extraction
+
+
 # ==================== Reasoning Configuration ====================
 
 @dataclass
@@ -254,6 +309,7 @@ class ProjectConfig:
     paths: PathConfig = field(default_factory=PathConfig)
     ingestion: IngestionConfig = field(default_factory=IngestionConfig)
     perception: PerceptionConfig = field(default_factory=PerceptionConfig)
+    query_guided: QueryGuidedConfig = field(default_factory=QueryGuidedConfig)
     reasoning: ReasoningConfig = field(default_factory=ReasoningConfig)
     database: DatabaseConfig = field(default_factory=DatabaseConfig)
     
