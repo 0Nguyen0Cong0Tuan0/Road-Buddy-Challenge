@@ -1,7 +1,6 @@
 # Frame Sampling Strategies for Video Ingestion
 #
 # This module provides various sampling strategies to extract frames from videos.
-# Key design principle: NO resizing/cropping - only temporal sampling to preserve image quality.
 
 import logging
 from typing import List, Optional, Tuple

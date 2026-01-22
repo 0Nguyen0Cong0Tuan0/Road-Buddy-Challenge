@@ -1,0 +1,23 @@
+Category,Function,Time (ms),Memory (MB),Success
+utils,validate_video,0.1885666667173306,0.0,True
+utils,get_video_info (ffprobe),39.567200001329184,0.0,True
+utils,get_video_info (opencv),30.59123328421265,0.0,True
+utils,estimate_memory,0.009366621573766073,0.0,True
+sampler,sample_uniform (n=8),0.09616001043468714,0.0,True
+sampler,sample_uniform (n=16),0.10488000698387623,0.0,True
+sampler,sample_uniform (n=32),0.1223500119522214,0.0,True
+sampler,"sample_adaptive (min=4,max=32,fps=0.5)",0.09747002040967345,0.0,True
+sampler,"sample_adaptive (min=8,max=64,fps=1.0)",0.09537001606076956,0.0,True
+sampler,"sample_adaptive (min=16,max=128,fps=2.0)",0.10138999205082655,0.0,True
+sampler,sample_fps (target=0.5),0.02571998629719019,0.0,True
+sampler,sample_fps (target=1.0),0.015300000086426735,0.0,True
+sampler,sample_fps (target=2.0),0.018010020721703768,0.0,True
+sampler,sample_fps (target=5.0),0.02175000263378024,0.0,True
+sampler,"sample_temporal_chunks (chunks=4,per_chunk=2)",0.12004002928733826,0.0,True
+sampler,"sample_temporal_chunks (chunks=8,per_chunk=2)",0.16845001373440027,0.0,True
+sampler,"sample_temporal_chunks (chunks=4,per_chunk=4)",0.14597999397665262,0.0,True
+sampler,"sample_temporal_chunks (chunks=8,per_chunk=4)",0.16601001843810081,0.0,True
+loader,loader.sample_uniform (n=8),1997.7761999471113,0.0,True
+loader,loader.sample_fps (fps=1.0),1976.4031000668183,0.0,True
+loader,"loader.sample_adaptive (min=8,max=32)",1951.1572999181226,0.0,True
+loader,"loader.sample_temporal_chunks (chunks=4,per=2)",2006.245099939406,0.0,True
