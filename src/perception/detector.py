@@ -6,9 +6,9 @@ using YOLO models, with support for finetuned models.
 
 Usage:
     from src.perception.detector import PerceptionEngine
-    from src.configs import YOLOConfig
+    from config.settings import PerceptionConfig
     
-    config = YOLOConfig(model_path="models/finetune/yolo11n_bdd100k/weights/best.pt")
+    config = PerceptionConfig(model_path="models/finetune/yolo11n_bdd100k/weights/best.pt")
     engine = PerceptionEngine(config)
     
     # Run detection

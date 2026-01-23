@@ -1,49 +1,27 @@
-# Centralized Configuration for RoadBuddy Challenge
-#
-# This file is the single source of truth for all paths and configurations.
-# Import settings from here instead of hardcoding paths in individual modules.
-
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional, List
+from dotenv import load_dotenv
+load_dotenv()
 
-
-# ==================== Path Resolution ====================
-
+# Path Resolution
 def get_project_root() -> Path:
-    """Get the project root directory.
-    
-    Works regardless of where the script is run from.
-    Looks for markers like 'src' directory or 'setup.py'.
-    """
+    """Get the project root directory."""
     current = Path(__file__).resolve()
     
-    # Walk up until we find the project root
     for parent in [current] + list(current.parents):
-        # Check for common project markers
         if (parent / 'src').exists() or (parent / 'setup.py').exists():
             return parent
-    
-    # Fallback to parent of config directory
     return Path(__file__).resolve().parent.parent
 
-
-# ==================== Path Configuration ====================
-
+# Path
 @dataclass
 class PathConfig:
-    """All project paths centralized in one place.
-    
-    Usage:
-        >>> from config.settings import get_path_config
-        >>> paths = get_path_config()
-        >>> print(paths.models_dir)  # /path/to/project/models
-    """
+    """All project paths centralized in one place."""
     # Core directories (auto-resolved from project root)
     project_root: Path = field(default_factory=get_project_root)
     
-    # Source code
     @property
     def src_dir(self) -> Path:
         return self.project_root / "src"
@@ -51,8 +29,7 @@ class PathConfig:
     @property
     def config_dir(self) -> Path:
         return self.project_root / "config"
-    
-    # Data directories
+
     @property
     def data_dir(self) -> Path:
         return self.project_root / "data"
@@ -73,7 +50,6 @@ class PathConfig:
     def custom_data_dir(self) -> Path:
         return self.data_dir / "custom train data"
     
-    # Model directories
     @property
     def models_dir(self) -> Path:
         return self.project_root / "models"
@@ -86,7 +62,6 @@ class PathConfig:
     def yolo_model_path(self) -> Path:
         return self.models_dir / "yolo11n.pt"
     
-    # Output directories
     @property
     def outputs_dir(self) -> Path:
         return self.project_root / "outputs"
@@ -103,7 +78,6 @@ class PathConfig:
     def cache_dir(self) -> Path:
         return self.project_root / ".cache"
     
-    # Documentation and exploration
     @property
     def docs_dir(self) -> Path:
         return self.project_root / "docs"
@@ -112,7 +86,6 @@ class PathConfig:
     def explores_dir(self) -> Path:
         return self.project_root / "explores"
     
-    # Tests
     @property
     def tests_dir(self) -> Path:
         return self.project_root / "tests"
@@ -131,71 +104,54 @@ class PathConfig:
     def __str__(self) -> str:
         return f"PathConfig(project_root={self.project_root})"
 
-
-# ==================== Ingestion Configuration ====================
-
+# Ingestion
 @dataclass
 class IngestionConfig:
-    """Video ingestion settings.
-    
-    Design: NO resizing/cropping during ingestion.
-    Only temporal sampling is performed.
-    """
+    """Video ingestion settings."""
     # Sampling strategy
     sampling_strategy: str = "adaptive"  # "uniform", "adaptive", "fps", "temporal_chunks"
-    
     # Adaptive sampling parameters
     min_frames: int = 8           # Minimum frames for any video
     max_frames: int = 64          # Maximum frames for any video
     frames_per_second: float = 0.5  # Target sampling rate (0.5 = 1 frame per 2 seconds)
-    
     # FPS-based sampling
     target_fps: float = 1.0       # For fps sampling strategy
-    
     # Temporal chunk sampling
     num_chunks: int = 4           # Number of temporal segments
     frames_per_chunk: int = 2     # Frames per segment
-    
     # Video loading
     batch_size: int = 16          # Batch size for streaming
     num_threads: int = 0          # 0 = auto
     device: str = "gpu"           # "gpu" or "cpu"
     ctx_id: int = 0               # GPU device ID
-    
-    # Native resolution (no resizing)
+    # Native resolution
     width: int = -1               # -1 = native resolution
     height: int = -1              # -1 = native resolution
 
 
-# ==================== Perception Configuration ====================
-
+# Perception
 @dataclass
 class PerceptionConfig:
     """Object detection model settings."""
     # Model selection
     model_name: str = "yolo11n"
     model_path: Optional[str] = None  # Will be resolved from paths
-    
     # Detection parameters
     task: str = "detect"
     confidence: float = 0.25
     iou_threshold: float = 0.45
-    
     # Device settings
     device: str = "0"             # "0" for GPU:0, "cpu" for CPU
     half: bool = False            # FP16 inference
-    
     # Input settings
     imgsz: int = 640              # Input image size
-    
     # Filtering
     classes: Optional[List[int]] = None  # None = all classes
-    
     # Tracking
     tracker_config: str = "botsort.yaml"
 
 
-# ==================== Query-Guided Perception Configuration ====================
+# Query-Guided Perception
 
 @dataclass
 class QueryGuidedConfig:
@@ -210,12 +166,12 @@ class QueryGuidedConfig:
     user selects defaults but can switch at runtime.
     """
     
-    # === Frame Selection Settings ===
+    # Frame Selection Settings
     num_keyframes: int = 8        # Default per user request
     sample_fps: float = 2.0       # Frames per second to sample
     max_frames: int = 64          # Max frames to score
     
-    # === Strategy Selection (Plugins) ===
+    # Strategy Selection (Plugins)
     # Query analysis strategy: "keyword" | "translation" | "semantic"
     query_strategy: str = "keyword"  # Default: fast keyword-based
     
@@ -225,42 +181,40 @@ class QueryGuidedConfig:
     # Frame selection: "top_k" | "diverse_top_k" | "temporal_weighted"
     selection_strategy: str = "diverse_top_k"  # Select diverse high-scoring frames
     
-    # === YOLO Settings ===
+    # YOLO Settings
     # YOLO detection mode: "all_frames" | "selected_only" | "none"
     yolo_mode: str = "selected_only"  # Default per user request (faster)
     yolo_model_name: str = "yolo11n_unified"  # Default fine-tuned model
     yolo_confidence: float = 0.25
     
-    # === CLIP Settings ===
+    # CLIP Settings
     use_translation: bool = True  # Default per user request: translate Vietnamese→English
     translator: str = "googletrans"  # "googletrans" | "deep_translator"
     clip_model: str = "ViT-L/14"  # CLIP model to use
     
-    # === Scoring Weights ===
-    # Combined score = α * QFS + β * Detection + γ * Distinctiveness
+    # Scoring Weights
+    # Combined score = alpha * QFS + beta * Detection + gamma * Distinctiveness
     alpha: float = 0.5           # Question-Frame Similarity weight
     beta: float = 0.3            # Detection boost weight
     gamma: float = 0.2           # Inter-frame distinctiveness weight
     
-    # === Selection Parameters ===
+    # Selection Parameters
     diversity_threshold: float = 0.5  # Min distance between selected frames
     temporal_decay: float = 0.1       # Decay for temporal weighting
     
-    # === Semantic Strategy (Optional) ===
+    # Semantic Strategy
     semantic_model: str = "vinai/phobert-base"  # For semantic extraction
 
 
-# ==================== Reasoning Configuration ====================
-
+# Reasoning
 @dataclass
 class ReasoningConfig:
-    """VLM reasoning engine settings."""
-    # API settings
-    api_base: str = "http://localhost:8000/v1"
-    api_key: str = "EMPTY"
+    """VLM reasoning engine settings (Gemini API)."""
+    # API settings - loaded from environment variable GOOGLE_API_KEY
+    api_key: Optional[str] = field(default_factory=lambda: os.environ.get("GOOGLE_API_KEY"))
     
-    # Model settings
-    model_name: str = "Qwen/Qwen2.5-VL-7B-Instruct-AWQ"
+    # Model settings (Gemini)
+    model_name: str = "gemini-2.0-flash"  # Options: gemini-2.0-flash, gemini-1.5-flash, gemini-1.5-pro
     
     # Generation settings
     max_tokens: int = 2048
@@ -269,42 +223,13 @@ class ReasoningConfig:
     # System prompt
     system_prompt: str = (
         "You are a legal expert in Vietnamese Road Traffic Law. "
-        "Answer based ONLY on the provided context from Law 36/2024 and QCVN 41:2024. "
         "Cite specific Articles and Clauses."
     )
 
-
-# ==================== Database Configuration ====================
-
-@dataclass
-class DatabaseConfig:
-    """Vector database settings (Qdrant)."""
-    host: str = "localhost"
-    port: int = 6333
-    collection_name: str = "roadbuddy_memory"
-    
-    # Embedding models
-    use_hybrid: bool = True
-    dense_model_name: str = "BAAI/bge-m3"
-    sparse_model_name: str = "prithivida/Splade_PP_en_v1"
-    embedding_dim: int = 1024     # bge-m3 dimension
-    
-    # Connection
-    api_key: Optional[str] = None
-
-
-# ==================== Master Configuration ====================
-
+# Master Configuration
 @dataclass
 class ProjectConfig:
-    """Master configuration for the RoadBuddy project.
-    
-    Usage:
-        >>> from config.settings import get_config
-        >>> config = get_config()
-        >>> print(config.paths.models_dir)
-        >>> print(config.ingestion.min_frames)
-    """
+    """Master configuration for the RoadBuddy project."""
     # Sub-configurations
     paths: PathConfig = field(default_factory=PathConfig)
     ingestion: IngestionConfig = field(default_factory=IngestionConfig)
@@ -324,19 +249,13 @@ class ProjectConfig:
             self.perception.model_path = str(self.paths.yolo_model_path)
 
 
-# ==================== Configuration Accessors ====================
-
-# Singleton instances
+# Configuration Accessors
 _path_config: Optional[PathConfig] = None
 _project_config: Optional[ProjectConfig] = None
 
 
 def get_path_config() -> PathConfig:
-    """Get the path configuration singleton.
-    
-    Returns:
-        PathConfig instance with all project paths
-    """
+    """Get the path configuration singleton."""
     global _path_config
     if _path_config is None:
         _path_config = PathConfig()
@@ -344,47 +263,17 @@ def get_path_config() -> PathConfig:
 
 
 def get_config() -> ProjectConfig:
-    """Get the master configuration singleton.
-    
-    Returns:
-        ProjectConfig instance with all settings
-    """
+    """Get the master configuration singleton."""
     global _project_config
     if _project_config is None:
         _project_config = ProjectConfig()
     return _project_config
 
-
-def reset_config() -> None:
-    """Reset configuration singletons (useful for testing)."""
-    global _path_config, _project_config
-    _path_config = None
-    _project_config = None
-
-
-# ==================== For Convenient Import ====================
-
 # Pre-create singletons on module load
 PATHS = get_path_config()
 CONFIG = get_config()
 
-
-# ==================== Quick Access Constants ====================
-
-# These can be imported directly: from config.settings import PROJECT_ROOT
 PROJECT_ROOT = PATHS.project_root
 DATA_DIR = PATHS.data_dir
 MODELS_DIR = PATHS.models_dir
 OUTPUTS_DIR = PATHS.outputs_dir
-
-
-if __name__ == "__main__":
-    # Quick test
-    config = get_config()
-    print(f"Project Root: {config.paths.project_root}")
-    print(f"Data Dir: {config.paths.data_dir}")
-    print(f"Models Dir: {config.paths.models_dir}")
-    print(f"YOLO Model: {config.perception.model_path}")
-    print(f"Ingestion Strategy: {config.ingestion.sampling_strategy}")
-    print(f"Min Frames: {config.ingestion.min_frames}")
-    print(f"Max Frames: {config.ingestion.max_frames}")

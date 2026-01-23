@@ -305,7 +305,7 @@ class MultilingualCLIPScoringStrategy(ScoringStrategy):
     Multilingual CLIP (M-CLIP) scoring for direct Vietnamese support.
     
     Uses multilingual CLIP variants that support Vietnamese text directly
-    without translation.
+    without translation. Combines M-CLIP text encoder with OpenCLIP image encoder.
     """
     
     def __init__(
@@ -315,8 +315,10 @@ class MultilingualCLIPScoringStrategy(ScoringStrategy):
     ):
         self._model_name = model_name
         self._device = self._resolve_device(device)
-        self._model = None
-        self._processor = None
+        self._text_model = None
+        self._tokenizer = None
+        self._image_model = None
+        self._image_preprocess = None
         self._init_model()
     
     @property
@@ -330,27 +332,72 @@ class MultilingualCLIPScoringStrategy(ScoringStrategy):
         return device
     
     def _init_model(self):
-        """Initialize Multilingual CLIP model."""
+        """Initialize Multilingual CLIP text encoder and OpenCLIP image encoder."""
         try:
+            import torch
             from multilingual_clip import pt_multilingual_clip
             import transformers
             
-            logger.info(f"Loading M-CLIP model: {self._model_name}")
-            self._model = pt_multilingual_clip.MultilingualCLIP.from_pretrained(
-                self._model_name
-            )
-            self._processor = transformers.AutoTokenizer.from_pretrained(
-                self._model_name
-            )
-            self._model = self._model.to(self._device)
-            self._model.eval()
-            logger.info(f"M-CLIP model loaded on {self._device}")
+            logger.info(f"Loading M-CLIP text model: {self._model_name}")
             
-        except ImportError:
-            logger.warning(
-                "multilingual-clip not available. "
-                "Install with: pip install multilingual-clip"
+            # Load M-CLIP text encoder
+            self._text_model = pt_multilingual_clip.MultilingualCLIP.from_pretrained(
+                self._model_name
             )
+            self._tokenizer = transformers.AutoTokenizer.from_pretrained(
+                self._model_name
+            )
+            self._text_model = self._text_model.to(self._device)
+            self._text_model.eval()
+            
+            # Load matching OpenCLIP image encoder
+            # M-CLIP/XLM-Roberta-Large-Vit-L-14 uses ViT-L/14 image encoder
+            try:
+                import open_clip
+                
+                # Determine which image model to use based on M-CLIP model name
+                if "Vit-L-14" in self._model_name:
+                    clip_model_name = "ViT-L-14"
+                elif "Vit-B-32" in self._model_name:
+                    clip_model_name = "ViT-B-32"
+                else:
+                    clip_model_name = "ViT-L-14"  # Default
+                
+                logger.info(f"Loading OpenCLIP image model: {clip_model_name}")
+                self._image_model, _, self._image_preprocess = open_clip.create_model_and_transforms(
+                    clip_model_name,
+                    pretrained='openai'
+                )
+                self._image_model = self._image_model.to(self._device)
+                self._image_model.eval()
+                
+            except ImportError:
+                # Fallback to OpenAI CLIP
+                logger.info("OpenCLIP not available, trying OpenAI CLIP for image encoder")
+                import clip
+                
+                if "Vit-L-14" in self._model_name:
+                    clip_model_name = "ViT-L/14"
+                elif "Vit-B-32" in self._model_name:
+                    clip_model_name = "ViT-B/32"
+                else:
+                    clip_model_name = "ViT-L/14"
+                
+                self._image_model, self._image_preprocess = clip.load(
+                    clip_model_name,
+                    device=self._device
+                )
+                self._image_model.eval()
+            
+            logger.info(f"M-CLIP model initialized on {self._device}")
+            
+        except ImportError as e:
+            logger.warning(
+                f"Failed to load M-CLIP: {e}. "
+                "Install with: pip install multilingual-clip open-clip-torch"
+            )
+        except Exception as e:
+            logger.error(f"Error initializing M-CLIP: {e}")
     
     def score(
         self,
@@ -359,14 +406,60 @@ class MultilingualCLIPScoringStrategy(ScoringStrategy):
         target_classes: Optional[List[str]] = None
     ) -> np.ndarray:
         """Score frames using Multilingual CLIP."""
-        if self._model is None:
-            logger.warning("M-CLIP model not loaded, returning uniform scores")
+        if self._text_model is None or self._image_model is None:
+            logger.warning("M-CLIP model not fully loaded, returning uniform scores")
             return np.ones(len(frames))
         
-        # TODO: Implement M-CLIP scoring
-        # For now, fall back to uniform scores
-        logger.warning("M-CLIP scoring not fully implemented yet")
-        return np.ones(len(frames))
+        import torch
+        from PIL import Image
+        
+        # Encode question text using M-CLIP text encoder
+        # Note: M-CLIP forward() expects (text, tokenizer) not tokenized tensors
+        with torch.no_grad():
+            text_features = self._text_model.forward(
+                question,
+                self._tokenizer
+            )
+            text_features = text_features.to(self._device)
+            text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+        
+        # Encode frames using CLIP image encoder
+        all_scores = []
+        batch_size = 16
+        
+        for i in range(0, len(frames), batch_size):
+            batch_frames = frames[i:i+batch_size]
+            
+            # Preprocess frames
+            processed_frames = []
+            for frame in batch_frames:
+                # Ensure RGB format
+                if frame.shape[-1] == 3:
+                    frame_rgb = frame
+                else:
+                    frame_rgb = frame
+                
+                pil_image = Image.fromarray(frame_rgb.astype(np.uint8))
+                processed = self._image_preprocess(pil_image)
+                processed_frames.append(processed)
+            
+            image_input = torch.stack(processed_frames).to(self._device)
+            
+            with torch.no_grad():
+                image_features = self._image_model.encode_image(image_input)
+                image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+                
+                # Compute cosine similarity
+                similarities = (image_features @ text_features.T).squeeze(-1)
+                all_scores.extend(similarities.cpu().numpy().tolist())
+        
+        scores = np.array(all_scores)
+        
+        # Normalize scores to [0, 1]
+        if scores.max() > scores.min():
+            scores = (scores - scores.min()) / (scores.max() - scores.min())
+        
+        return scores
 
 
 class DetectionScoringStrategy(ScoringStrategy):
@@ -786,7 +879,7 @@ if __name__ == "__main__":
     print(f"\nQuestion: {question}")
     print(f"Number of frames: {len(dummy_frames)}")
     print(f"Strategy: {config.strategy}")
-    print(f"Weights: α={config.alpha}, β={config.beta}, γ={config.gamma}")
+    print(f"Weights: alpha={config.alpha}, beta={config.beta}, gamma={config.gamma}")
     
     # Score frames
     scores = scorer.score_frames(dummy_frames, question, return_detailed=True)

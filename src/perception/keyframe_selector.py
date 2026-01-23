@@ -13,7 +13,7 @@ This is the main orchestrator that combines:
 Configurable options:
 - Number of keyframes
 - Frame sampling rate
-- Scoring weights (α, β, γ)
+- Scoring weights (alpha, beta, gamma)
 - Selection strategy (top-k, diverse-top-k, temporal-weighted)
 - YOLO detection mode (all frames vs selected only)
 

@@ -1,6 +1,11 @@
 # Python
 __pycache__/
-*.py[cod]
+
+# Environment variables (secrets - never commit!)
+.env
+.env.local
+.env.*.local
+
 *$py.class
 *.so
 .Python

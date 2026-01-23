@@ -412,14 +412,26 @@ class IngestionTester:
         print_header("TESTING: RoadVideoLoader (loader.py)")
         
         from src.ingestion.loader import RoadVideoLoader
-        from src.configs import DecordConfig
+        # from src.configs import DecordConfig
+        
+        # Define mock config for testing since DecordConfig is deprecated
+        from dataclasses import dataclass
+        @dataclass
+        class MockVideoConfig:
+            video_path: str
+            batch_size: int = 16
+            width: int = -1
+            height: int = -1
+            num_threads: int = 0
+            device: str = "cpu"
+            ctx_id: int = 0
         
         all_passed = True
         
         # Test 1: Initialization
         print_subheader("Test 1: Loader initialization")
         try:
-            config = DecordConfig(
+            config = MockVideoConfig(
                 video_path=str(self.video_path),
                 batch_size=16,
                 device='cpu',
