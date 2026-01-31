@@ -1,9 +1,60 @@
 import os
+import yaml
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 from dotenv import load_dotenv
 load_dotenv()
+
+# ============================================================================
+# YAML Model Configuration Loader
+# ============================================================================
+
+_model_config_cache: Optional[Dict[str, Any]] = None
+
+def load_model_config() -> Dict[str, Any]:
+    """Load model configuration from models.yaml."""
+    global _model_config_cache
+    if _model_config_cache is not None:
+        return _model_config_cache
+    
+    config_path = Path(__file__).parent / "models.yaml"
+    if config_path.exists():
+        with open(config_path, 'r') as f:
+            _model_config_cache = yaml.safe_load(f)
+    else:
+        _model_config_cache = {}
+    return _model_config_cache
+
+
+def get_clip_config() -> Dict[str, Any]:
+    """Get CLIP model configuration."""
+    config = load_model_config()
+    return config.get("clip", {})
+
+
+def get_vlm_config() -> Dict[str, Any]:
+    """Get VLM model configuration."""
+    config = load_model_config()
+    return config.get("vlm", {})
+
+
+def get_yolo_config() -> Dict[str, Any]:
+    """Get YOLO model configuration."""
+    config = load_model_config()
+    return config.get("yolo", {})
+
+
+def get_keyframe_config() -> Dict[str, Any]:
+    """Get keyframe selection configuration."""
+    config = load_model_config()
+    return config.get("keyframe", {})
+
+
+def get_vllm_config() -> Dict[str, Any]:
+    """Get vLLM backend configuration."""
+    config = load_model_config()
+    return config.get("vllm", {})
 
 # Path Resolution
 def get_project_root() -> Path:
@@ -135,48 +186,40 @@ class QueryGuidedConfig:
     2. CLIP-based frame scoring for semantic relevance
     3. Multi-criteria keyframe selection
     
-    Strategies are configurable as plugins - all options available,
-    user selects defaults but can switch at runtime.
+    Settings are loaded from config/models.yaml by default.
     """
     
-    # Frame Selection Settings
-    num_keyframes: int = 8        # Default per user request
-    sample_fps: float = 2.0       # Frames per second to sample
-    max_frames: int = 64          # Max frames to score
+    # Frame Selection Settings (from models.yaml keyframe section)
+    num_keyframes: int = field(default_factory=lambda: get_keyframe_config().get("num_keyframes", 8))
+    sample_fps: float = field(default_factory=lambda: get_keyframe_config().get("sample_fps", 2.0))
+    max_frames: int = field(default_factory=lambda: get_keyframe_config().get("max_frames", 64))
     
-    # Strategy Selection (Plugins)
-    # Query analysis strategy: "keyword" | "translation" | "semantic"
-    query_strategy: str = "keyword"  # Default: fast keyword-based
+    # Strategy Selection
+    query_strategy: str = "keyword"
+    scoring_strategy: str = "clip"
+    selection_strategy: str = field(default_factory=lambda: get_keyframe_config().get("selection_strategy", "diverse_top_k"))
     
-    # Frame scoring strategy: "clip" | "mclip" | "detection" | "combined"
-    scoring_strategy: str = "clip"  # Default: CLIP-based
+    # YOLO Settings (from models.yaml yolo section)
+    yolo_mode: str = field(default_factory=lambda: get_yolo_config().get("mode", "none"))
+    yolo_model_name: str = field(default_factory=lambda: get_yolo_config().get("default", "yolo11n"))
+    yolo_confidence: float = field(default_factory=lambda: get_yolo_config().get("confidence", 0.25))
     
-    # Frame selection: "top_k" | "diverse_top_k" | "temporal_weighted"
-    selection_strategy: str = "diverse_top_k"  # Select diverse high-scoring frames
+    # CLIP Settings (from models.yaml clip section)
+    use_translation: bool = field(default_factory=lambda: get_clip_config().get("use_translation", True))
+    translator: str = "deep_translator"
+    clip_model: str = field(default_factory=lambda: get_clip_config().get("default", "ViT-B/32"))
     
-    # YOLO Settings
-    # YOLO detection mode: "all_frames" | "selected_only" | "none"
-    yolo_mode: str = "selected_only"  # Default per user request (faster)
-    yolo_model_name: str = "yolo11n_unified"  # Default fine-tuned model
-    yolo_confidence: float = 0.25
-    
-    # CLIP Settings
-    use_translation: bool = True  # Default per user request: translate Vietnamese→English
-    translator: str = "googletrans"  # "googletrans" | "deep_translator"
-    clip_model: str = "ViT-L/14"  # CLIP model to use
-    
-    # Scoring Weights
-    # Combined score = alpha * QFS + beta * Detection + gamma * Distinctiveness
-    alpha: float = 0.5           # Question-Frame Similarity weight
-    beta: float = 0.3            # Detection boost weight
-    gamma: float = 0.2           # Inter-frame distinctiveness weight
+    # Scoring Weights (from models.yaml keyframe.weights section)
+    alpha: float = field(default_factory=lambda: get_keyframe_config().get("weights", {}).get("qfs", 0.5))
+    beta: float = field(default_factory=lambda: get_keyframe_config().get("weights", {}).get("detection", 0.3))
+    gamma: float = field(default_factory=lambda: get_keyframe_config().get("weights", {}).get("diversity", 0.2))
     
     # Selection Parameters
-    diversity_threshold: float = 0.5  # Min distance between selected frames
-    temporal_decay: float = 0.1       # Decay for temporal weighting
+    diversity_threshold: float = 0.5
+    temporal_decay: float = 0.1
     
     # Semantic Strategy
-    semantic_model: str = "vinai/phobert-base"  # For semantic extraction
+    semantic_model: str = "vinai/phobert-base"
 
 # Reasoning
 @dataclass

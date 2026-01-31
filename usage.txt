@@ -1,0 +1,96 @@
+# Mode: --evaluate (Evaluation on Training Set)
+# Basic evaluation with 2B model
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers
+
+# Evaluation with limited samples
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5
+
+# Evaluation with results saved to file
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 10 --save_results "evaluation_results.json"
+
+# Custom train.json path
+python main.py --evaluate --train_json "data/raw/train/train.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5
+
+# With YOLO detection enabled
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --use_yolo
+
+# Different keyframe counts
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --keyframes 4
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --keyframes 12
+
+# Different prompt styles
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --prompt_style simple
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --prompt_style detailed
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 5 --prompt_style cot
+
+# Verbose mode
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 3 -v
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 3 --verbose
+
+# Mode: --submit (Generate Submission)
+# Basic submission
+python main.py --submit --test_json "data/raw/test/test.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers
+
+# Custom output file
+python main.py --submit --test_json "data/raw/test/test.json" --output "my_submission.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers
+
+# Submission with YOLO + more keyframes
+python main.py --submit --test_json "data/raw/test/test.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --keyframes 10 --use_yolo --output "submission_yolo.json"
+
+# Verbose submission
+python main.py --submit --test_json "data/raw/test/test.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --verbose
+
+# Mode: --video (Single Video Processing)
+# Basic single video
+python main.py --video "data/raw/train/videos/video_001.mp4" --question "Xe máy đang làm gì?" --choices "A. Rẽ trái" "B. Đi thẳng" "C. Dừng lại" "D. Rẽ phải" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers
+
+# With verbose output
+python main.py --video "data/raw/train/videos/video_001.mp4" --question "Xe đang đi hướng nào?" --choices "A" "B" "C" "D" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers -v
+
+# With YOLO detection
+python main.py --video "data/raw/train/videos/video_001.mp4" --question "Có bao nhiêu xe?" --choices "A. 1" "B. 2" "C. 3" "D. 4" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --use_yolo
+
+# Different keyframe counts
+python main.py --video "data/raw/train/videos/video_001.mp4" --question "Test?" --choices "A" "B" "C" "D" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --keyframes 16
+
+# Testing Different Backends
+# Transformers backend (Hugging Face)
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 3
+
+# vLLM backend (faster, if installed)
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend vllm --max_samples 3
+
+# Gemini API backend (no local GPU needed)
+python main.py --evaluate --backend gemini --max_samples 3
+
+# Testing Different Models
+# 2B model (smaller, faster)
+python main.py --evaluate --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --max_samples 3
+
+# 7B model (default, more accurate)
+python main.py --evaluate --model "qwen2.5-vl-7b" --backend transformers --max_samples 3
+
+# AWQ quantized model
+python main.py --evaluate --model "qwen2.5-vl-7b-awq" --backend vllm --max_samples 3
+
+# Full Combination Test (All Options)
+python main.py --evaluate --train_json "data/raw/train/train.json" --model "Qwen/Qwen2-VL-2B-Instruct" --backend transformers --keyframes 8 --use_yolo --prompt_style cot --max_samples 5 --save_results "full_test_results.json" --verbose
+
+Argument Coverage Summary
+Argument	Test Commands
+--evaluate	 Multiple
+--submit	 Multiple
+--video	 Multiple
+--question	 With --video
+--choices	 With --video
+--train_json	 Custom path
+--max_samples	 Various values
+--save_results	 With file path
+--test_json	 With --submit
+--output	 Custom filename
+--keyframes	 Values: 4, 8, 12, 16
+--model	 2B, 7B, AWQ
+--use_yolo	 Enabled
+--prompt_style	 simple, detailed, cot
+--backend	 transformers, vllm, gemini
+--verbose / -v	 Both forms

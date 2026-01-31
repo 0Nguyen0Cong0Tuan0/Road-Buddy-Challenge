@@ -1,0 +1,126 @@
+# ============================================================================
+# Road Buddy VQA - Centralized Model Configuration
+# ============================================================================
+# This file contains all model configurations for the project.
+# Change settings here to switch between different model variants.
+# ============================================================================
+
+# ============================================================================
+# CLIP Models - Frame-Question Similarity Scoring
+# ============================================================================
+clip:
+  # Default model to use (change this to switch models)
+  default: "ViT-B/32"
+  
+  # Device settings
+  device: "auto"  # "auto", "cuda", or "cpu"
+  
+  # Translation settings
+  use_translation: true  # Translate Vietnamese to English for CLIP
+  
+  # Available models
+  models:
+    ViT-B/32:
+      description: "Smaller, faster model - recommended for memory constrained systems"
+      memory_gb: 0.35
+      speed: "fast"
+      accuracy: "good"
+    
+    ViT-L/14:
+      description: "Larger, more accurate model - requires more memory"
+      memory_gb: 1.7
+      speed: "medium"
+      accuracy: "better"
+
+# ============================================================================
+# VLM Models - Vision Language Model for Answer Generation
+# ============================================================================
+vlm:
+  # Default model to use
+  default: "qwen2.5-vl-7b-awq"
+  
+  # Default backend: "transformers" or "vllm"
+  backend: "vllm"
+  
+  # Generation settings
+  max_tokens: 256
+  temperature: 0.1
+  
+  # Available models
+  models:
+    qwen2.5-vl-7b:
+      hf_id: "Qwen/Qwen2.5-VL-7B-Instruct"
+      description: "Full precision Qwen2.5-VL-7B model"
+      memory_gb: 15
+      quantization: "none"
+      
+    qwen2.5-vl-7b-awq:
+      hf_id: "Qwen/Qwen2.5-VL-7B-Instruct-AWQ"
+      description: "AWQ 4-bit quantized model - recommended for memory efficiency"
+      memory_gb: 6
+      quantization: "awq"
+      
+    gemini-2.0-flash:
+      description: "Google Gemini API - fastest"
+      type: "api"
+      requires_api_key: true
+      
+    gemini-1.5-pro:
+      description: "Google Gemini API - most capable"
+      type: "api"
+      requires_api_key: true
+
+# ============================================================================
+# YOLO Models - Object Detection
+# ============================================================================
+yolo:
+  # Default model
+  default: "yolo11n"
+  
+  # Detection settings
+  confidence: 0.25
+  iou_threshold: 0.45
+  
+  # Detection mode: "all_frames", "selected_only", or "none"
+  mode: "none"
+  
+  # Available models
+  models:
+    yolo11n:
+      path: "models/yolo11n.pt"
+      description: "YOLOv11 Nano - fast, general purpose"
+      
+    yolo11n_unified:
+      path: "models/finetune/yolo11n_unified/weights/best.pt"
+      description: "Fine-tuned on road/traffic data"
+
+# ============================================================================
+# Keyframe Selection Settings
+# ============================================================================
+keyframe:
+  # Number of keyframes to select
+  num_keyframes: 8
+  
+  # Sampling rate (frames per second)
+  sample_fps: 2.0
+  
+  # Maximum frames to process
+  max_frames: 64
+  
+  # Selection strategy: "top_k", "diverse_top_k", "temporal_weighted"
+  selection_strategy: "diverse_top_k"
+  
+  # Scoring weights (must sum to 1.0)
+  weights:
+    qfs: 0.5      # Question-Frame Similarity (CLIP)
+    detection: 0.3  # YOLO detection boost
+    diversity: 0.2  # Inter-frame distinctiveness
+
+# ============================================================================
+# vLLM Backend Settings (for high-performance inference)
+# ============================================================================
+vllm:
+  gpu_memory_utilization: 0.85
+  max_model_len: 4096
+  enforce_eager: true  # Better for V100 GPUs
+  limit_images: 10
